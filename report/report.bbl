@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{4}
+\begin{thebibliography}{5}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -56,20 +56,6 @@
 \endbibitem
 
 %%% 2
-\bibitem{McCloskey2017}
-\begin{barticle}
-\bauthor{\bsnm{McCloskey}, \binits{M.}},
-\bauthor{\bsnm{Rapp}, \binits{B.}}:
-\batitle{Developmental dysgraphia: An overview and framework for research}.
-\bjtitle{Cognitive Neuropsychology}
-\bvolume{34},
-\bfpage{65}--\blpage{82}
-(\byear{2017}).
-doi:\doiurl{10.1080/02643294.2017.1369016}
-\end{barticle}
-\endbibitem
-
-%%% 3
 \bibitem{Marek2020}
 \begin{botherref}
 \oauthor{\bsnm{Drotár}, \binits{P.}},
@@ -82,7 +68,7 @@ doi:\doiurl{10.1038/s41598-020-78611-9}
 \end{botherref}
 \endbibitem
 
-%%% 4
+%%% 3
 \bibitem{Crouch2007}
 \begin{botherref}
 \oauthor{\bsnm{Crouch}, \binits{A.L.}},
@@ -92,6 +78,36 @@ Dysgraphia: How It Affects A Studentâ•Žs Performance and What Can Be Done
 (2007).
 \url{http://escholarship.bc.edu/education/tecplus/vol3/iss3/art5}
 \end{botherref}
+\endbibitem
+
+%%% 4
+\bibitem{Santana}
+\begin{botherref}
+\oauthor{\bparticle{del} \bsnm{Sol}, \binits{Y.S.}},
+\oauthor{\bsnm{Guerra}, \binits{K.L.}},
+\oauthor{\bsnm{Medina}, \binits{M.O.S.}},
+\oauthor{\bsnm{Gonzales-Sánchez}, \binits{A.}},
+\oauthor{\bsnm{Oxolon}, \binits{J.M.V.}}:
+Estudios sobre la corrección de la disgrafia caligráfica en escolares con
+  discapacidad intelectual.
+Propósitos y Representaciones
+\textbf{9}
+(2021)
+\end{botherref}
+\endbibitem
+
+%%% 5
+\bibitem{McCloskey2017}
+\begin{barticle}
+\bauthor{\bsnm{McCloskey}, \binits{M.}},
+\bauthor{\bsnm{Rapp}, \binits{B.}}:
+\batitle{Developmental dysgraphia: An overview and framework for research}.
+\bjtitle{Cognitive Neuropsychology}
+\bvolume{34},
+\bfpage{65}--\blpage{82}
+(\byear{2017}).
+doi:\doiurl{10.1080/02643294.2017.1369016}
+\end{barticle}
 \endbibitem
 
 \end{thebibliography}
@@ -116,6 +132,44 @@ Dysgraphia: How It Affects A Studentâ•Žs Performance and What Can Be Done
 </bibl>
 
 <bibl id="B2">
+  <title><p>Dysgraphia detection through machine learning</p></title>
+  <aug>
+    <au><snm>Drotár</snm><fnm>P</fnm></au>
+    <au><snm>Dobeš</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Scientific Reports</source>
+  <publisher>Nature Research</publisher>
+  <pubdate>2020</pubdate>
+  <volume>10</volume>
+</bibl>
+
+<bibl id="B3">
+  <title><p>Dysgraphia: How It Affects A Studentâ•Žs Performance and What
+  Can Be Done About It</p></title>
+  <aug>
+    <au><snm>Crouch</snm><fnm>AL</fnm></au>
+    <au><snm>Jakubecy</snm><fnm>JJ</fnm></au>
+  </aug>
+  <pubdate>2007</pubdate>
+  <url>http://escholarship.bc.edu/education/tecplus/vol3/iss3/art5</url>
+</bibl>
+
+<bibl id="B4">
+  <title><p>Estudios sobre la corrección de la disgrafia caligráfica en
+  escolares con discapacidad intelectual</p></title>
+  <aug>
+    <au><snm>Sol</snm><fnm>YS</fnm></au>
+    <au><snm>Guerra</snm><fnm>KL</fnm></au>
+    <au><snm>Medina</snm><fnm>MOS</fnm></au>
+    <au><snm>Gonzales Sánchez</snm><fnm>A</fnm></au>
+    <au><snm>Oxolon</snm><fnm>JMV</fnm></au>
+  </aug>
+  <source>Propósitos y Representaciones</source>
+  <pubdate>2021</pubdate>
+  <volume>9</volume>
+</bibl>
+
+<bibl id="B5">
   <title><p>Developmental dysgraphia: An overview and framework for
   research</p></title>
   <aug>
@@ -128,29 +182,6 @@ Dysgraphia: How It Affects A Studentâ•Žs Performance and What Can Be Done
   <volume>34</volume>
   <fpage>65</fpage>
   <lpage>82</lpage>
-</bibl>
-
-<bibl id="B3">
-  <title><p>Dysgraphia detection through machine learning</p></title>
-  <aug>
-    <au><snm>Drotár</snm><fnm>P</fnm></au>
-    <au><snm>Dobeš</snm><fnm>M</fnm></au>
-  </aug>
-  <source>Scientific Reports</source>
-  <publisher>Nature Research</publisher>
-  <pubdate>2020</pubdate>
-  <volume>10</volume>
-</bibl>
-
-<bibl id="B4">
-  <title><p>Dysgraphia: How It Affects A Studentâ•Žs Performance and What
-  Can Be Done About It</p></title>
-  <aug>
-    <au><snm>Crouch</snm><fnm>AL</fnm></au>
-    <au><snm>Jakubecy</snm><fnm>JJ</fnm></au>
-  </aug>
-  <pubdate>2007</pubdate>
-  <url>http://escholarship.bc.edu/education/tecplus/vol3/iss3/art5</url>
 </bibl>
 
 </refgrp>
