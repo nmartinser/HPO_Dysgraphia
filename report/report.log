@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  18 OCT 2023 13:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  16 NOV 2023 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -427,7 +427,13 @@ LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <8> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 1.
 [1{C:/Users/nerea/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
-])
+]
+<figures/workflow.JPG, id=60, 636.87938pt x 427.5975pt>
+File: figures/workflow.JPG Graphic file (type jpg)
+<use figures/workflow.JPG>
+Package pdftex.def Info: figures/workflow.JPG  used on input line 8.
+(pdftex.def)             Requested size: 324.8978pt x 218.13055pt.
+)
 (tex_files/resultados.tex) (tex_files/discusion.tex)
 (tex_files/conclusiones.tex) (report.bbl
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
@@ -435,8 +441,9 @@ LaTeX Font Info:    Trying to load font information for TS1+cmss on input line
 
 (C:\Users\nerea\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-))
-[2] 
+)
+[2 <./figures/workflow.JPG>]) [3]
+
 enddocument/afterlastpage: lastpage setting LastPage.
 (report.aux)
  ***********
@@ -452,13 +459,13 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: A3EA61EFFBF3D2DE331C9EED6C20E6BE;629.
  ) 
 Here is how much of TeX's memory you used:
- 10378 strings out of 475247
- 160897 string characters out of 5757792
+ 10392 strings out of 475247
+ 161195 string characters out of 5757792
  1934785 words of memory out of 5000000
- 31739 multiletter control sequences out of 15000+600000
- 564898 words of font info for 60 fonts, out of 8000000 for 9000
+ 31751 multiletter control sequences out of 15000+600000
+ 565192 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,9n,79p,1340b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,9n,79p,1340b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss
 0700.pk><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmr10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/publi
@@ -468,9 +475,9 @@ pe1/public/amsfonts/cm/cmss17.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/nerea/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/nerea/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on report.pdf (2 pages, 110513 bytes).
+Output written on report.pdf (3 pages, 149418 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
