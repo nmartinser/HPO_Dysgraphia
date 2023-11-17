@@ -40,6 +40,7 @@
 \ifx \endbibitem  \undefined \def \endbibitem {}\fi
 \ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
 \ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\ifx \botherref \undefined \def \botherref #1{#1} \fi
 \csname PreBibitemsHook\endcsname
 
 %%% 1
@@ -249,9 +250,10 @@ doi:\doiurl{10.1186/s40478-019-0843-y}
 %%% 11
 \bibitem{BookNetworkX}
 \begin{botherref}
-Network_science_with_python_and_networkx
+Network\_science\_with\_python\_and\_networkx
 \end{botherref}
 \endbibitem
+
 
 \end{thebibliography}
 
