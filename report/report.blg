@@ -23,47 +23,49 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: bibliography.bib
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--to sort, need author or key in BookNetworkX
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 10 entries,
+You've used 11 entries,
             7128 wiz_defined-function locations,
-            1197 strings with 12441 characters,
-and the built_in function-call counts, 84269 in all, are:
-= -- 9696
+            1200 strings with 12505 characters,
+and the built_in function-call counts, 85947 in all, are:
+= -- 9928
 > -- 517
 < -- 219
-+ -- 1430
++ -- 1483
 - -- 202
-* -- 7711
-:= -- 17097
+* -- 7784
+:= -- 17443
 add.period$ -- 16
-call.type$ -- 10
-change.case$ -- 141
-chr.to.int$ -- 313
-cite$ -- 10
-duplicate$ -- 1346
-empty$ -- 5783
+call.type$ -- 11
+change.case$ -- 145
+chr.to.int$ -- 314
+cite$ -- 13
+duplicate$ -- 1399
+empty$ -- 5868
 format.name$ -- 822
-if$ -- 17691
+if$ -- 18089
 int.to.chr$ -- 1
-int.to.str$ -- 27
-missing$ -- 452
-newline$ -- 441
+int.to.str$ -- 29
+missing$ -- 484
+newline$ -- 452
 num.names$ -- 50
-pop$ -- 638
+pop$ -- 685
 preamble$ -- 1
-purify$ -- 46
-quote$ -- 20
-skip$ -- 4099
+purify$ -- 49
+quote$ -- 22
+skip$ -- 4221
 stack$ -- 0
-substring$ -- 13377
-swap$ -- 376
-text.length$ -- 154
+substring$ -- 13529
+swap$ -- 377
+text.length$ -- 162
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 380
-warning$ -- 0
-while$ -- 500
+type$ -- 408
+warning$ -- 1
+while$ -- 508
 width$ -- 0
-write$ -- 703
+write$ -- 715
+(There was 1 warning)

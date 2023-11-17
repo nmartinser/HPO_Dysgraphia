@@ -10,7 +10,9 @@ cuales se detallarán a lo largo de esta sección y se pueden observar en la ima
 	\label{fig:workflow}
 \end{figure}
 
-El fenotipo de estudio es la Disgrafía. Lo primero que se realizó fue buscar este fenotipo en la Human Phenotype Ontology \cite{HPO2021}, conociendo que su identificador es HP:0010526. De esta base de datos, obtuvimos un archivo tabulado que enumera para cada gen las clases HPO más específicas. Las primeras cinco filas se pueden visualizar en la tabla \ref{tabla:geneshpo}.
+\subsection{Datos biológicos}
+
+Lo primero que se realizó fue buscar el fenotipo Disgrafía en la Human Phenotype Ontology \cite{HPO2021}, conociendo que su identificador es HP:0010526. De esta base de datos, obtuvimos un archivo tabulado que enumera para cada gen las clases HPO más específicas. Las primeras cinco filas se pueden visualizar en la tabla \ref{tabla:geneshpo}.
 
 \begin{table}[h]
 	\centering
@@ -32,3 +34,10 @@ El fenotipo de estudio es la Disgrafía. Lo primero que se realizó fue buscar e
 \end{table}
 
 La tabla \ref{tabla:geneshpo} proporciona el identificador de gen NCBI, el símbolo del gen, el identificador HPO y el nombre del término. Si está disponible, se muestra la frecuencia. Por ejemplo, la mutación en el gen AARS1 causa \textit{leucoencefalopatía}. La frecuencia del término HPO Ataxia sensorial esta anotada como 1 de 2 debido a la información en Sundal C, et al. \cite{Sundal2019}. La última columna muestra anotaciones realizadas por el equipo HPO (utilizando identificadores de enfermedades de OMIM), así como anotaciones proporcionadas por el equipo de Orphanet (utilizando identificadores de enfermedades de ORPHA).
+
+\subsection{Grafo bipartito}
+
+
+En un grafo bipartito, los vértices se organizan en dos conjuntos distintos, de modo que cada arista conecta un vértice de un conjunto con otro del segundo conjunto. En términos más simples, no existen aristas que conecten vértices dentro del mismo conjunto. En nuestro contexto, los conjuntos de vértices representan genes y términos HPO. De esta manera, obtenemos un grafo bipartito que conecta distintos términos HPO al nuestro, a través de genes. 
+
+Para llevar a cabo esta representación y conexión entre genes y términos HPO, hemos utilizado la librería de Python NetworkX \cite{BookNetworkX}. 

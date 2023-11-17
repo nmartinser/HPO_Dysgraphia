@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{10}
+\begin{thebibliography}{11}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -246,6 +246,13 @@ doi:\doiurl{10.1186/s40478-019-0843-y}
 \end{barticle}
 \endbibitem
 
+%%% 11
+\bibitem{BookNetworkX}
+\begin{botherref}
+Network_science_with_python_and_networkx
+\end{botherref}
+\endbibitem
+
 \end{thebibliography}
 
 \newcommand{\BMCxmlcomment}[1]{}
@@ -452,6 +459,10 @@ doi:\doiurl{10.1186/s40478-019-0843-y}
   <pubdate>2019</pubdate>
   <volume>7</volume>
   <fpage>188</fpage>
+</bibl>
+
+<bibl id="B11">
+  <title><p>Network_Science_with_Python_and_NetworkX</p></title>
 </bibl>
 
 </refgrp>
