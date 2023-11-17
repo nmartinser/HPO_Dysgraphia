@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{8}
+\begin{thebibliography}{10}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -158,6 +158,94 @@ doi:\doiurl{10.2217/fnl.10.22}
 \end{barticle}
 \endbibitem
 
+%%% 9
+\bibitem{HPO2021}
+\begin{barticle}
+\bauthor{\bsnm{Köhler}, \binits{S.}},
+\bauthor{\bsnm{Gargano}, \binits{M.}},
+\bauthor{\bsnm{Matentzoglu}, \binits{N.}},
+\bauthor{\bsnm{Carmody}, \binits{L.C.}},
+\bauthor{\bsnm{Lewis-Smith}, \binits{D.}},
+\bauthor{\bsnm{Vasilevsky}, \binits{N.A.}},
+\bauthor{\bsnm{Danis}, \binits{D.}},
+\bauthor{\bsnm{Balagura}, \binits{G.}},
+\bauthor{\bsnm{Baynam}, \binits{G.}},
+\bauthor{\bsnm{Brower}, \binits{A.M.}},
+\bauthor{\bsnm{Callahan}, \binits{T.J.}},
+\bauthor{\bsnm{Chute}, \binits{C.G.}},
+\bauthor{\bsnm{Est}, \binits{J.L.}},
+\bauthor{\bsnm{Galer}, \binits{P.D.}},
+\bauthor{\bsnm{Ganesan}, \binits{S.}},
+\bauthor{\bsnm{Griese}, \binits{M.}},
+\bauthor{\bsnm{Haimel}, \binits{M.}},
+\bauthor{\bsnm{Pazmandi}, \binits{J.}},
+\bauthor{\bsnm{Hanauer}, \binits{M.}},
+\bauthor{\bsnm{Harris}, \binits{N.L.}},
+\bauthor{\bsnm{Hartnett}, \binits{M.}},
+\bauthor{\bsnm{Hastreiter}, \binits{M.}},
+\bauthor{\bsnm{Hauck}, \binits{F.}},
+\bauthor{\bsnm{He}, \binits{Y.}},
+\bauthor{\bsnm{Jeske}, \binits{T.}},
+\bauthor{\bsnm{Kearney}, \binits{H.}},
+\bauthor{\bsnm{Kindle}, \binits{G.}},
+\bauthor{\bsnm{Klein}, \binits{C.}},
+\bauthor{\bsnm{Knoflach}, \binits{K.}},
+\bauthor{\bsnm{Krause}, \binits{R.}},
+\bauthor{\bsnm{Lagorce}, \binits{D.}},
+\bauthor{\bsnm{McMurry}, \binits{J.A.}},
+\bauthor{\bsnm{Miller}, \binits{J.A.}},
+\bauthor{\bsnm{Munoz-Torres}, \binits{M.}},
+\bauthor{\bsnm{Peters}, \binits{R.L.}},
+\bauthor{\bsnm{Rapp}, \binits{C.K.}},
+\bauthor{\bsnm{Rath}, \binits{A.M.}},
+\bauthor{\bsnm{Rind}, \binits{S.A.}},
+\bauthor{\bsnm{Rosenberg}, \binits{A.}},
+\bauthor{\bsnm{Segal}, \binits{M.M.}},
+\bauthor{\bsnm{Seidel}, \binits{M.G.}},
+\bauthor{\bsnm{Smedley}, \binits{D.}},
+\bauthor{\bsnm{Talmy}, \binits{T.}},
+\bauthor{\bsnm{Thomas}, \binits{Y.}},
+\bauthor{\bsnm{Wiafe}, \binits{S.A.}},
+\bauthor{\bsnm{Xian}, \binits{J.}},
+\bauthor{\bsnm{Yüksel}, \binits{Z.}},
+\bauthor{\bsnm{Helbig}, \binits{I.}},
+\bauthor{\bsnm{Mungall}, \binits{C.J.}},
+\bauthor{\bsnm{Haendel}, \binits{M.A.}},
+\bauthor{\bsnm{Robinson}, \binits{P.N.}}:
+\batitle{The human phenotype ontology in 2021}.
+\bjtitle{Nucleic Acids Research}
+\bvolume{49},
+\bfpage{1207}--\blpage{1217}
+(\byear{2021}).
+doi:\doiurl{10.1093/nar/gkaa1043}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem{Sundal2019}
+\begin{barticle}
+\bauthor{\bsnm{Sundal}, \binits{C.}},
+\bauthor{\bsnm{Carmona}, \binits{S.}},
+\bauthor{\bsnm{Yhr}, \binits{M.}},
+\bauthor{\bsnm{Almström}, \binits{O.}},
+\bauthor{\bsnm{Ljungberg}, \binits{M.}},
+\bauthor{\bsnm{Hardy}, \binits{J.}},
+\bauthor{\bsnm{Hedberg-Oldfors}, \binits{C.}},
+\bauthor{\bparticle{Åsa} \bsnm{Fred}},
+\bauthor{\bsnm{Brás}, \binits{J.}},
+\bauthor{\bsnm{Oldfors}, \binits{A.}},
+\bauthor{\bsnm{Andersen}, \binits{O.}},
+\bauthor{\bsnm{Guerreiro}, \binits{R.}}:
+\batitle{An aars variant as the likely cause of swedish type hereditary diffuse
+  leukoencephalopathy with spheroids.}
+\bjtitle{Acta neuropathologica communications}
+\bvolume{7},
+\bfpage{188}
+(\byear{2019}).
+doi:\doiurl{10.1186/s40478-019-0843-y}
+\end{barticle}
+\endbibitem
+
 \end{thebibliography}
 
 \newcommand{\BMCxmlcomment}[1]{}
@@ -276,6 +364,94 @@ doi:\doiurl{10.2217/fnl.10.22}
   <volume>5</volume>
   <fpage>597</fpage>
   <lpage>617</lpage>
+  <url>http://www.ncbi.nlm.nih.gov/pubmed/20953351
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2953808</url>
+</bibl>
+
+<bibl id="B9">
+  <title><p>The Human Phenotype Ontology in 2021</p></title>
+  <aug>
+    <au><snm>Köhler</snm><fnm>S</fnm></au>
+    <au><snm>Gargano</snm><fnm>M</fnm></au>
+    <au><snm>Matentzoglu</snm><fnm>N</fnm></au>
+    <au><snm>Carmody</snm><fnm>LC</fnm></au>
+    <au><snm>Lewis Smith</snm><fnm>D</fnm></au>
+    <au><snm>Vasilevsky</snm><fnm>NA</fnm></au>
+    <au><snm>Danis</snm><fnm>D</fnm></au>
+    <au><snm>Balagura</snm><fnm>G</fnm></au>
+    <au><snm>Baynam</snm><fnm>G</fnm></au>
+    <au><snm>Brower</snm><fnm>AM</fnm></au>
+    <au><snm>Callahan</snm><fnm>TJ</fnm></au>
+    <au><snm>Chute</snm><fnm>CG</fnm></au>
+    <au><snm>Est</snm><fnm>JL</fnm></au>
+    <au><snm>Galer</snm><fnm>PD</fnm></au>
+    <au><snm>Ganesan</snm><fnm>S</fnm></au>
+    <au><snm>Griese</snm><fnm>M</fnm></au>
+    <au><snm>Haimel</snm><fnm>M</fnm></au>
+    <au><snm>Pazmandi</snm><fnm>J</fnm></au>
+    <au><snm>Hanauer</snm><fnm>M</fnm></au>
+    <au><snm>Harris</snm><fnm>NL</fnm></au>
+    <au><snm>Hartnett</snm><fnm>M</fnm></au>
+    <au><snm>Hastreiter</snm><fnm>M</fnm></au>
+    <au><snm>Hauck</snm><fnm>F</fnm></au>
+    <au><snm>He</snm><fnm>Y</fnm></au>
+    <au><snm>Jeske</snm><fnm>T</fnm></au>
+    <au><snm>Kearney</snm><fnm>H</fnm></au>
+    <au><snm>Kindle</snm><fnm>G</fnm></au>
+    <au><snm>Klein</snm><fnm>C</fnm></au>
+    <au><snm>Knoflach</snm><fnm>K</fnm></au>
+    <au><snm>Krause</snm><fnm>R</fnm></au>
+    <au><snm>Lagorce</snm><fnm>D</fnm></au>
+    <au><snm>McMurry</snm><fnm>JA</fnm></au>
+    <au><snm>Miller</snm><fnm>JA</fnm></au>
+    <au><snm>Munoz Torres</snm><fnm>M</fnm></au>
+    <au><snm>Peters</snm><fnm>RL</fnm></au>
+    <au><snm>Rapp</snm><fnm>CK</fnm></au>
+    <au><snm>Rath</snm><fnm>AM</fnm></au>
+    <au><snm>Rind</snm><fnm>SA</fnm></au>
+    <au><snm>Rosenberg</snm><fnm>A</fnm></au>
+    <au><snm>Segal</snm><fnm>MM</fnm></au>
+    <au><snm>Seidel</snm><fnm>MG</fnm></au>
+    <au><snm>Smedley</snm><fnm>D</fnm></au>
+    <au><snm>Talmy</snm><fnm>T</fnm></au>
+    <au><snm>Thomas</snm><fnm>Y</fnm></au>
+    <au><snm>Wiafe</snm><fnm>SA</fnm></au>
+    <au><snm>Xian</snm><fnm>J</fnm></au>
+    <au><snm>Yüksel</snm><fnm>Z</fnm></au>
+    <au><snm>Helbig</snm><fnm>I</fnm></au>
+    <au><snm>Mungall</snm><fnm>CJ</fnm></au>
+    <au><snm>Haendel</snm><fnm>MA</fnm></au>
+    <au><snm>Robinson</snm><fnm>PN</fnm></au>
+  </aug>
+  <source>Nucleic Acids Research</source>
+  <pubdate>2021</pubdate>
+  <volume>49</volume>
+  <fpage>D1207</fpage>
+  <lpage>D1217</lpage>
+  <url>https://doi.org/10.1093/nar/gkaa1043</url>
+</bibl>
+
+<bibl id="B10">
+  <title><p>An AARS variant as the likely cause of Swedish type hereditary
+  diffuse leukoencephalopathy with spheroids.</p></title>
+  <aug>
+    <au><snm>Sundal</snm><fnm>C</fnm></au>
+    <au><snm>Carmona</snm><fnm>S</fnm></au>
+    <au><snm>Yhr</snm><fnm>M</fnm></au>
+    <au><snm>Almström</snm><fnm>O</fnm></au>
+    <au><snm>Ljungberg</snm><fnm>M</fnm></au>
+    <au><snm>Hardy</snm><fnm>J</fnm></au>
+    <au><snm>Hedberg Oldfors</snm><fnm>C</fnm></au>
+    <au><cnm>Fred</cnm></au>
+    <au><snm>Brás</snm><fnm>J</fnm></au>
+    <au><snm>Oldfors</snm><fnm>A</fnm></au>
+    <au><snm>Andersen</snm><fnm>O</fnm></au>
+    <au><snm>Guerreiro</snm><fnm>R</fnm></au>
+  </aug>
+  <source>Acta neuropathologica communications</source>
+  <pubdate>2019</pubdate>
+  <volume>7</volume>
+  <fpage>188</fpage>
 </bibl>
 
 </refgrp>
