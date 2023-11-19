@@ -5,18 +5,27 @@ junto con los materiales empleados. La metodología se dividió en varias etapas
 cuales se detallarán a lo largo de esta sección y se pueden observar en la imagen \ref{fig:workflow}.
 
 \begin{figure}[h!]
-	\includegraphics[width=0.9\textwidth]{figures/workflow.JPG}
+	\centering
+	\includegraphics[width=0.7\textwidth]{figures/workflow.JPG}
 	\caption{Flujo de trabajo}
 	\label{fig:workflow}
 \end{figure}
 
 \subsection{Datos biológicos}
 
-Lo primero que se realizó fue buscar el fenotipo Disgrafía en la Human Phenotype Ontology \cite{HPO2021}, conociendo que su identificador es HP:0010526. De esta base de datos, obtuvimos un archivo tabulado que enumera para cada gen las clases HPO más específicas. Las primeras cinco filas se pueden visualizar en la tabla \ref{tabla:geneshpo}.
+Lo primero que se realizó fue buscar el fenotipo Disgrafía en la Human Phenotype Ontology \cite{HPO2021}, conociendo que su identificador es HP:0010526. De esta base de datos, obtuvimos dos archivos tabulados; uno contiene los genes asociados y el otro contiene términos HPO asociados a la Disgrafía.
 
-\begin{table}[h]
+\begin{itemize}
+	\item \textbf{HPO asociados}
+\end{itemize}
+
+Uno de los archivos enumera para cada gen las clases HPO más específicas. Las primeras cinco filas se pueden visualizar en la tabla \ref{tabla:geneshpo}.
+
+\renewcommand{\arraystretch}{1.5} % add more vertical space between cells in the table
+
+\begin{table}[h!]
 	\centering
-	\caption{Cabecera del archivo}
+	\caption{Cabecera del archivo de HPO asociados}
 	\label{tabla:geneshpo}
 	\resizebox{1.1\textwidth}{!}{
 		\begin{tabular}{|c|c|c|c|c|c|c|}
@@ -33,11 +42,56 @@ Lo primero que se realizó fue buscar el fenotipo Disgrafía en la Human Phenoty
 	}
 \end{table}
 
-La tabla \ref{tabla:geneshpo} proporciona el identificador de gen NCBI, el símbolo del gen, el identificador HPO y el nombre del término. Si está disponible, se muestra la frecuencia. Por ejemplo, la mutación en el gen AARS1 causa \textit{leucoencefalopatía}. La frecuencia del término HPO Ataxia sensorial esta anotada como 1 de 2 debido a la información en Sundal C, et al. \cite{Sundal2019}. La última columna muestra anotaciones realizadas por el equipo HPO (utilizando identificadores de enfermedades de OMIM), así como anotaciones proporcionadas por el equipo de Orphanet (utilizando identificadores de enfermedades de ORPHA).
+La tabla \ref{tabla:geneshpo} proporciona el identificador de gen NCBI, el símbolo del gen, el identificador HPO y el nombre del término. Si está disponible, se muestra la frecuencia. Para este campo, hay tres opciones:
+
+\begin{enumerate}
+	\item Un identificador de término dentro de la sub-ontología de la HPO que esté relacionado con la frecuencia del fenotipo en cuestión
+	\item Un recuento de pacientes afectados dentro de un individuo. "7/13" indicaría que 7 de los 13 pacientes con la enfermedad especificada tienen la anormalidad fenotípica mencionada por el término de la HPO en cuestión. Por ejemplo, la mutación en el gen AARS1 causa \textit{leucoencefalopatía}. La frecuencia del término HPO Ataxia sensorial esta anotada como 1 de 2 debido a la información en Sundal C, et al. \cite{Sundal2019}. 
+	\item Un valor porcentual. Nuevamente, esto se refiere al porcentaje de pacientes que tienen la anormalidad fenotípica mencionada por el término de la HPO.
+\end{enumerate}
+
+La última columna muestra anotaciones realizadas por el equipo HPO (utilizando identificadores de enfermedades de OMIM), así como anotaciones proporcionadas por el equipo de Orphanet \cite{Orphanet2008} (utilizando identificadores de enfermedades de ORPHA).
+
+El archivo se introdujo en Python como un data frame utilizando la librería Pandas \cite{pandasPython}. A través de operaciones lógicas aplicadas al data frame, se intentó inferir la existencia de algún gen que estuviera exclusivamente relacionado con la Disgrafía, sin tener asociación con otro término HPO.
+
+\begin{itemize}
+	\item \textbf{Genes asociados}
+\end{itemize}
+
+El segundo archivo consiste en un listado de genes asociados a la disgrafía. El listado cuenta con 51 genes. En la tabla \ref{tabla:genesAsociados}, se presenta la cabecera del archivo, donde también se visualizan tres columnas: la primera contiene el identificador de Entrez de los genes, la segunda el símbolo de los genes y la tercera el identificador de las enfermedades. Al igual que en el archivo anterior, el identificador de las enfermedades puede provenir de dos fuentes, OMIM o Orphanet.
+
+\begin{table}[h]
+	\centering
+	\caption{Cabecera del archivo de genes asociados}
+	\label{tabla:genesAsociados}    
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{|c|c|c|}
+			\hline
+			Gene id (entrez) & Gene symbol & DISEASE\_IDS \\
+			\hline
+			10347 & ABCA7 & ORPHA:1020,OMIM:608907 \\
+			351 & APP & OMIM:605714,ORPHA:100006,ORPHA:1020,ORPHA:3247... \\
+			9031 & BAZ1B & ORPHA:904 \\
+			9275 & BCL7B & ORPHA:904 \\
+			657 & BMPR1A & OMIM:174900,ORPHA:329971,OMIM:610069,ORPHA:157... \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+
 
 \subsection{Grafo bipartito}
 
+Al no encontrarse ningún gen que afecte solo a Disgrafía, se buscó aquellos términos HPO relacionados [...]
 
-En un grafo bipartito, los vértices se organizan en dos conjuntos distintos, de modo que cada arista conecta un vértice de un conjunto con otro del segundo conjunto. En términos más simples, no existen aristas que conecten vértices dentro del mismo conjunto. En nuestro contexto, los conjuntos de vértices representan genes y términos HPO. De esta manera, obtenemos un grafo bipartito que conecta distintos términos HPO al nuestro, a través de genes. 
+En un grafo bipartito, los vértices se organizan en dos conjuntos distintos, de modo que cada arista conecta un vértice de un conjunto con otro del segundo conjunto. En términos más simples, no existen aristas que conecten vértices dentro del mismo conjunto \cite{BiRank2017}. En nuestro contexto, los conjuntos de vértices representan genes y términos HPO. De esta manera, obtenemos un grafo bipartito que conecta distintos términos HPO al nuestro, a través de genes. 
 
-Para llevar a cabo esta representación y conexión entre genes y términos HPO, hemos utilizado la librería de Python NetworkX \cite{BookNetworkX}. 
+Para llevar a cabo esta representación y conexión entre genes y términos HPO, hemos utilizado la librería de Python NetworkX \cite{BookNetworkX}. Usando las segunda y tercera columna de la tabla \ref{tabla:geneshpo}, es decir los símbolos de los genes y los identificadores de los términos HPO, se creó este grafo bipartito. [...]
+
+De este grafo nos interesaba ver aquellos término HPO que se encuentran estrechamente relacionados con la Disgrafía, por lo que lo siguiente que hicimos fue hacer un subgrafo que con los nodos que se encuentre a dos pasos del término HPO Disgrafía y hacer una proyección de los términos HPO de ese subgrafo. De esta forma obtuvimos aquellos HPO que están relacionados con al Disgrafía a través de un gen. [...].
+
+\subsection{Red de genes}
+
+A continuación, se procedió a realizar un estudio de los genes relacionados con la disgrafía. Lo primero fue obtener la red de genes utilizando la API de String-DB \cite{String2021}, haciendo uso de la biblioteca \textit{strindb} para Python. Entre las funciones clave de esta biblioteca se encuentra get\_network, la cual requiere como parámetros la lista de nuestros genes y el identificador de la especie \textit{Homo sapiens} (9606). Adicionalmente, se ha impuesto un score de 500, esta es una puntuación de corte para los bordes de la red, corresponde a la probabilidad de pertenecer a la misma vía funcional, lo que se traduce en que salgan más o menos genes en nuestra red.
+
+La función devuelve la red de genes, donde se encuentran representados los 51 genes y las relaciones entre ellos, la cual guardamos en un archivo .tsv.

@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{11}
+\begin{thebibliography}{15}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -40,7 +40,6 @@
 \ifx \endbibitem  \undefined \def \endbibitem {}\fi
 \ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
 \ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
-\ifx \botherref \undefined \def \botherref #1{#1} \fi
 \csname PreBibitemsHook\endcsname
 
 %%% 1
@@ -248,12 +247,82 @@ doi:\doiurl{10.1186/s40478-019-0843-y}
 \endbibitem
 
 %%% 11
-\bibitem{BookNetworkX}
+\bibitem{Orphanet2008}
+\begin{barticle}
+\bauthor{\bsnm{Weinreich}, \binits{S.S.}},
+\bauthor{\bsnm{Mangon}, \binits{R.}},
+\bauthor{\bsnm{Sikkens}, \binits{J.J.}},
+\bauthor{\bparticle{en} \bsnm{Teeuw}, \binits{M.E.}},
+\bauthor{\bsnm{Cornel}, \binits{M.C.}}:
+\batitle{[orphanet: a european database for rare diseases].}
+\bjtitle{Nederlands tijdschrift voor geneeskunde}
+\bvolume{152},
+\bfpage{518}--\blpage{9}
+(\byear{2008})
+\end{barticle}
+\endbibitem
+
+%%% 12
+\bibitem{pandasPython}
 \begin{botherref}
-Network\_science\_with\_python\_and\_networkx
+\oauthor{\bsnm{McKinney}, \binits{W.}}:
+pandas: powerful Python data analysis toolkit
+(2012)
 \end{botherref}
 \endbibitem
 
+%%% 13
+\bibitem{BiRank2017}
+\begin{barticle}
+\bauthor{\bsnm{He}, \binits{X.}},
+\bauthor{\bsnm{Gao}, \binits{M.}},
+\bauthor{\bsnm{Kan}, \binits{M.-Y.}},
+\bauthor{\bsnm{Wang}, \binits{D.}}:
+\batitle{Birank: Towards ranking on bipartite graphs}.
+\bjtitle{IEEE Transactions on Knowledge and Data Engineering}
+\bvolume{29},
+\bfpage{57}--\blpage{71}
+(\byear{2017}).
+doi:\doiurl{10.1109/TKDE.2016.2611584}
+\end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem{BookNetworkX}
+\begin{bbook}
+\bauthor{\bsnm{Platt}, \binits{E.L.}}:
+\bbtitle{Network Science with Python and NetworkX Quick Start Guide: Explore
+  and Visualize Network Data Effectively}
+vol. \bseriesno{190 páginas}.
+\bpublisher{Packt Publishing Ltd.}, \blocation{???}
+(\byear{2019})
+\end{bbook}
+\endbibitem
+
+%%% 15
+\bibitem{String2021}
+\begin{barticle}
+\bauthor{\bsnm{Szklarczyk}, \binits{D.}},
+\bauthor{\bsnm{Gable}, \binits{A.L.}},
+\bauthor{\bsnm{Nastou}, \binits{K.C.}},
+\bauthor{\bsnm{Lyon}, \binits{D.}},
+\bauthor{\bsnm{Kirsch}, \binits{R.}},
+\bauthor{\bsnm{Pyysalo}, \binits{S.}},
+\bauthor{\bsnm{Doncheva}, \binits{N.T.}},
+\bauthor{\bsnm{Legeay}, \binits{M.}},
+\bauthor{\bsnm{Fang}, \binits{T.}},
+\bauthor{\bsnm{Bork}, \binits{P.}},
+\bauthor{\bsnm{Jensen}, \binits{L.J.}},
+\bauthor{\bparticle{von} \bsnm{Mering}, \binits{C.}}:
+\batitle{The string database in 2021: Customizable protein-protein networks,
+  and functional characterization of user-uploaded gene/measurement sets}.
+\bjtitle{Nucleic Acids Research}
+\bvolume{49},
+\bfpage{605}--\blpage{612}
+(\byear{2021}).
+doi:\doiurl{10.1093/nar/gkaa1074}
+\end{barticle}
+\endbibitem
 
 \end{thebibliography}
 
@@ -464,7 +533,80 @@ Network\_science\_with\_python\_and\_networkx
 </bibl>
 
 <bibl id="B11">
-  <title><p>Network_Science_with_Python_and_NetworkX</p></title>
+  <title><p>[Orphanet: a European database for rare diseases].</p></title>
+  <aug>
+    <au><snm>Weinreich</snm><fnm>S S</fnm></au>
+    <au><snm>Mangon</snm><fnm>R</fnm></au>
+    <au><snm>Sikkens</snm><fnm>J J</fnm></au>
+    <au><snm>Teeuw</snm><fnm>M E</fnm></au>
+    <au><snm>Cornel</snm><fnm>M C</fnm></au>
+  </aug>
+  <source>Nederlands tijdschrift voor geneeskunde</source>
+  <pubdate>2008</pubdate>
+  <volume>152</volume>
+  <fpage>518</fpage>
+  <lpage>9</lpage>
+</bibl>
+
+<bibl id="B12">
+  <title><p>pandas: powerful Python data analysis toolkit</p></title>
+  <aug>
+    <au><snm>McKinney</snm><fnm>W</fnm></au>
+  </aug>
+  <pubdate>2012</pubdate>
+</bibl>
+
+<bibl id="B13">
+  <title><p>BiRank: Towards Ranking on Bipartite Graphs</p></title>
+  <aug>
+    <au><snm>He</snm><fnm>X</fnm></au>
+    <au><snm>Gao</snm><fnm>M</fnm></au>
+    <au><snm>Kan</snm><fnm>MY</fnm></au>
+    <au><snm>Wang</snm><fnm>D</fnm></au>
+  </aug>
+  <source>IEEE Transactions on Knowledge and Data Engineering</source>
+  <pubdate>2017</pubdate>
+  <volume>29</volume>
+  <fpage>57</fpage>
+  <lpage>71</lpage>
+</bibl>
+
+<bibl id="B14">
+  <title><p>Network Science with Python and NetworkX Quick Start Guide: Explore
+  and visualize network data effectively</p></title>
+  <aug>
+    <au><snm>Platt</snm><fnm>EL</fnm></au>
+  </aug>
+  <publisher>Packt Publishing Ltd.</publisher>
+  <editor>Amey Varangaonkar and Sandeep Mishra and Smit Carvalho</editor>
+  <pubdate>2019</pubdate>
+  <volume>190 páginas</volume>
+</bibl>
+
+<bibl id="B15">
+  <title><p>The STRING database in 2021: Customizable protein-protein networks,
+  and functional characterization of user-uploaded gene/measurement
+  sets</p></title>
+  <aug>
+    <au><snm>Szklarczyk</snm><fnm>D</fnm></au>
+    <au><snm>Gable</snm><fnm>AL</fnm></au>
+    <au><snm>Nastou</snm><fnm>KC</fnm></au>
+    <au><snm>Lyon</snm><fnm>D</fnm></au>
+    <au><snm>Kirsch</snm><fnm>R</fnm></au>
+    <au><snm>Pyysalo</snm><fnm>S</fnm></au>
+    <au><snm>Doncheva</snm><fnm>NT</fnm></au>
+    <au><snm>Legeay</snm><fnm>M</fnm></au>
+    <au><snm>Fang</snm><fnm>T</fnm></au>
+    <au><snm>Bork</snm><fnm>P</fnm></au>
+    <au><snm>Jensen</snm><fnm>LJ</fnm></au>
+    <au><snm>Mering</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Nucleic Acids Research</source>
+  <publisher>Oxford University Press</publisher>
+  <pubdate>2021</pubdate>
+  <volume>49</volume>
+  <fpage>D605</fpage>
+  <lpage>D612</lpage>
 </bibl>
 
 </refgrp>
