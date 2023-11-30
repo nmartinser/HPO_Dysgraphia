@@ -1,7 +1,7 @@
 
 \section{Resultados}
 
-\graphicspath{ {../code/} }
+\graphicspath{ {../results/} }
 
 En esta sección se van a presentar los resultados obtenidos tras realizar el estudio del fenotipo Disgrafía.
 
@@ -11,9 +11,45 @@ Después de descargar la red de genes asociados a la Disgrafía de la HPO, obser
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.7\textwidth]{stringdb_51_genes.png}
+%	\includegraphics[width=0.7\textwidth]{stringdb_51_genes.png}
 	\caption{Red de genes asociados}
 	\label{fig:genesAsociados}
 \end{figure}
 
-De esta red 
+Se aplicó el algoritmo Diamond para propagar la red de genes y descubrir potenciales genes adicionales relacionados con la Disgrafía. El resultado de este proceso se encuentra en el archivo "propagated\_genes.txt", que contiene un listado con 200 genes. Utilizando estos genes, se creó una red mediante la librería de String. La cabecera del archivo que contiene la red se puede visualizar en la tabla \ref{tabla:resultDiamond} (se han omitido algunas columnas del archivo para mejor visualización).
+
+\begin{table}[h]
+	\centering
+	\caption{Red de genes con los resultados de Diamond}
+	\label{tabla:resultDiamond}
+	\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+		stringId\_A & stringId\_B & preferredName\_A & preferredName\_B & score \\
+		\hline
+		9606.ENSP00000013807 & 9606.ENSP00000265433 & ERCC1 & NBN & 0.7 \\
+		9606.ENSP00000013807 & 9606.ENSP00000347232 & ERCC1 & BLM & 0.701 \\
+		9606.ENSP00000013807 & 9606.ENSP00000494957 & ERCC1 & UBE2T & 0.702 \\
+		9606.ENSP00000013807 & 9606.ENSP00000229769 & ERCC1 & FANCE & 0.71 \\
+		\hline
+	\end{tabular}
+\end{table}
+
+Cada fila de esta red contiene información sobre la interacción de dos proteínas. Las cuatro primeras columnas incluyen los identificadores de los dos genes que están interactuando (tanto el StringId como el nombre). La cuarta columna (\textit{score}) es la puntuación combinada, la cual ya se mencionó en la sección \ref{section:redProteinas}.
+
+
+\subsection{Detección de comunidades}
+
+Se realizó un análisis de detección de comunidades en la red ampliada de genes. El algoritmo greedy\_modularity\_communities de NetworkX se empleó para identificar conjuntos de genes más densamente conectados entre sí. Los resultados de este análisis se presentan en la imagen \ref{fig:comunidades}.
+
+\begin{figure}[h!]
+	\centering
+	%	\includegraphics[width=0.7\textwidth]{stringdb_51_genes.png}
+	\caption{Comunidades de la red de genes}
+	\label{fig:comunidades}
+\end{figure}
+
+
+\subsection{Enriquecimiento}
+
+Se llevó a cabo un análisis de enriquecimiento funcional para identificar asociaciones significativas entre los genes y funciones específicas en procesos biológicos y rutas metabólicas. Este análisis se realizó tanto en el grafo ampliado como en cada una de las comunidades detectadas en la red de genes.
+

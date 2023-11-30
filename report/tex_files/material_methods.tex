@@ -90,6 +90,7 @@ El segundo archivo consiste en un listado de genes asociados a la disgrafía. En
 
 \begin{itemize}
 	\item \textbf{Red proteínas}
+	\label{section:redProteinas}
 \end{itemize}
 
 Este archivo contiene una red de interacciones entre proteínas humanas, presentes en la base de datos STRING, junto con una puntuación de los enlaces entre las proteínas. La cabecera de este archivo se puede visualizar en la tabla \ref{tabla:redProteinas}.
@@ -153,13 +154,15 @@ Este algoritmo toma como parámetros nuestra red de genes, la red de interaccion
 	propaged_genes.txt
 \end{verbatim}
 
+Este algoritmo, como salida, proporciona una lista de genes. Para obtener la red, utilizamos la biblioteca de String en Python, de manera similar al paso anterior.
+
 \subsection{Detección de comunidades}
 
 Para estudiar el grafo ampliado y la relación de los nuevos genes añadidos con el HPO de interés, se ha llevado a cabo un análisis de comunidades.
 
 La detección de comunidades consiste en fragmentar el grafo en conjuntos de nodos, denominados "comunidades", teniendo en cuenta la topología de la red. En resumen, puede conceptualizarse como un proceso de agrupamiento (clustering) aplicado a grafos. Aunque no hay una definición única de comunidad aceptada por la comunidad científica, generalmente se considera que una comunidad es de calidad cuando muestra más conexiones internas que externas. En otras palabras, los nodos dentro de la comunidad están más densamente conectados entre sí en comparación con los nodos fuera de la comunidad en el grafo \cite{PanizoLledot}.
 
-Para hacer la detecciónn de comunidades del grafo se ha usado uno de los algortimos proporcionados por el paquete NetworkX,\textit{ greedy\_modularity\_communities}. Este algoritmo utiliza la maximización de modularidad avariciosa de Clauset-Newman-Moore \cite{Clauset2004} para encontrar la partición de comunidades con la mayor modularidad.
+Para hacer la detección de comunidades del grafo se ha usado uno de los algoritmos proporcionados por el paquete NetworkX,\textit{ greedy\_modularity\_communities}. Este algoritmo utiliza la maximización de modularidad avariciosa de Clauset-Newman-Moore \cite{Clauset2004} para encontrar la partición de comunidades con la mayor modularidad.
 
 
 \subsection{Enriquecimiento funcional}
