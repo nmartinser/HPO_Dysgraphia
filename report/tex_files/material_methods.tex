@@ -13,10 +13,10 @@ cuales se detallarán a lo largo de esta sección y se pueden observar en la ima
 
 \subsection{Datos biológicos}
 
-Lo primero que se realizó fue descargar los dataset necesarios para hacer el estudio. Se usaron dos base de datos: Human Phenotype Ontology \cite{HPO2021} y STRING-DB \cite{String2021}.
+Lo primero que se realizó fue descargar los dataset necesarios para hacer el estudio. Se usaron dos base de datos: Human Phenotype Ontology (HPO) \cite{HPO2021} y STRING-DB \cite{String2021}.
 
 \begin{enumerate}
-	\item Se buscó el fenotipo Disgrafía en la Human Phenotype Ontology, conociendo que su identificador es HP:0010526. De esta base de datos, obtuvimos dos archivos tabulados; uno contiene los genes asociados y el otro contiene términos HPO asociados a la Disgrafía.
+	\item Se buscó el fenotipo Disgrafía en la HPO, conociendo que su identificador es HP:0010526. De esta base de datos, obtuvimos dos archivos tabulados; uno contiene los genes asociados y el otro contiene términos HPO asociados a la Disgrafía.
 	\item La base de datos STRING se usó para descargar la red de interacción de proteínas humanas
 \end{enumerate}
 
@@ -67,7 +67,7 @@ El archivo se introdujo en Python como un data frame utilizando la librería Pan
 	\label{section:genesAsociados}
 \end{itemize}
 
-El segundo archivo consiste en un listado de genes asociados a la disgrafía. El listado cuenta con 51 genes. En la tabla \ref{tabla:genesAsociados}, se presenta la cabecera del archivo, donde también se visualizan tres columnas: la primera contiene el identificador de Entrez de los genes, la segunda el símbolo de los genes y la tercera el identificador de las enfermedades. Al igual que en el archivo anterior, el identificador de las enfermedades puede provenir de dos fuentes, OMIM o Orphanet.
+El segundo archivo consiste en un listado de genes asociados a la disgrafía. En la tabla \ref{tabla:genesAsociados}, se presenta la cabecera del archivo, donde también se visualizan tres columnas: la primera contiene el identificador de Entrez de los genes, la segunda el símbolo de los genes y la tercera el identificador de las enfermedades. Al igual que en el archivo anterior, el identificador de las enfermedades puede provenir de dos fuentes, OMIM o Orphanet.
 
 \begin{table}[h]
 	\centering
@@ -137,12 +137,12 @@ De este grafo nos interesaba ver aquellos término HPO que se encuentran estrech
 
 A continuación, se procedió a realizar un estudio de los genes relacionados con la disgrafía (usando el archivo descrito en \ref{section:genesAsociados}). Lo primero fue obtener la red de genes utilizando la API de String-DB \cite{String2021}, haciendo uso de la biblioteca \textit{strindb} para Python. Entre las funciones clave de esta biblioteca se encuentra get\_network, la cual requiere como parámetros la lista de nuestros genes y el identificador de la especie \textit{Homo sapiens} (9606). Adicionalmente, se ha impuesto un score de 500, esta es una puntuación de corte para los bordes de la red, corresponde a la probabilidad de pertenecer a la misma vía funcional, lo que se traduce en que salgan más o menos genes en nuestra red.
 
-La función devuelve la red de genes, donde se encuentran representados los 51 genes y las relaciones entre ellos, la cual guardamos en un archivo .tsv.
+La función devuelve la red de genes, donde se encuentran representados los genes y las relaciones entre ellos, la cual guardamos en un archivo .tsv.
 
 
 \subsection{Propagación de la red}
 
-Una vez que tenemos la red con los 51 genes, llevamos a cabo una propagación de la red con el objetivo de ampliar su tamaño y buscar otros genes relacionados con la Disgrafía. Este enfoque nos permite potencialmente descubrir otros genes implicados en la Disgrafía.
+Una vez que tenemos la red con los genes asociados, llevamos a cabo una propagación de la red con el objetivo de ampliar su tamaño y buscar otros genes relacionados con la Disgrafía. Este enfoque nos permite potencialmente descubrir otros genes implicados en la Disgrafía.
 
 Para llevar a cabo este proceso, existen diferentes algoritmos, entre los cuales hemos seleccionado Diamond \cite{Diamond2015}.
 

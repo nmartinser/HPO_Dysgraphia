@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  30 NOV 2023 14:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  30 NOV 2023 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -428,7 +428,7 @@ LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <8> not available
 [1{C:/Users/nerea/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
-<figures/workflow.JPG, id=84, 411.78844pt x 410.2828pt>
+<figures/workflow.JPG, id=88, 411.78844pt x 410.2828pt>
 File: figures/workflow.JPG Graphic file (type jpg)
 <use figures/workflow.JPG>
 Package pdftex.def Info: figures/workflow.JPG  used on input line 9.
@@ -441,15 +441,22 @@ Overfull \hbox (36.11526pt too wide) in paragraph at lines 38--51
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2 <./figures/workflow.JPG>] [3] [4]) (tex_files/resultados.tex)
-(tex_files/discusion.tex) (tex_files/conclusiones.tex) [5] (report.bbl
+[2 <./figures/workflow.JPG>] [3] [4]) (tex_files/resultados.tex [5]
+<../code/stringdb_51_genes.png, id=151, 876.27374pt x 737.00343pt>
+File: ../code/stringdb_51_genes.png Graphic file (type png)
+<use ../code/stringdb_51_genes.png>
+Package pdftex.def Info: ../code/stringdb_51_genes.png  used on input line 14.
+(pdftex.def)             Requested size: 252.6989pt x 212.53346pt.
+)
+(tex_files/discusion.tex) (tex_files/conclusiones.tex) (report.bbl
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
 63.
 
 (C:\Users\nerea\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-))
-[6] 
+)
+[6 <../code/stringdb_51_genes.png>]) [7]
+
 enddocument/afterlastpage: lastpage setting LastPage.
 (report.aux)
  ***********
@@ -462,16 +469,16 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: DDADE886DC1D0568A5908116B175AC24;1578.
+(rerunfilecheck)             Checksum: 4AE564ED4369BD6CFC71429B3C6FC973;1755.
  ) 
 Here is how much of TeX's memory you used:
- 10473 strings out of 475247
- 162388 string characters out of 5757792
+ 10487 strings out of 475247
+ 162757 string characters out of 5757792
  1937785 words of memory out of 5000000
- 31797 multiletter control sequences out of 15000+600000
+ 31808 multiletter control sequences out of 15000+600000
  567710 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,10n,79p,1340b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,10n,79p,1340b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss
 0700.pk> <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1000.pk><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -486,9 +493,9 @@ erea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C
 10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmtt10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmtt8.pfb>
-Output written on report.pdf (6 pages, 220952 bytes).
+Output written on report.pdf (7 pages, 817559 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 102 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 248 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 115 words of extra memory for PDF output out of 10000 (max. 10000000)
 
