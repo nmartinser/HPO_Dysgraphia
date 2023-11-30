@@ -43,13 +43,19 @@ Se realizó un análisis de detección de comunidades en la red ampliada de gene
 
 \begin{figure}[h!]
 	\centering
-	%	\includegraphics[width=0.7\textwidth]{stringdb_51_genes.png}
+	\includegraphics[width=0.7\textwidth]{graph_communities.png}
 	\caption{Comunidades de la red de genes}
 	\label{fig:comunidades}
 \end{figure}
 
+Este algoritmo ha detectado tres comunidades. Cada color de la imagen \ref{fig:comunidades} representa una comunidad distinta.
 
 \subsection{Enriquecimiento}
 
 Se llevó a cabo un análisis de enriquecimiento funcional para identificar asociaciones significativas entre los genes y funciones específicas en procesos biológicos y rutas metabólicas. Este análisis se realizó tanto en el grafo ampliado como en cada una de las comunidades detectadas en la red de genes.
 
+Cada conjunto de resultados del enriquecimiento ha sido ordenado de manera ascendente según el false discovery rate (FDR).
+
+\begin{itemize}
+	\item Enriquecimiento grafo ampliado
+\end{itemize}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  30 NOV 2023 22:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  30 NOV 2023 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -446,14 +446,24 @@ Overfull \hbox (14.1245pt too wide) in paragraph at lines 25--35
  [][] 
  []
 
-) (tex_files/discusion.tex [6]) (tex_files/conclusiones.tex) (report.bbl
+<../results/graph_communities.png, id=162, 462.528pt x 346.896pt>
+File: ../results/graph_communities.png Graphic file (type png)
+<use ../results/graph_communities.png>
+Package pdftex.def Info: ../results/graph_communities.png  used on input line 4
+6.
+(pdftex.def)             Requested size: 252.6989pt x 189.5283pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6]) (tex_files/discusion.tex) (tex_files/conclusiones.tex) (report.bbl
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
 63.
 
 (C:\Users\nerea\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-[7]) [8] 
+[7 <../results/graph_communities.png>]) [8]
+
 enddocument/afterlastpage: lastpage setting LastPage.
 (report.aux)
  ***********
@@ -469,13 +479,13 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 3BE483C846A4A34381879C7FC5B9C766;2075.
  ) 
 Here is how much of TeX's memory you used:
- 10488 strings out of 475247
- 162593 string characters out of 5757792
+ 10497 strings out of 475247
+ 162919 string characters out of 5757792
  1937785 words of memory out of 5000000
- 31804 multiletter control sequences out of 15000+600000
+ 31813 multiletter control sequences out of 15000+600000
  567710 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,10n,79p,1340b,720s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,10n,79p,1340b,722s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss
 0700.pk> <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1000.pk><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -490,9 +500,9 @@ erea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C
 10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmtt10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmtt8.pfb>
-Output written on report.pdf (8 pages, 228337 bytes).
+Output written on report.pdf (8 pages, 344071 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
+ 268 PDF objects out of 1000 (max. 8388607)
  61 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
