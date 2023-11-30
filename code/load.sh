@@ -16,9 +16,10 @@
 python get_51_gene_network.py
 
 # From the obtained genes ids, run DIAMOnD to enlarge the network to 200 genes
-python DIAMOnD.py proteinas_filtrado.txt grafo_51_genes.txt 200 propaged_genes.txt
+python DIAMOnD.py proteinas_filtrado.txt grafo_51_genes.txt 200 ../results/propaged_genes.txt
 
 # Get a network with the 200 genes
 python get_200_gene_network.py
 
 # Community detection 
+python community_detection.py
