@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{15}
+\begin{thebibliography}{16}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -272,34 +272,6 @@ pandas: powerful Python data analysis toolkit
 \endbibitem
 
 %%% 13
-\bibitem{BiRank2017}
-\begin{barticle}
-\bauthor{\bsnm{He}, \binits{X.}},
-\bauthor{\bsnm{Gao}, \binits{M.}},
-\bauthor{\bsnm{Kan}, \binits{M.-Y.}},
-\bauthor{\bsnm{Wang}, \binits{D.}}:
-\batitle{Birank: Towards ranking on bipartite graphs}.
-\bjtitle{IEEE Transactions on Knowledge and Data Engineering}
-\bvolume{29},
-\bfpage{57}--\blpage{71}
-(\byear{2017}).
-doi:\doiurl{10.1109/TKDE.2016.2611584}
-\end{barticle}
-\endbibitem
-
-%%% 14
-\bibitem{BookNetworkX}
-\begin{bbook}
-\bauthor{\bsnm{Platt}, \binits{E.L.}}:
-\bbtitle{Network Science with Python and NetworkX Quick Start Guide: Explore
-  and Visualize Network Data Effectively}
-vol. \bseriesno{190 páginas}.
-\bpublisher{Packt Publishing Ltd.}, \blocation{???}
-(\byear{2019})
-\end{bbook}
-\endbibitem
-
-%%% 15
 \bibitem{String2021}
 \begin{barticle}
 \bauthor{\bsnm{Szklarczyk}, \binits{D.}},
@@ -322,6 +294,50 @@ vol. \bseriesno{190 páginas}.
 (\byear{2021}).
 doi:\doiurl{10.1093/nar/gkaa1074}
 \end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem{BiRank2017}
+\begin{barticle}
+\bauthor{\bsnm{He}, \binits{X.}},
+\bauthor{\bsnm{Gao}, \binits{M.}},
+\bauthor{\bsnm{Kan}, \binits{M.-Y.}},
+\bauthor{\bsnm{Wang}, \binits{D.}}:
+\batitle{Birank: Towards ranking on bipartite graphs}.
+\bjtitle{IEEE Transactions on Knowledge and Data Engineering}
+\bvolume{29},
+\bfpage{57}--\blpage{71}
+(\byear{2017}).
+doi:\doiurl{10.1109/TKDE.2016.2611584}
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem{BookNetworkX}
+\begin{bbook}
+\bauthor{\bsnm{Platt}, \binits{E.L.}}:
+\bbtitle{Network Science with Python and NetworkX Quick Start Guide: Explore
+  and Visualize Network Data Effectively}
+vol. \bseriesno{190 páginas}.
+\bpublisher{Packt Publishing Ltd.}, \blocation{???}
+(\byear{2019})
+\end{bbook}
+\endbibitem
+
+%%% 16
+\bibitem{Diamond2015}
+\begin{botherref}
+\oauthor{\bsnm{Ghiassian}, \binits{S.D.}},
+\oauthor{\bsnm{Menche}, \binits{J.}},
+\oauthor{\bsnm{Barabási}, \binits{A.L.}}:
+A disease module detection (diamond) algorithm derived from a systematic
+  analysis of connectivity patterns of disease proteins in the human
+  interactome.
+PLoS Computational Biology
+\textbf{11}
+(2015).
+doi:\doiurl{10.1371/journal.pcbi.1004120}
+\end{botherref}
 \endbibitem
 
 \end{thebibliography}
@@ -557,33 +573,6 @@ doi:\doiurl{10.1093/nar/gkaa1074}
 </bibl>
 
 <bibl id="B13">
-  <title><p>BiRank: Towards Ranking on Bipartite Graphs</p></title>
-  <aug>
-    <au><snm>He</snm><fnm>X</fnm></au>
-    <au><snm>Gao</snm><fnm>M</fnm></au>
-    <au><snm>Kan</snm><fnm>MY</fnm></au>
-    <au><snm>Wang</snm><fnm>D</fnm></au>
-  </aug>
-  <source>IEEE Transactions on Knowledge and Data Engineering</source>
-  <pubdate>2017</pubdate>
-  <volume>29</volume>
-  <fpage>57</fpage>
-  <lpage>71</lpage>
-</bibl>
-
-<bibl id="B14">
-  <title><p>Network Science with Python and NetworkX Quick Start Guide: Explore
-  and visualize network data effectively</p></title>
-  <aug>
-    <au><snm>Platt</snm><fnm>EL</fnm></au>
-  </aug>
-  <publisher>Packt Publishing Ltd.</publisher>
-  <editor>Amey Varangaonkar and Sandeep Mishra and Smit Carvalho</editor>
-  <pubdate>2019</pubdate>
-  <volume>190 páginas</volume>
-</bibl>
-
-<bibl id="B15">
   <title><p>The STRING database in 2021: Customizable protein-protein networks,
   and functional characterization of user-uploaded gene/measurement
   sets</p></title>
@@ -607,6 +596,48 @@ doi:\doiurl{10.1093/nar/gkaa1074}
   <volume>49</volume>
   <fpage>D605</fpage>
   <lpage>D612</lpage>
+</bibl>
+
+<bibl id="B14">
+  <title><p>BiRank: Towards Ranking on Bipartite Graphs</p></title>
+  <aug>
+    <au><snm>He</snm><fnm>X</fnm></au>
+    <au><snm>Gao</snm><fnm>M</fnm></au>
+    <au><snm>Kan</snm><fnm>MY</fnm></au>
+    <au><snm>Wang</snm><fnm>D</fnm></au>
+  </aug>
+  <source>IEEE Transactions on Knowledge and Data Engineering</source>
+  <pubdate>2017</pubdate>
+  <volume>29</volume>
+  <fpage>57</fpage>
+  <lpage>71</lpage>
+</bibl>
+
+<bibl id="B15">
+  <title><p>Network Science with Python and NetworkX Quick Start Guide: Explore
+  and visualize network data effectively</p></title>
+  <aug>
+    <au><snm>Platt</snm><fnm>EL</fnm></au>
+  </aug>
+  <publisher>Packt Publishing Ltd.</publisher>
+  <editor>Amey Varangaonkar and Sandeep Mishra and Smit Carvalho</editor>
+  <pubdate>2019</pubdate>
+  <volume>190 páginas</volume>
+</bibl>
+
+<bibl id="B16">
+  <title><p>A DIseAse MOdule Detection (DIAMOnD) Algorithm Derived from a
+  Systematic Analysis of Connectivity Patterns of Disease Proteins in the Human
+  Interactome</p></title>
+  <aug>
+    <au><snm>Ghiassian</snm><fnm>SD</fnm></au>
+    <au><snm>Menche</snm><fnm>J</fnm></au>
+    <au><snm>Barabási</snm><fnm>AL</fnm></au>
+  </aug>
+  <source>PLoS Computational Biology</source>
+  <publisher>Public Library of Science</publisher>
+  <pubdate>2015</pubdate>
+  <volume>11</volume>
 </bibl>
 
 </refgrp>
