@@ -1,0 +1,16 @@
+category	number_of_genes	p_value	fdr	description
+Function	40	2.37e-15	1.95e-12	Heterocyclic compound binding
+Function	40	3.74e-15	2.63e-12	Organic cyclic compound binding
+Function	39	1.34e-20	1.33e-17	Nucleic acid binding
+Function	38	9.62e-27	1.19e-23	DNA binding
+WikiPathways	34	1.55e-63	1.21e-60	DNA repair pathways, full network
+Function	27	3.73e-40	9.2e-37	Catalytic activity, acting on DNA
+DISEASES	27	6.05e-17	1.39e-13	Autosomal recessive disease
+Function	23	8.99e-43	4.43e-39	Damaged DNA binding
+WikiPathways	15	1.2200000000000001e-29	4.75e-27	Base excision repair
+WikiPathways	14	1.05e-22	2.72e-20	Nucleotide excision repair in xeroderma pigmentosum 
+DISEASES	13	8.240000000000001e-27	3.7899999999999995e-23	Xeroderma pigmentosum
+WikiPathways	11	3.34e-19	5.22e-17	Nucleotide excision repair
+WikiPathways	9	7.98e-20	1.56e-17	Non-homologous end joining
+WikiPathways	9	5.41e-13	7.04e-11	DNA IR-damage and cellular response via ATR
+Function	7	4.52e-13	2.78e-10	DNA-directed DNA polymerase activity
