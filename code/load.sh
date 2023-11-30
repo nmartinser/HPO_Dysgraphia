@@ -13,16 +13,16 @@
 # Partimos de proteinas_filtrado.txt:
 
 # Execute Python script to get the 51 gene network and their ids for DIAMOnD
-python get_51_gene_network.py
+python scripts/get_51_gene_network.py
 
 # From the obtained genes ids, run DIAMOnD to enlarge the network to 200 genes
-python DIAMOnD.py proteinas_filtrado.txt grafo_51_genes.txt 200 ../results/propaged_genes.txt
+python scripts/DIAMOnD.py proteinas_filtrado.txt ../results/grafo_51_genes.txt 200 ../results/propaged_genes.txt
 
 # Get a network with the 200 genes
-python get_200_gene_network.py
+python scripts/get_200_gene_network.py
 
 # Community detection 
-python community_detection.py
+python scripts/community_detection.py
 
 #get greatest relation with others hpos
-python mas_realcionados.py
+python scripts/mas_relacionados.py

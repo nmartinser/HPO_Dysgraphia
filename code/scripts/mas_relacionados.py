@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import os
 import networkx as nx
 import matplotlib.pyplot as plt
-%pip install python-louvain
+
 # Especifica la ruta de tu archivo TSV
 ruta_archivo = 'red_fenotipos_genes_dysgraphia.txt'
 
@@ -98,4 +98,6 @@ def visualizar_grafo_bipartito_circular(grafo, dpi=300):
     nombre_archivo = 'grafo_Hpos_alta_relacion.png'
     ruta_guardado = os.path.join(carpeta_guardado, nombre_archivo)
     plt.savefig(ruta_guardado, dpi=dpi)
- visualizar_grafo_bipartito_circular(grafoMasRelacion)
+
+
+visualizar_grafo_bipartito_circular(grafoMasRelacion)

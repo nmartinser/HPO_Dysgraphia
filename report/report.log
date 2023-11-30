@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  30 NOV 2023 23:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  30 NOV 2023 23:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -442,28 +442,40 @@ Overfull \hbox (36.11526pt too wide) in paragraph at lines 38--51
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2 <./figures/workflow.JPG>] [3] [4]) (tex_files/resultados.tex [5]
-Overfull \hbox (14.1245pt too wide) in paragraph at lines 25--35
+<figures/stringdb_51_genes.png, id=159, 876.27374pt x 737.00343pt>
+File: figures/stringdb_51_genes.png Graphic file (type png)
+<use figures/stringdb_51_genes.png>
+Package pdftex.def Info: figures/stringdb_51_genes.png  used on input line 12.
+(pdftex.def)             Requested size: 252.6989pt x 212.53346pt.
+
+Overfull \hbox (14.1245pt too wide) in paragraph at lines 23--33
  [][] 
  []
 
-<../results/graph_communities.png, id=162, 462.528pt x 346.896pt>
+[6 <./figures/stringdb_51_genes.png>]
+<../results/graph_communities.png, id=172, 462.528pt x 346.896pt>
 File: ../results/graph_communities.png Graphic file (type png)
 <use ../results/graph_communities.png>
 Package pdftex.def Info: ../results/graph_communities.png  used on input line 4
-6.
+4.
 (pdftex.def)             Requested size: 252.6989pt x 189.5283pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (43.7489pt too wide) in paragraph at lines 65--79
+ [][] 
+ []
 
-[6]) (tex_files/discusion.tex) (tex_files/conclusiones.tex) (report.bbl
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (tex_files/discusion.tex) (tex_files/conclusiones.tex) (report.bbl [7 <../res
+ults/graph_communities.png>]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
 63.
 
 (C:\Users\nerea\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-[7 <../results/graph_communities.png>]) [8]
-
+))
+[8] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (report.aux)
  ***********
@@ -479,30 +491,35 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 3BE483C846A4A34381879C7FC5B9C766;2075.
  ) 
 Here is how much of TeX's memory you used:
- 10497 strings out of 475247
- 162919 string characters out of 5757792
- 1937785 words of memory out of 5000000
- 31813 multiletter control sequences out of 15000+600000
+ 10504 strings out of 475247
+ 163138 string characters out of 5757792
+ 1940785 words of memory out of 5000000
+ 31819 multiletter control sequences out of 15000+600000
  567710 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,10n,79p,1340b,722s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,10n,79p,1340b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss
 0700.pk> <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1000.pk><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmbx10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/nerea/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/nerea/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/nerea/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/n
-erea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C
-:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
-10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmtt10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmtt8.pfb>
-Output written on report.pdf (8 pages, 344071 bytes).
+1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nerea/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nerea/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nerea/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/nerea/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/User
+s/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb>
+<C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ssbx10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmssi8.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmsy6.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nerea/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nerea/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/nerea/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on report.pdf (8 pages, 995980 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 296 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

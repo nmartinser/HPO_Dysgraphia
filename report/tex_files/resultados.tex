@@ -1,8 +1,6 @@
 
 \section{Resultados}
 
-\graphicspath{ {../results/} }
-
 En esta sección se van a presentar los resultados obtenidos tras realizar el estudio del fenotipo Disgrafía.
 
 \subsection{Red de genes asociados}
@@ -11,7 +9,7 @@ Después de descargar la red de genes asociados a la Disgrafía de la HPO, obser
 
 \begin{figure}[h!]
 	\centering
-%	\includegraphics[width=0.7\textwidth]{stringdb_51_genes.png}
+	\includegraphics[width=0.7\textwidth]{figures/stringdb_51_genes.png}
 	\caption{Red de genes asociados}
 	\label{fig:genesAsociados}
 \end{figure}
@@ -43,7 +41,7 @@ Se realizó un análisis de detección de comunidades en la red ampliada de gene
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.7\textwidth]{graph_communities.png}
+	\includegraphics[width=0.7\textwidth]{../results/graph_communities.png}
 	\caption{Comunidades de la red de genes}
 	\label{fig:comunidades}
 \end{figure}
@@ -52,10 +50,27 @@ Este algoritmo ha detectado tres comunidades. Cada color de la imagen \ref{fig:c
 
 \subsection{Enriquecimiento}
 
-Se llevó a cabo un análisis de enriquecimiento funcional para identificar asociaciones significativas entre los genes y funciones específicas en procesos biológicos y rutas metabólicas. Este análisis se realizó tanto en el grafo ampliado como en cada una de las comunidades detectadas en la red de genes.
+Se llevó a cabo un análisis de enriquecimiento funcional para identificar asociaciones significativas entre los genes y funciones específicas en procesos biológicos y rutas metabólicas. Este análisis se realizó tanto en el grafo ampliado como en cada una de las comunidades detectadas en la red de genes. La cabecera de los resultados se muestran en tablas \ref{tabla:enrique200}
 
 Cada conjunto de resultados del enriquecimiento ha sido ordenado de manera ascendente según el false discovery rate (FDR).
 
-\begin{itemize}
-	\item Enriquecimiento grafo ampliado
-\end{itemize}
+
+\begin{table}[h]
+	\centering
+	\caption{Enriquecimiento grafo ampliado}
+	\label{tabla:enrique200}
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		category & number\_of\_genes & p\_value & fdr & description \\
+		\hline
+		Process & 181 & $4.35 \times 10^{-220}$ & $6.83 \times 10^{-216}$ & DNA metabolic process \\
+		Process & 150 & $1.01 \times 10^{-184}$ & $7.94 \times 10^{-181}$ & DNA repair \\
+		Process & 158 & $2.57 \times 10^{-176}$ & $1.34 \times 10^{-172}$ & Cellular response to DNA damage stimulus \\
+		Process & 189 & $1.61 \times 10^{-160}$ & $6.32 \times 10^{-157}$ & Nucleic acid metabolic process \\
+		RCTM & 122 & $2.07 \times 10^{-155}$ & $4.72 \times 10^{-152}$ & DNA Repair \\
+
+		Keyword & 123 & $2.2 \times 10^{-147}$ & $1.48 \times 10^{-144}$ & DNA damage \\
+		Process & 185 & $1.9 \times 10^{-142}$ & $4.96 \times 10^{-139}$ & Cellular macromolecule metabolic process \\
+		\hline
+	\end{tabular}
+\end{table}
