@@ -50,7 +50,7 @@ Este algoritmo ha detectado tres comunidades. Cada color de la imagen \ref{fig:c
 
 \subsection{Enriquecimiento}
 
-Se llevó a cabo un análisis de enriquecimiento funcional para identificar asociaciones significativas entre los genes y funciones específicas en procesos biológicos y rutas metabólicas. Este análisis se realizó tanto en el grafo ampliado como en cada una de las comunidades detectadas en la red de genes. La cabecera de los resultados se muestran en tablas \ref{tabla:enrique200}
+Se llevó a cabo un análisis de enriquecimiento funcional para identificar asociaciones significativas entre los genes y funciones específicas en procesos biológicos y rutas metabólicas. Este análisis se realizó tanto en el grafo ampliado como en cada una de las comunidades detectadas en la red de genes. La cabecera de los resultados se muestran en tablas \ref{tabla:enrique200}, \ref{tabla:enrique1}, \ref{tabla:enrique2} y \ref{tabla:enrique4}.
 
 Cada conjunto de resultados del enriquecimiento ha sido ordenado de manera ascendente según el false discovery rate (FDR).
 
@@ -74,3 +74,63 @@ Cada conjunto de resultados del enriquecimiento ha sido ordenado de manera ascen
 		\hline
 	\end{tabular}
 \end{table}
+
+
+\begin{table}[h]
+	\centering
+	\caption{Enriquecimiento primera comunidad}
+	\label{tabla:enrique1}
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		category & number\_of\_genes & p\_value & fdr & description \\
+		\hline
+		NetworkNeighborAL & 67 & $3.19 \times 10^{-123}$ & $1.46 \times 10^{-119}$ & DNA repair pathways, full network,...\\
+		NetworkNeighborAL & 63 & $2.43 \times 10^{-117}$ & $3.71 \times 10^{-114}$ & Mixed, incl. Fanconi anemia pathway, ... \\
+		NetworkNeighborAL & 64 & $4.23 \times 10^{-117}$ & $4.84 \times 10^{-114}$ & DNA repair pathways, ...\\
+		Process & 85 & $8.09 \times 10^{-118}$ & $1.27 \times 10^{-113}$ & DNA metabolic process \\
+		Process & 79 & $7.43 \times 10^{-116}$ & $5.83 \times 10^{-112}$ & DNA repair \\
+		RCTM & 72 & $2.01 \times 10^{-112}$ & $4.6 \times 10^{-109}$ & DNA Repair \\
+		NetworkNeighborAL & 60 & $2.65 \times 10^{-111}$ & $2.43 \times 10^{-108}$ & DNA repair pathways, full network, ... \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[h]
+	\centering
+	\caption{Enriquecimiento segunda comunidad}
+	\label{tabla:enrique2}
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		category & number\_of\_genes & p\_value & fdr & description \\
+		\hline
+		NetworkNeighborAL & 43 & $1.52 \times 10^{-84}$ & $6.96 \times 10^{-81}$ & DNA replication, and Regulation ... \\
+		Process & 47 & $3.04 \times 10^{-74}$ & $4.77 \times 10^{-70}$ & DNA replication \\
+		RCTM & 43 & $8.24 \times 10^{-71}$ & $1.88 \times 10^{-67}$ & Mitotic G1 phase and G1/S transition \\
+		RCTM & 41 & $2.06 \times 10^{-68}$ & $2.35 \times 10^{-65}$ & G1/S Transition \\
+		RCTM & 42 & $3.76 \times 10^{-67}$ & $2.86 \times 10^{-64}$ & S Phase \\
+		Process & 41 & $1.32 \times 10^{-67}$ & $1.03 \times 10^{-63}$ & DNA-templated DNA replication \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[h]
+	\centering
+	\caption{Enriquecimiento tercera comunidad}
+	\label{tabla:enrique4}
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		category & number\_of\_genes & p\_value & fdr & description \\
+		\hline
+		Keyword & 41 & $1.25 \times 10^{-66}$ & $8.42 \times 10^{-64}$ & DNA repair \\
+		WikiPathways & 34 & $1.55 \times 10^{-63}$ & $1.21 \times 10^{-60}$ & DNA repair pathways, full network \\
+		Process & 43 & $1.62 \times 10^{-64}$ & $2.55 \times 10^{-60}$ & DNA repair \\
+		NetworkNeighborAL & 35 & $1.43 \times 10^{-62}$ & $6.52 \times 10^{-59}$ & DNA repair pathways, full network, ... \\
+		RCTM & 37 & $1.56 \times 10^{-57}$ & $3.55 \times 10^{-54}$ & DNA Repair \\
+		COMPARTMENTS & 25 & $7.26 \times 10^{-50}$ & $1.67 \times 10^{-46}$ & DNA repair complex \\
+		Component & 24 & $3.74 \times 10^{-49}$ & $7.66 \times 10^{-46}$ & DNA repair complex \\
+		PMID & 30 & $1.19 \times 10^{-51}$ & $5.2 \times 10^{-45}$ & (2012) Exonuclease 1 (EXO1) ...\\
+		\hline
+	\end{tabular}
+\end{table}
+
+\clearpage
