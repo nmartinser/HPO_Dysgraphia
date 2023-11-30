@@ -25,4 +25,5 @@ python scripts/get_200_gene_network.py
 python scripts/community_detection.py
 
 #get greatest relation with others hpos
+echo "Esto puedo tardar unos minutos..."
 python scripts/mas_relacionados.py
