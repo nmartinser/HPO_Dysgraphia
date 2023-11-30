@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{16}
+\begin{thebibliography}{18}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -340,6 +340,28 @@ doi:\doiurl{10.1371/journal.pcbi.1004120}
 \end{botherref}
 \endbibitem
 
+%%% 17
+\bibitem{PanizoLledot}
+\begin{botherref}
+\oauthor{\bsnm{Lledot}, \binits{A.P.}}:
+Algoritmos bio-inspirados para la detección de comunidades dinámicas en redes
+  complejas
+\end{botherref}
+\endbibitem
+
+%%% 18
+\bibitem{Clauset2004}
+\begin{botherref}
+\oauthor{\bsnm{Clauset}, \binits{A.}},
+\oauthor{\bsnm{Newman}, \binits{M.E.J.}},
+\oauthor{\bsnm{Moore}, \binits{C.}}:
+Finding community structure in very large networks.
+Phys. Rev. E
+\textbf{70}
+(2004)
+\end{botherref}
+\endbibitem
+
 \end{thebibliography}
 
 \newcommand{\BMCxmlcomment}[1]{}
@@ -638,6 +660,26 @@ doi:\doiurl{10.1371/journal.pcbi.1004120}
   <publisher>Public Library of Science</publisher>
   <pubdate>2015</pubdate>
   <volume>11</volume>
+</bibl>
+
+<bibl id="B17">
+  <title><p>Algoritmos bio-inspirados para la detección de comunidades
+  dinámicas en redes complejas</p></title>
+  <aug>
+    <au><snm>Lledot</snm><fnm>AP</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B18">
+  <title><p>Finding community structure in very large networks</p></title>
+  <aug>
+    <au><snm>Clauset</snm><fnm>A</fnm></au>
+    <au><snm>Newman</snm><fnm>M. E. J.</fnm></au>
+    <au><snm>Moore</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Phys. Rev. E</source>
+  <pubdate>2004</pubdate>
+  <volume>70</volume>
 </bibl>
 
 </refgrp>

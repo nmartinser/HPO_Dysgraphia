@@ -13,7 +13,15 @@ cuales se detallarán a lo largo de esta sección y se pueden observar en la ima
 
 \subsection{Datos biológicos}
 
-Lo primero que se realizó fue buscar el fenotipo Disgrafía en la Human Phenotype Ontology \cite{HPO2021}, conociendo que su identificador es HP:0010526. De esta base de datos, obtuvimos dos archivos tabulados; uno contiene los genes asociados y el otro contiene términos HPO asociados a la Disgrafía. Además, de esta base de datos se descargó un archivo que contiene la red completa de proteínas humanas.
+Lo primero que se realizó fue descargar los dataset necesarios para hacer el estudio. Se usaron dos base de datos: Human Phenotype Ontology \cite{HPO2021} y STRING-DB \cite{String2021}.
+
+\begin{enumerate}
+	\item Se buscó el fenotipo Disgrafía en la Human Phenotype Ontology, conociendo que su identificador es HP:0010526. De esta base de datos, obtuvimos dos archivos tabulados; uno contiene los genes asociados y el otro contiene términos HPO asociados a la Disgrafía.
+	\item La base de datos STRING se usó para descargar la red de interacción de proteínas humanas
+\end{enumerate}
+
+
+A continuación, se van a describir los distintos conjuntos de datos mencionados anteriormente.
 
 \begin{itemize}
 	\item \textbf{HPO asociados}
@@ -84,7 +92,7 @@ El segundo archivo consiste en un listado de genes asociados a la disgrafía. El
 	\item \textbf{Red proteínas}
 \end{itemize}
 
-Este archivo contiene una red de interacciones entre proteínas humanas, presentes en la base de datos \textit{STRING-DB}, junto con una puntuación de los enlaces entre las proteínas. La cabecera de este archivo se puede visualizar en la tabla \ref{tabla:redProteinas}.
+Este archivo contiene una red de interacciones entre proteínas humanas, presentes en la base de datos STRING, junto con una puntuación de los enlaces entre las proteínas. La cabecera de este archivo se puede visualizar en la tabla \ref{tabla:redProteinas}.
 
 %\newcolumntype{C}{>{\centering\arraybackslash} p{4.5cm} }
 
@@ -104,9 +112,16 @@ Este archivo contiene una red de interacciones entre proteínas humanas, present
 	\end{tabular}
 \end{table}
 
-Cada fila contiene el StringID de las dos proteínas que interactúan, junto con el \textit{combined score}. Esta puntuación se calcula al combinar las probabilidades de diferentes canales de evidencia y se corrige por la probabilidad de observar una interacción al azar \cite{String2021}.
+Cada fila contiene el StringID de las dos proteínas que interactúan, junto con el \textit{combined score}. Esta puntuación se calcula al combinar las probabilidades de diferentes canales de evidencia y se corrige por la probabilidad de observar una interacción al azar.
 
-% AÑADIR EN UN ANEXO QUE SE HA FILTRADO
+Este archivo es demasiado grande para subirlo al repositorio, por lo que se ha filtrado por el \textit{combined score} utilizando expresiones regulares:
+
+\begin{verbatim}
+	awk -F" " '$3 > 800 {print $0}'
+	9606.protein.links.v12.0.txt > proteinas_filtrado.txt
+\end{verbatim}
+
+De esta forma, nos quedamos con aquellas interacciones que tengan una puntuación mayor a 800.
 
 \subsection{Grafo bipartito}
 
@@ -134,9 +149,21 @@ Para llevar a cabo este proceso, existen diferentes algoritmos, entre los cuales
 Este algoritmo toma como parámetros nuestra red de genes, la red de interacciones de proteínas (filtrada), el número de genes que queremos que tenga el grafo final, y el nombre del archivo donde se va a guardar la red ampliada.
 
 \begin{verbatim}
-	python DIAMOnD.py proteinas_filtrado.txt grafo_51_genes.txt 200 propaged_genes.txt
+	python DIAMOnD.py proteinas_filtrado.txt grafo_51_genes.txt 200
+	propaged_genes.txt
 \end{verbatim}
 
 \subsection{Detección de comunidades}
 
 Para estudiar el grafo ampliado y la relación de los nuevos genes añadidos con el HPO de interés, se ha llevado a cabo un análisis de comunidades.
+
+La detección de comunidades consiste en fragmentar el grafo en conjuntos de nodos, denominados "comunidades", teniendo en cuenta la topología de la red. En resumen, puede conceptualizarse como un proceso de agrupamiento (clustering) aplicado a grafos. Aunque no hay una definición única de comunidad aceptada por la comunidad científica, generalmente se considera que una comunidad es de calidad cuando muestra más conexiones internas que externas. En otras palabras, los nodos dentro de la comunidad están más densamente conectados entre sí en comparación con los nodos fuera de la comunidad en el grafo \cite{PanizoLledot}.
+
+Para hacer la detecciónn de comunidades del grafo se ha usado uno de los algortimos proporcionados por el paquete NetworkX,\textit{ greedy\_modularity\_communities}. Este algoritmo utiliza la maximización de modularidad avariciosa de Clauset-Newman-Moore \cite{Clauset2004} para encontrar la partición de comunidades con la mayor modularidad.
+
+
+\subsection{Enriquecimiento funcional}
+
+El análisis funcional de genes implica registrar y analizar estadísticamente listas de genes con el objetivo de identificar anotaciones funcionales en relación con los genes analizados. El propósito principal es determinar si existe una asociación significativa entre los genes y las funciones específicas que desempeñan en procesos biológicos, rutas metabólicas u otras categorías funcionales. 
+
+El enriquecimiento funcional se ha llevado a cabo utilizando el paquete String de Python, específicamente la función \textit{get\_enrichment}. Este análisis se ha realizado en varias ocasiones: una vez para el grafo ampliado y otra para cada una de las comunidades detectadas en la sección anterior.
