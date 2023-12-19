@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  19 DEC 2023 12:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  19 DEC 2023 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -507,9 +507,9 @@ Overfull \hbox (60.07156pt too wide) in paragraph at lines 147--161
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <../results/graph_communities.png>] [9]) (tex_files/discusion.tex)
-(tex_files/conclusiones.tex) (report.bbl) [10
+(tex_files/conclusiones.tex) (report.bbl [10
 
-]
+]) [11]
 
 enddocument/afterlastpage: lastpage setting LastPage.
 (report.aux)
@@ -526,13 +526,13 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: B7BC31ECE0CE6A5A09EA44A24DDCFB25;2211.
  ) 
 Here is how much of TeX's memory you used:
- 10516 strings out of 475247
- 163294 string characters out of 5757792
+ 10519 strings out of 475247
+ 163317 string characters out of 5757792
  1941785 words of memory out of 5000000
- 31823 multiletter control sequences out of 15000+600000
+ 31825 multiletter control sequences out of 15000+600000
  568055 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,10n,79p,1340b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,10n,79p,1340b,600s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss
 0700.pk> <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcsx0800.pk> <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -553,9 +553,9 @@ ype1/public/amsfonts/cm/cmsy6.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nerea/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/nerea/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on report.pdf (10 pages, 1091131 bytes).
+Output written on report.pdf (11 pages, 1096347 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
+ 331 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
  144 words of extra memory for PDF output out of 10000 (max. 10000000)
 
