@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  19 DEC 2023 22:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  19 DEC 2023 23:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -418,72 +418,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
+LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <8> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 6.
+[1{C:/Users/nerea/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 10.
-[1{C:/Users/nerea/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
-
-])
-(tex_files/material_methods.tex
-<figures/workflow.png, id=100, 670.00313pt x 907.13907pt>
+) (tex_files/material_methods.tex
+<figures/workflow.png, id=90, 670.00313pt x 907.13907pt>
 File: figures/workflow.png Graphic file (type png)
 <use figures/workflow.png>
 Package pdftex.def Info: figures/workflow.png  used on input line 9.
 (pdftex.def)             Requested size: 252.6989pt x 342.128pt.
- [2 <./figures/workflow.png>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Overfull \hbox (36.11526pt too wide) in paragraph at lines 38--51
  [][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3] [4] [5]) (tex_files/resultados.tex
+[2] [3 <./figures/workflow.png>] [4] [5]) (tex_files/resultados.tex
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
 15.
 
 (C:\Users\nerea\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-<figures/stringdb_51_genes.png, id=165, 876.27374pt x 737.00343pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/stringdb_51_genes.png, id=160, 876.27374pt x 737.00343pt>
 File: figures/stringdb_51_genes.png Graphic file (type png)
 <use figures/stringdb_51_genes.png>
 Package pdftex.def Info: figures/stringdb_51_genes.png  used on input line 39.
 (pdftex.def)             Requested size: 252.6989pt x 212.53346pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
+[6]
 Overfull \hbox (14.1245pt too wide) in paragraph at lines 50--60
  [][] 
  []
 
-[6]
-<../results/graph_communities.png, id=178, 462.528pt x 346.896pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./figures/stringdb_51_genes.png>]
+<../results/graph_communities.png, id=182, 462.528pt x 346.896pt>
 File: ../results/graph_communities.png Graphic file (type png)
 <use ../results/graph_communities.png>
 Package pdftex.def Info: ../results/graph_communities.png  used on input line 7
 1.
 (pdftex.def)             Requested size: 252.6989pt x 189.5283pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7 <./figures/stringdb_51_genes.png>]
-Overfull \hbox (43.7489pt too wide) in paragraph at lines 89--103
- [][] 
- []
-
-
-Overfull \hbox (75.63268pt too wide) in paragraph at lines 110--123
+Overfull \hbox (34.22153pt too wide) in paragraph at lines 89--103
  [][] 
  []
 
@@ -491,7 +484,7 @@ Overfull \hbox (75.63268pt too wide) in paragraph at lines 110--123
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (59.8438pt too wide) in paragraph at lines 129--141
+Overfull \hbox (61.65552pt too wide) in paragraph at lines 110--123
  [][] 
  []
 
@@ -499,17 +492,57 @@ Overfull \hbox (59.8438pt too wide) in paragraph at lines 129--141
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (60.07156pt too wide) in paragraph at lines 147--161
+Overfull \hbox (45.86664pt too wide) in paragraph at lines 129--141
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8 <../results/graph_communities.png>] [9]) (tex_files/discusion.tex)
-(tex_files/conclusiones.tex) (report.bbl [10
 
-]) [11]
+Overfull \hbox (46.0944pt too wide) in paragraph at lines 147--161
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 <../results/graph_communities.png>] [9]) (tex_files/discusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+) [10
+
+] (report.bbl [11]) [12]
 
 enddocument/afterlastpage: lastpage setting LastPage.
 (report.aux)
@@ -523,16 +556,16 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: B7BC31ECE0CE6A5A09EA44A24DDCFB25;2211.
+(rerunfilecheck)             Checksum: 9D69350DBE4FC8D879A22C05A6F30742;2107.
  ) 
 Here is how much of TeX's memory you used:
- 10519 strings out of 475247
- 163317 string characters out of 5757792
- 1941785 words of memory out of 5000000
- 31825 multiletter control sequences out of 15000+600000
+ 10518 strings out of 475247
+ 163148 string characters out of 5757792
+ 1949785 words of memory out of 5000000
+ 31823 multiletter control sequences out of 15000+600000
  568055 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,10n,79p,1340b,600s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,10n,79p,1340b,720s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss
 0700.pk> <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcsx0800.pk> <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -553,9 +586,9 @@ ype1/public/amsfonts/cm/cmsy6.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nerea/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/nerea/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on report.pdf (11 pages, 1096347 bytes).
+Output written on report.pdf (12 pages, 1103529 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 74 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

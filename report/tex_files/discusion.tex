@@ -1,25 +1,44 @@
 \section{Discusión}
 
-Tras observar los genes con los que se relacionan y las comunidades que forman, resalta que la mayoría de ellos participan en actividades relacionadas con la reparación, formación y procesos metabólicos del ADN.
+Tras observar los genes con los que se relacionan y las comunidades que forman (tabla \ref{tabla:enrique200}), resalta que la mayoría de ellos participan en actividades relacionadas con la reparación, formación y procesos metabólicos del ADN.\\
 
-(IMAGEN TABLA 6)
+Además, si nos fijamos en estudios previamente realizados en torno a comunidades compuestas por los genes en cuestión, se desarrollan en este mismo contexto de reparación genómico. El artículo de Mota, M.B.S. et al. \cite{Mota2019} relaciona genes que aparecen en nuestro grafo, como H2AX, TP53BP1, RAD51 y EXO1, con la reparación de roturas de doble cadena, que es una de las principales vías de reparación.\\
 
-Además, si nos fijamos en estudios previamente realizados en torno a comunidades compuestas por los genes en cuestión, se desarrollan en este mismo contexto de reparación genómico (INTRODUCIR REFERENCIAS Y RELACIONAR CON ELLAS)
+Por otro lado, los HPOs mayoritariamente relacionados con la disgrafía también forman parte de trastornos mentales o psicológicos como la depresión, ansiedad o problemas en la sincronización de la marcha (tabla \ref{tab:dysgraphia-relaciones}). De esta manera podemos centralizar que efectivamente es una afección cerebral y no motora muscular.\\
 
-Por otro lado, los HPOs mayoritariamente relacionados con la disgrafía también forman parte de trastornos mentales o psicológicos como la depresión, ansiedad o problemas en la sincronización de la marcha. De esta manera podemos centralizar que efectivamente es una afección cerebral y no motora muscular.
+Sin embargo, lo anteriormente explicado no implica un gran descubrimiento acerca de este fenotipo, las primeras relaciones obtenidas en el estudio resultan ser ya conocidas u obvias. Es por ello que investigando más profundamente y buscando patrones comunes en los archivos de enriquecimiento, hemos encontrado dos relaciones comunes menos intuitivas y por tanto más significativas.\\
 
-Sin embargo, lo anteriormente explicado no implica un gran descubrimiento acerca de este fenotipo, las primeras relaciones obtenidas en el estudio resultan ser ya conocidas u obvias. Es por ello que investigando más profundamente y buscando patrones comunes en los archivos de enriquecimiento, hemos encontrado dos relaciones comunes menos intuitivas y por tanto más significativas.
-
-(INTRODUCIR AQUÍ MELANOMA Y TP53 ETC)
+Como se ha mencionado anteriormente, muchos de los genes relacionados con disgrafía se encargan de la reparacion del ADN. Estos genes desempeñan un papel importante en el mantenimiento de la integridad genómica y en la protección contra el desarrollo del cáncer. Cuando la primera etapa de eliminar el zonas dañadas en el ADN es más activa que la última etapa de volver a sintetizar el ADN durante el proceso de reparación, este desequilibrio provoca una acumulación excesiva de productos intermedios de ADN sin reparar, lo cual a su vez aumenta el riesgo de mutaciones y cáncer. \cite{Song2012}.\\
 
 Fijando la categoría a 'TISSUES' en el enriquecimiento de los 200 genes, aparecen muchas entradas con descripción derivada del aparato reproductor femenino, así como el desarrollo embrionario: \textit{ Cervical carcinoma cell, Embryo, Female reproductive system, Uterus... }
 
-( INTRODUCIR IMAGEN DE CLASIFICACIÓN DE 'TISSUES' )
+\begin{table}[h]
+	\centering
+	\caption{Datos sobre la categoría 'TISSUES' en el enriquecimiento de los 200 genes.}
+	\label{tab:datos-tissues}
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		\textbf{Categoría} & \textbf{Nº de genes} & \textbf{p-value} & \textbf{FDR} & \textbf{Descripción} \\
+		\hline
+		TISSUES & 35 & 1.43e-24 & 3.47e-21 & Cervical carcinoma cell \\
+		TISSUES & 48 & 4.1e-18 & 4.97e-15 & Leukemia cell \\
+		TISSUES & 31 & 2.34e-17 & 1.89e-14 & Lymphocytic leukemia cell \\
+		TISSUES & 49 & 2.15e-16 & 1.3e-13 & Blood cancer cell \\
+		TISSUES & 39 & 2.01e-15 & 9.74e-13 & Embryo \\
+		TISSUES & 22 & 4.33e-15 & 1.75e-12 & Pronephros \\
+		TISSUES & 22 & 1.83e-09 & 6.36e-07 & Bone marrow cancer cell \\
+		TISSUES & 16 & 2.55e-09 & 7.73e-07 & Chronic lymphocytic leukemia cell \\
+		TISSUES & 101 & 9.29e-09 & 2.5e-06 & Female reproductive system \\
+		TISSUES & 56 & 1.43e-08 & 3.46e-06 & Organism form \\
+		TISSUES & 5 & 2.36e-08 & 5.21e-06 & U2-OS cell \\
+		TISSUES & 53 & 2.42e-08 & 5.21e-06 & Embryonic structure \\
+		TISSUES & 103 & 3.74e-08 & 6.97e-06 & Reproductive system \\
+		\hline
+	\end{tabular}
+	
+\end{table}
 
-Esta segmentación puede ser muy significativa dando pie a hipótesis sobre si el origen de la disgrafía está relacionada con el desarrollo embrionario o con la concepción. Además, se puede hilar a la alta interacción de estos genes con afecciones cancerígenas puesto que aparecen entradas sobre cáncer ovárico en el enriquecimiento.
+Esta segmentación puede ser muy significativa dando pie a hipótesis sobre si el origen de la disgrafía está relacionada con el desarrollo embrionario o con la concepción. Además, se puede hilar a la alta interacción de estos genes con afecciones cancerígenas puesto que aparecen entradas sobre cáncer ovárico en el enriquecimiento \cite{Mad2014}.\\
 
 En general, se han encontrado varias posibles relaciones de la disgrafía con otras patologías, fenotipos y tejidos. De esta manera logramos ampliar el conocimiento sobre este HPO y focalizar su área de efecto para proponer tratamientos parecidos a estas relaciones resultantes.
 
-
-
-El objetivo de este proyecto será encontrar relaciones entre los genes que componen este HPO. Tanto funcionales como estructurales con el fin de definir fenotipos derivados, zonas anatómicas críticas interesantes de estudio o enfermedades en concreto que incluyen nuestra patología.

@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{18}
+\begin{thebibliography}{21}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -222,6 +222,31 @@ doi:\doiurl{10.1093/nar/gkaa1043}
 \endbibitem
 
 %%% 10
+\bibitem{String2021}
+\begin{barticle}
+\bauthor{\bsnm{Szklarczyk}, \binits{D.}},
+\bauthor{\bsnm{Gable}, \binits{A.L.}},
+\bauthor{\bsnm{Nastou}, \binits{K.C.}},
+\bauthor{\bsnm{Lyon}, \binits{D.}},
+\bauthor{\bsnm{Kirsch}, \binits{R.}},
+\bauthor{\bsnm{Pyysalo}, \binits{S.}},
+\bauthor{\bsnm{Doncheva}, \binits{N.T.}},
+\bauthor{\bsnm{Legeay}, \binits{M.}},
+\bauthor{\bsnm{Fang}, \binits{T.}},
+\bauthor{\bsnm{Bork}, \binits{P.}},
+\bauthor{\bsnm{Jensen}, \binits{L.J.}},
+\bauthor{\bparticle{von} \bsnm{Mering}, \binits{C.}}:
+\batitle{The string database in 2021: Customizable protein-protein networks,
+  and functional characterization of user-uploaded gene/measurement sets}.
+\bjtitle{Nucleic Acids Research}
+\bvolume{49},
+\bfpage{605}--\blpage{612}
+(\byear{2021}).
+doi:\doiurl{10.1093/nar/gkaa1074}
+\end{barticle}
+\endbibitem
+
+%%% 11
 \bibitem{Sundal2019}
 \begin{barticle}
 \bauthor{\bsnm{Sundal}, \binits{C.}},
@@ -246,7 +271,7 @@ doi:\doiurl{10.1186/s40478-019-0843-y}
 \end{barticle}
 \endbibitem
 
-%%% 11
+%%% 12
 \bibitem{Orphanet2008}
 \begin{barticle}
 \bauthor{\bsnm{Weinreich}, \binits{S.S.}},
@@ -262,38 +287,13 @@ doi:\doiurl{10.1186/s40478-019-0843-y}
 \end{barticle}
 \endbibitem
 
-%%% 12
+%%% 13
 \bibitem{pandasPython}
 \begin{botherref}
 \oauthor{\bsnm{McKinney}, \binits{W.}}:
 pandas: powerful Python data analysis toolkit
 (2012)
 \end{botherref}
-\endbibitem
-
-%%% 13
-\bibitem{String2021}
-\begin{barticle}
-\bauthor{\bsnm{Szklarczyk}, \binits{D.}},
-\bauthor{\bsnm{Gable}, \binits{A.L.}},
-\bauthor{\bsnm{Nastou}, \binits{K.C.}},
-\bauthor{\bsnm{Lyon}, \binits{D.}},
-\bauthor{\bsnm{Kirsch}, \binits{R.}},
-\bauthor{\bsnm{Pyysalo}, \binits{S.}},
-\bauthor{\bsnm{Doncheva}, \binits{N.T.}},
-\bauthor{\bsnm{Legeay}, \binits{M.}},
-\bauthor{\bsnm{Fang}, \binits{T.}},
-\bauthor{\bsnm{Bork}, \binits{P.}},
-\bauthor{\bsnm{Jensen}, \binits{L.J.}},
-\bauthor{\bparticle{von} \bsnm{Mering}, \binits{C.}}:
-\batitle{The string database in 2021: Customizable protein-protein networks,
-  and functional characterization of user-uploaded gene/measurement sets}.
-\bjtitle{Nucleic Acids Research}
-\bvolume{49},
-\bfpage{605}--\blpage{612}
-(\byear{2021}).
-doi:\doiurl{10.1093/nar/gkaa1074}
-\end{barticle}
 \endbibitem
 
 %%% 14
@@ -359,6 +359,55 @@ Finding community structure in very large networks.
 Phys. Rev. E
 \textbf{70}
 (2004)
+\end{botherref}
+\endbibitem
+
+%%% 19
+\bibitem{Mota2019}
+\begin{barticle}
+\bauthor{\bsnm{Mota}, \binits{M.B.S.}},
+\bauthor{\bsnm{Carvalho}, \binits{M.A.}},
+\bauthor{\bsnm{Monteiro}, \binits{A.N.A.}},
+\bauthor{\bsnm{Mesquita}, \binits{R.D.}}:
+\batitle{Dna damage response and repair in perspective: Aedes aegypti,
+  drosophila melanogaster and homo sapiens}.
+\bvolume{12},
+\bfpage{533}
+(\byear{2019}).
+doi:\doiurl{10.1186/s13071-019-3792-1}
+\end{barticle}
+\endbibitem
+
+%%% 20
+\bibitem{Song2012}
+\begin{barticle}
+\bauthor{\bsnm{Song}, \binits{F.}},
+\bauthor{\bsnm{Qureshi}, \binits{A.A.}},
+\bauthor{\bsnm{Zhan}, \binits{J.}},
+\bauthor{\bsnm{Amos}, \binits{C.I.}},
+\bauthor{\bsnm{Lee}, \binits{J.E.}},
+\bauthor{\bsnm{Wei}, \binits{Q.}},
+\bauthor{\bsnm{Han}, \binits{J.}}:
+\batitle{Exonuclease 1 (exo1) gene variation and melanoma risk}.
+\bjtitle{DNA Repair}
+\bvolume{11},
+\bfpage{304}--\blpage{309}
+(\byear{2012}).
+doi:\doiurl{10.1016/j.dnarep.2011.12.005}
+\end{barticle}
+\endbibitem
+
+%%% 21
+\bibitem{Mad2014}
+\begin{botherref}
+\oauthor{\bsnm{Madhusudan}, \binits{S.}},
+\oauthor{\bsnm{Abbotts}, \binits{R.}},
+\oauthor{\bsnm{Thompson}, \binits{N.}}:
+Dna repair in cancer: emerging targets for personalized therapy.
+Cancer Management and Research,
+77
+(2014).
+doi:\doiurl{10.2147/CMAR.S50497}
 \end{botherref}
 \endbibitem
 
@@ -548,53 +597,6 @@ Phys. Rev. E
 </bibl>
 
 <bibl id="B10">
-  <title><p>An AARS variant as the likely cause of Swedish type hereditary
-  diffuse leukoencephalopathy with spheroids.</p></title>
-  <aug>
-    <au><snm>Sundal</snm><fnm>C</fnm></au>
-    <au><snm>Carmona</snm><fnm>S</fnm></au>
-    <au><snm>Yhr</snm><fnm>M</fnm></au>
-    <au><snm>Almström</snm><fnm>O</fnm></au>
-    <au><snm>Ljungberg</snm><fnm>M</fnm></au>
-    <au><snm>Hardy</snm><fnm>J</fnm></au>
-    <au><snm>Hedberg Oldfors</snm><fnm>C</fnm></au>
-    <au><cnm>Fred</cnm></au>
-    <au><snm>Brás</snm><fnm>J</fnm></au>
-    <au><snm>Oldfors</snm><fnm>A</fnm></au>
-    <au><snm>Andersen</snm><fnm>O</fnm></au>
-    <au><snm>Guerreiro</snm><fnm>R</fnm></au>
-  </aug>
-  <source>Acta neuropathologica communications</source>
-  <pubdate>2019</pubdate>
-  <volume>7</volume>
-  <fpage>188</fpage>
-</bibl>
-
-<bibl id="B11">
-  <title><p>[Orphanet: a European database for rare diseases].</p></title>
-  <aug>
-    <au><snm>Weinreich</snm><fnm>S S</fnm></au>
-    <au><snm>Mangon</snm><fnm>R</fnm></au>
-    <au><snm>Sikkens</snm><fnm>J J</fnm></au>
-    <au><snm>Teeuw</snm><fnm>M E</fnm></au>
-    <au><snm>Cornel</snm><fnm>M C</fnm></au>
-  </aug>
-  <source>Nederlands tijdschrift voor geneeskunde</source>
-  <pubdate>2008</pubdate>
-  <volume>152</volume>
-  <fpage>518</fpage>
-  <lpage>9</lpage>
-</bibl>
-
-<bibl id="B12">
-  <title><p>pandas: powerful Python data analysis toolkit</p></title>
-  <aug>
-    <au><snm>McKinney</snm><fnm>W</fnm></au>
-  </aug>
-  <pubdate>2012</pubdate>
-</bibl>
-
-<bibl id="B13">
   <title><p>The STRING database in 2021: Customizable protein-protein networks,
   and functional characterization of user-uploaded gene/measurement
   sets</p></title>
@@ -618,6 +620,53 @@ Phys. Rev. E
   <volume>49</volume>
   <fpage>D605</fpage>
   <lpage>D612</lpage>
+</bibl>
+
+<bibl id="B11">
+  <title><p>An AARS variant as the likely cause of Swedish type hereditary
+  diffuse leukoencephalopathy with spheroids.</p></title>
+  <aug>
+    <au><snm>Sundal</snm><fnm>C</fnm></au>
+    <au><snm>Carmona</snm><fnm>S</fnm></au>
+    <au><snm>Yhr</snm><fnm>M</fnm></au>
+    <au><snm>Almström</snm><fnm>O</fnm></au>
+    <au><snm>Ljungberg</snm><fnm>M</fnm></au>
+    <au><snm>Hardy</snm><fnm>J</fnm></au>
+    <au><snm>Hedberg Oldfors</snm><fnm>C</fnm></au>
+    <au><cnm>Fred</cnm></au>
+    <au><snm>Brás</snm><fnm>J</fnm></au>
+    <au><snm>Oldfors</snm><fnm>A</fnm></au>
+    <au><snm>Andersen</snm><fnm>O</fnm></au>
+    <au><snm>Guerreiro</snm><fnm>R</fnm></au>
+  </aug>
+  <source>Acta neuropathologica communications</source>
+  <pubdate>2019</pubdate>
+  <volume>7</volume>
+  <fpage>188</fpage>
+</bibl>
+
+<bibl id="B12">
+  <title><p>[Orphanet: a European database for rare diseases].</p></title>
+  <aug>
+    <au><snm>Weinreich</snm><fnm>S S</fnm></au>
+    <au><snm>Mangon</snm><fnm>R</fnm></au>
+    <au><snm>Sikkens</snm><fnm>J J</fnm></au>
+    <au><snm>Teeuw</snm><fnm>M E</fnm></au>
+    <au><snm>Cornel</snm><fnm>M C</fnm></au>
+  </aug>
+  <source>Nederlands tijdschrift voor geneeskunde</source>
+  <pubdate>2008</pubdate>
+  <volume>152</volume>
+  <fpage>518</fpage>
+  <lpage>9</lpage>
+</bibl>
+
+<bibl id="B13">
+  <title><p>pandas: powerful Python data analysis toolkit</p></title>
+  <aug>
+    <au><snm>McKinney</snm><fnm>W</fnm></au>
+  </aug>
+  <pubdate>2012</pubdate>
 </bibl>
 
 <bibl id="B14">
@@ -680,6 +729,52 @@ Phys. Rev. E
   <source>Phys. Rev. E</source>
   <pubdate>2004</pubdate>
   <volume>70</volume>
+</bibl>
+
+<bibl id="B19">
+  <title><p>DNA damage response and repair in perspective: Aedes aegypti,
+  Drosophila melanogaster and Homo sapiens</p></title>
+  <aug>
+    <au><snm>Mota</snm><fnm>MBS</fnm></au>
+    <au><snm>Carvalho</snm><fnm>MA</fnm></au>
+    <au><snm>Monteiro</snm><fnm>ANA</fnm></au>
+    <au><snm>Mesquita</snm><fnm>RD</fnm></au>
+  </aug>
+  <source>Parasites & Vectors</source>
+  <pubdate>2019</pubdate>
+  <volume>12</volume>
+  <fpage>533</fpage>
+</bibl>
+
+<bibl id="B20">
+  <title><p>Exonuclease 1 (EXO1) gene variation and melanoma risk</p></title>
+  <aug>
+    <au><snm>Song</snm><fnm>F</fnm></au>
+    <au><snm>Qureshi</snm><fnm>AA</fnm></au>
+    <au><snm>Zhan</snm><fnm>J</fnm></au>
+    <au><snm>Amos</snm><fnm>CI</fnm></au>
+    <au><snm>Lee</snm><fnm>JE</fnm></au>
+    <au><snm>Wei</snm><fnm>Q</fnm></au>
+    <au><snm>Han</snm><fnm>J</fnm></au>
+  </aug>
+  <source>DNA Repair</source>
+  <pubdate>2012</pubdate>
+  <volume>11</volume>
+  <fpage>304</fpage>
+  <lpage>309</lpage>
+</bibl>
+
+<bibl id="B21">
+  <title><p>DNA repair in cancer: emerging targets for personalized
+  therapy</p></title>
+  <aug>
+    <au><snm>Madhusudan</snm><fnm>S</fnm></au>
+    <au><snm>Abbotts</snm><fnm>R</fnm></au>
+    <au><snm>Thompson</snm><fnm>N</fnm></au>
+  </aug>
+  <source>Cancer Management and Research</source>
+  <pubdate>2014</pubdate>
+  <fpage>77</fpage>
 </bibl>
 
 </refgrp>
