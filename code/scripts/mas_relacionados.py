@@ -101,8 +101,12 @@ def visualizar_grafo_bipartito_circular(grafo, dpi=300):
 
 
 visualizar_grafo_bipartito_circular(grafoMasRelacion)
+<<<<<<< HEAD
 
 
+=======
+plt.figure()
+>>>>>>> 5c9c9305b92516949272d15e29247bb3747b4173
 datos = resultado["relaciones_con_dysgraphia"]
 plt.figure(figsize=(15, 5))
 plt.hist(datos, bins=20, color='blue', alpha=0.7)
