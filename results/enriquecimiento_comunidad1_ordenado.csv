@@ -20,68 +20,68 @@ PMID	49	2.85e-78	1.25e-71	(2012) Exonuclease 1 (EXO1) gene variation and melanom
 RCTM	37	1.56e-70	5.1e-68	Presynaptic phase of homologous DNA pairing and strand exchange
 RCTM	37	2.9999999999999995e-70	8.56e-68	Defective homologous recombination repair (HRR) due to BRCA2 loss of function
 Process	49	5.25e-69	8.23e-66	DNA recombination
-PMID	44	1.2999999999999998e-69	2.84e-63	(2010) The DNA damage response: making it safe to play with knives.
+PMID	44	1.2999999999999998e-69	2.85e-63	(2010) The DNA damage response: making it safe to play with knives.
 RCTM	34	3e-64	6.23e-62	HDR through Single Strand Annealing (SSA)
 WikiPathways	38	9.450000000000001e-64	7.379999999999999e-61	DNA IR-damage and cellular response via ATR
 Process	45	9.13e-64	1.1000000000000001e-60	Double-strand break repair
 KEGG	35	5.41e-63	1.8199999999999998e-60	Fanconi anemia pathway
 WikiPathways	40	2.27e-62	8.88e-60	DNA repair pathways, full network
 RCTM	37	8.51e-62	1.6200000000000001e-59	Processing of DNA double-strand break ends
-PMID	40	6.78e-65	9.89e-59	(2015) DNA repair mechanisms in cancer development and therapy.
+PMID	40	6.78e-65	9.910000000000001e-59	(2015) DNA repair mechanisms in cancer development and therapy.
 RCTM	32	1.43e-60	2.5100000000000002e-58	Impaired BRCA2 binding to RAD51
 Component	72	7.709999999999999e-60	1.58e-56	Chromosome
-PMID	35	2.46e-62	2.6900000000000003e-56	(2020) The FANCBRCA Pathway Releases Replication Blockades by Eliminating DNA Interstrand Cross-Links.
-PMID	39	7.38e-62	6.46e-56	(2014) Emergence and evolutionary analysis of the human DDR network: implications in comparative genomics and downstream analyses.
+PMID	35	2.46e-62	2.7e-56	(2020) The FANCBRCA Pathway Releases Replication Blockades by Eliminating DNA Interstrand Cross-Links.
+PMID	39	7.38e-62	6.47e-56	(2014) Emergence and evolutionary analysis of the human DDR network: implications in comparative genomics and downstream analyses.
 RCTM	35	4.42e-58	7.210000000000001e-56	G2/M DNA damage checkpoint
-PMID	35	1.05e-61	7.650000000000001e-56	(2017) The Role of PALB2 in the DNA Damage Response and Cancer Predisposition.
-PMID	35	1.05e-61	7.650000000000001e-56	(2016) Cellular response to DNA interstrand crosslinks: the Fanconi anemia pathway.
-PMID	35	1.68e-61	9.18e-56	(2019) Holding All the Cards-How Fanconi Anemia Proteins Deal with Replication Stress and Preserve Genomic Stability.
-PMID	37	1.7899999999999997e-61	9.18e-56	(2013) DNA damage tolerance: a double-edged sword guarding the genome.
+PMID	35	1.05e-61	7.66e-56	(2017) The Role of PALB2 in the DNA Damage Response and Cancer Predisposition.
+PMID	35	1.05e-61	7.66e-56	(2016) Cellular response to DNA interstrand crosslinks: the Fanconi anemia pathway.
+PMID	35	1.68e-61	9.190000000000001e-56	(2019) Holding All the Cards-How Fanconi Anemia Proteins Deal with Replication Stress and Preserve Genomic Stability.
+PMID	37	1.7899999999999997e-61	9.190000000000001e-56	(2013) DNA damage tolerance: a double-edged sword guarding the genome.
 NetworkNeighborAL	31	4.76e-58	2.72e-55	Resolution of D-loop Structures through Holliday Junction Intermediates, and RIDDLE syndrome
 PMID	37	3.04e-60	1.3299999999999997e-54	(2021) DNA folds threaten genetic stability and can be leveraged for chemotherapy.
-PMID	34	9.67e-60	3.8499999999999996e-54	(2019) The Fanconi Anemia Pathway in Cancer.
+PMID	34	9.67e-60	3.8599999999999994e-54	(2019) The Fanconi Anemia Pathway in Cancer.
 PMID	33	2.84e-59	1.04e-53	(2016) Interplay between Fanconi anemia and homologous recombination pathways in genome integrity.
 Process	37	1.43e-56	1.4999999999999999e-53	Recombinational repair
 Process	41	3.2500000000000003e-56	3.19e-53	DNA replication
-PMID	34	2.21e-58	7.43e-53	(2017) Maintenance of genome stability by Fanconi anemia proteins.
+PMID	34	2.21e-58	7.44e-53	(2017) Maintenance of genome stability by Fanconi anemia proteins.
 Process	36	4.71e-55	4.35e-52	Double-strand break repair via homologous recombination
-PMID	31	1.62e-57	5.059999999999999e-52	(2017) A never-ending story: the steadily growing family of the FA and FA-like genes.
-PMID	35	2.68e-57	7.829999999999999e-52	(2019) DNA Damage Response Pathways in Dinoflagellates.
+PMID	31	1.62e-57	5.07e-52	(2017) A never-ending story: the steadily growing family of the FA and FA-like genes.
+PMID	35	2.68e-57	7.84e-52	(2019) DNA Damage Response Pathways in Dinoflagellates.
 RCTM	37	2.62e-53	3.99e-51	G2/M Checkpoints
 PMID	35	1.04e-55	2.85e-50	(2021) Mass spectrometry-based protein-protein interaction techniques and their applications in studies of DNA damage repair.
 RCTM	28	3.39e-52	4.84e-50	Resolution of D-loop Structures through Holliday Junction Intermediates
-PMID	35	2.6499999999999998e-55	6.82e-50	(2019) Tissue specificity of DNA damage response and tumorigenesis.
-PMID	34	3.13e-54	7.62e-49	(2014) DNA repair in cancer: emerging targets for personalized therapy.
-PMID	34	4.31e-54	9.92e-49	(2018) Integrating the DNA damage and protein stress responses during cancer development and treatment.
+PMID	35	2.6499999999999998e-55	6.83e-50	(2019) Tissue specificity of DNA damage response and tumorigenesis.
+PMID	34	3.13e-54	7.63e-49	(2014) DNA repair in cancer: emerging targets for personalized therapy.
+PMID	34	4.31e-54	9.94e-49	(2018) Integrating the DNA damage and protein stress responses during cancer development and treatment.
 Component	82	4.56e-51	4.67e-48	Nucleoplasm
-PMID	33	3.4299999999999997e-53	7.509999999999999e-48	(2016) The multifaceted influence of histone deacetylases on DNA damage signalling and DNA repair.
-PMID	29	4.17e-53	8.700000000000001e-48	(2017) Recent discoveries in the molecular pathogenesis of the inherited bone marrow failure syndrome Fanconi anemia.
+PMID	33	3.4299999999999997e-53	7.519999999999999e-48	(2016) The multifaceted influence of histone deacetylases on DNA damage signalling and DNA repair.
+PMID	29	4.17e-53	8.71e-48	(2017) Recent discoveries in the molecular pathogenesis of the inherited bone marrow failure syndrome Fanconi anemia.
 RCTM	32	8.06e-50	1.02e-47	Regulation of TP53 Activity through Phosphorylation
 PMID	30	5.45e-53	1.09e-47	(2017) DNA damage response and cancer therapeutics through the lens of the Fanconi Anemia DNA repair pathway.
 PMID	29	1.05e-51	2e-46	(2015) Exploiting the Fanconi Anemia Pathway for Targeted Anti-Cancer Therapy.
-PMID	32	2.64e-51	4.8099999999999995e-46	(2018) Ubiquitylation at the Fork: Making and Breaking Chains to Complete DNA Replication.
-PMID	29	2.85e-51	4.8099999999999995e-46	(2012) Rescue of replication failure by Fanconi anaemia proteins.
-PMID	32	2.64e-51	4.8099999999999995e-46	(2017) Around and beyond 53BP1 Nuclear Bodies.
-PMID	30	3.23e-51	5.24e-46	(2019) PARP inhibitors in ovarian cancer: Sensitivity prediction and resistance mechanisms.
-PMID	30	3.23e-51	5.24e-46	(2020) Canonical and Noncanonical Roles of Fanconi Anemia Proteins: Implications in Cancer Predisposition.
-PMID	32	5.05e-51	7.63e-46	(2021) miR-27b-3p a Negative Regulator of DSB-DNA Repair.
-PMID	36	5.96e-51	8.7e-46	(2021) Proteins from the DNA Damage Response: Regulation, Dysfunction, and Anticancer Strategies.
+PMID	32	2.64e-51	4.8199999999999996e-46	(2018) Ubiquitylation at the Fork: Making and Breaking Chains to Complete DNA Replication.
+PMID	29	2.85e-51	4.8199999999999996e-46	(2012) Rescue of replication failure by Fanconi anaemia proteins.
+PMID	32	2.64e-51	4.8199999999999996e-46	(2017) Around and beyond 53BP1 Nuclear Bodies.
+PMID	30	3.23e-51	5.25e-46	(2019) PARP inhibitors in ovarian cancer: Sensitivity prediction and resistance mechanisms.
+PMID	30	3.23e-51	5.25e-46	(2020) Canonical and Noncanonical Roles of Fanconi Anemia Proteins: Implications in Cancer Predisposition.
+PMID	32	5.05e-51	7.64e-46	(2021) miR-27b-3p a Negative Regulator of DSB-DNA Repair.
+PMID	36	5.96e-51	8.71e-46	(2021) Proteins from the DNA Damage Response: Regulation, Dysfunction, and Anticancer Strategies.
 PMID	30	1.12e-50	1.58e-45	(2020) DNA Repair Syndromes and Cancer: Insights Into Genetics and Phenotype Patterns.
 PMID	31	1.32e-50	1.81e-45	(2020) Protective Mechanisms Against DNA Replication Stress in the Nervous System.
 COMPARTMENTS	76	2.1199999999999998e-48	2.4399999999999998e-45	Intracellular non-membrane-bounded organelle
 COMPARTMENTS	83	3.5899999999999996e-48	2.4399999999999998e-45	Nucleus
 RCTM	48	3.29e-47	3.96e-45	Cell Cycle
-PMID	28	3.19e-50	4.23e-45	(2015) What is the DNA repair defect underlying Fanconi anemia?
-PMID	31	3.75e-50	4.83e-45	(2019) Proteolytic control of genome integrity at the replication fork.
-PMID	29	7.2700000000000005e-50	9.1e-45	(2021) Mind the replication gap.
+PMID	28	3.19e-50	4.2399999999999995e-45	(2015) What is the DNA repair defect underlying Fanconi anemia?
+PMID	31	3.75e-50	4.84e-45	(2019) Proteolytic control of genome integrity at the replication fork.
+PMID	29	7.2700000000000005e-50	9.109999999999999e-45	(2021) Mind the replication gap.
 PMID	28	8.9e-50	1.0800000000000001e-44	(2011) DNA interstrand crosslink repair and cancer.
 RCTM	26	1.31e-46	1.5e-44	Fanconi Anemia Pathway
 RCTM	38	2.77e-46	3.01e-44	Cell Cycle Checkpoints
 PMID	29	2.62e-49	3.1000000000000003e-44	(2020) Fanconi anemia pathway as a prospective target for cancer intervention.
-PMID	30	4.99e-49	5.75e-44	(2013) Human single-stranded DNA binding proteins are essential for maintaining genomic stability.
-PMID	29	1.9599999999999998e-48	2.2e-43	(2022) Type-I Interferon Signaling in Fanconi Anemia.
-PMID	28	2.44e-48	2.6700000000000004e-43	(2020) Under-Replicated DNA: The Byproduct of Large Genomes?
-PMID	28	2.44e-48	2.6700000000000004e-43	(2009) Choreography of recombination proteins during the DNA damage response.
+PMID	30	4.99e-49	5.76e-44	(2013) Human single-stranded DNA binding proteins are essential for maintaining genomic stability.
+PMID	29	1.9599999999999998e-48	2.21e-43	(2022) Type-I Interferon Signaling in Fanconi Anemia.
+PMID	28	2.44e-48	2.68e-43	(2020) Under-Replicated DNA: The Byproduct of Large Genomes?
+PMID	28	2.44e-48	2.68e-43	(2009) Choreography of recombination proteins during the DNA damage response.
 PMID	32	3.87e-48	4.04e-43	(2021) Zebrafish Cancer Predisposition Models.
 COMPARTMENTS	28	2.76e-45	1.2699999999999999e-42	Replication fork
 PMID	29	1.2900000000000001e-47	1.3099999999999999e-42	(2013) DNA double-strand break repair as determinant of cellular radiosensitivity to killing and target in radiation therapy.
@@ -89,31 +89,31 @@ PMID	32	2.27e-47	2.26e-42	(2019) DNA damage response and repair in perspective: 
 PMID	26	2.59e-47	2.5199999999999998e-42	(2021) Implications of the germline variants of DNA damage response genes detected by cancer precision medicine for radiological risk communication and cancer therapy decisions.
 PMID	28	3.13e-47	2.98e-42	(2009) Fanconi anemia proteins, DNA interstrand crosslink repair pathways, and cancer therapy.
 Process	32	5.04e-45	4.1599999999999994e-42	DNA-templated DNA replication
-PMID	25	5.93e-47	5.52e-42	(2015) Update of the human and mouse Fanconi anemia genes.
+PMID	25	5.93e-47	5.529999999999999e-42	(2015) Update of the human and mouse Fanconi anemia genes.
 COMPARTMENTS	62	1.82e-44	6.979999999999999e-42	Nuclear lumen
-PMID	27	7.980000000000001e-47	7.28e-42	(2021) Shaping the BRCAness mutational landscape by alternative double-strand break repair, replication stress and mitotic aberrancies.
+PMID	27	7.980000000000001e-47	7.289999999999999e-42	(2021) Shaping the BRCAness mutational landscape by alternative double-strand break repair, replication stress and mitotic aberrancies.
 PMID	25	1.12e-46	1e-41	(2016) Novel insights into RAD51 activity and regulation during homologous recombination and DNA replication.
 PMID	27	1.25e-46	1.1e-41	(2018) Germline DNA-repair Gene Mutations and Outcomes in Men with Metastatic Castration-resistant Prostate Cancer Receiving First-line Abiraterone and Enzalutamide.
-PMID	25	2.0799999999999998e-46	1.78e-41	(2021) An update on Fanconi anemia: Clinical, cytogenetic and molecular approaches (Review).
+PMID	25	2.0799999999999998e-46	1.79e-41	(2021) An update on Fanconi anemia: Clinical, cytogenetic and molecular approaches (Review).
 PMID	26	3.6599999999999996e-46	3.08e-41	(2014) DNA double-strand break repair pathway choice and cancer.
 PMID	26	3.6599999999999996e-46	3.08e-41	(2018) Rare Genetic Diseases with Defects in DNA Repair: Opportunities and Challenges in Orphan Drug Development for Targeted Cancer Therapy.
 PMID	25	3.8e-46	3.08e-41	(2017) Germline and somatic mutations in homologous recombination genes among Chinese ovarian cancer patients detected using next-generation sequencing.
-PMID	27	7.07e-46	5.63e-41	(2022) Fanconi Anemia Pathway in Colorectal Cancer: A Novel Opportunity for Diagnosis, Prognosis and Therapy.
+PMID	27	7.07e-46	5.64e-41	(2022) Fanconi Anemia Pathway in Colorectal Cancer: A Novel Opportunity for Diagnosis, Prognosis and Therapy.
 RCTM	23	7.49e-43	7.43e-41	Resolution of D-loop Structures through Synthesis-Dependent Strand Annealing (SDSA)
-PMID	26	9.8e-46	7.659999999999999e-41	(2010) BRCA1 and its toolbox for the maintenance of genome integrity.
+PMID	26	9.8e-46	7.68e-41	(2010) BRCA1 and its toolbox for the maintenance of genome integrity.
 PMID	29	1.39e-45	1.07e-40	(2020) Chromosome Instability in Fanconi Anemia: From Breaks to Phenotypic Consequences.
 PMID	25	2.1299999999999998e-45	1.61e-40	(2013) The BLM dissolvasome in DNA replication and repair.
 Process	32	2.4400000000000002e-43	1.91e-40	Cell cycle checkpoint signaling
-PMID	29	3.46e-45	2.5599999999999997e-40	(2021) Fanconi Anemia Pathway Genes Advance Cervical Cancer via Immune Regulation and Cell Adhesion.
+PMID	29	3.46e-45	2.57e-40	(2021) Fanconi Anemia Pathway Genes Advance Cervical Cancer via Immune Regulation and Cell Adhesion.
 PMID	25	3.68e-45	2.6899999999999997e-40	(2013) A novel interplay between the Fanconi anemia core complex and ATR-ATRIP kinase during DNA cross-link repair.
-PMID	27	5.3000000000000003e-45	3.8e-40	(2019) Advances in understanding DNA processing and protection at stalled replication forks.
+PMID	27	5.3000000000000003e-45	3.81e-40	(2019) Advances in understanding DNA processing and protection at stalled replication forks.
 KEGG	24	3.7699999999999996e-42	6.34e-40	Homologous recombination
-PMID	24	9.22e-45	6.51e-40	(2016) FANCM interacts with PCNA to promote replication traverse of DNA interstrand crosslinks.
-PMID	28	1.0600000000000001e-44	7.34e-40	(2019) The genomic landscape of metastatic breast cancer highlights changes in mutation and signature frequencies.
+PMID	24	9.22e-45	6.52e-40	(2016) FANCM interacts with PCNA to promote replication traverse of DNA interstrand crosslinks.
+PMID	28	1.0600000000000001e-44	7.35e-40	(2019) The genomic landscape of metastatic breast cancer highlights changes in mutation and signature frequencies.
 Process	54	1.02e-42	7.609999999999999e-40	Cell cycle
-PMID	27	1.14e-44	7.78e-40	(2021) The emerging determinants of replication fork stability.
-PMID	27	1.14e-44	7.78e-40	(2021) RAD52: Paradigm of Synthetic Lethality and New Developments.
-PMID	28	1.46e-44	9.7e-40	(2020) Bacterial Genotoxin-Induced DNA Damage and Modulation of the Host Immune Microenvironment.
+PMID	27	1.14e-44	7.789999999999999e-40	(2021) The emerging determinants of replication fork stability.
+PMID	27	1.14e-44	7.789999999999999e-40	(2021) RAD52: Paradigm of Synthetic Lethality and New Developments.
+PMID	28	1.46e-44	9.72e-40	(2020) Bacterial Genotoxin-Induced DNA Damage and Modulation of the Host Immune Microenvironment.
 Component	26	2.4799999999999996e-42	1.27e-39	Replication fork
 PMID	29	1.96e-44	1.28e-39	(2019) Deleterious Mutations in DNA Repair Gene FANCC Exist in BRCA12-Negative Chinese Familial Breast andor Ovarian Cancer Patients.
 PMID	26	2.35e-44	1.51e-39	(2009) The Fanconi anemia protein interaction network: casting a wide net.
@@ -121,46 +121,46 @@ PMID	27	2.39e-44	1.51e-39	(2018) Germline Pathogenic Variants in Homologous Reco
 PMID	26	2.35e-44	1.51e-39	(2020) The Regulation of Homologous Recombination by Helicases.
 PMID	27	3.44e-44	2.12e-39	(2021) Genomic Instability and Cancer Risk Associated with Erroneous DNA Repair.
 PMID	26	3.5800000000000003e-44	2.18e-39	(2013) DNA helicases involved in DNA repair and their roles in cancer.
-PMID	25	4.81e-44	2.88e-39	(2015) FANCI Regulates Recruitment of the FA Core Complex at Sites of DNA Damage Independently of FANCD2.
+PMID	25	4.81e-44	2.89e-39	(2015) FANCI Regulates Recruitment of the FA Core Complex at Sites of DNA Damage Independently of FANCD2.
 RCTM	22	3.19e-41	3.04e-39	Defective HDR through Homologous Recombination Repair (HRR) due to PALB2 loss of BRCA2/RAD51/RAD51C binding function
 RCTM	22	3.19e-41	3.04e-39	Defective HDR through Homologous Recombination Repair (HRR) due to PALB2 loss of BRCA1 binding function
 RCTM	22	3.19e-41	3.04e-39	Impaired BRCA2 binding to PALB2
 RCTM	22	3.19e-41	3.04e-39	Defective homologous recombination repair (HRR) due to BRCA1 loss of function
-PMID	27	7.01e-44	4.15e-39	(2015) Hsp90: A New Player in DNA Repair?
+PMID	27	7.01e-44	4.16e-39	(2015) Hsp90: A New Player in DNA Repair?
 PMID	25	7.79e-44	4.55e-39	(2014) Abundance of the Fanconi anaemia core complex is regulated by the RuvBL1 and RuvBL2 AAA+ ATPases.
 PMID	25	7.79e-44	4.55e-39	(2021) Homologous Recombination as a Fundamental Genome Surveillance Mechanism during DNA Replication.
-PMID	26	8.18e-44	4.65e-39	(2018) Methodologies for Improving HDR Efficiency.
-PMID	27	9.94e-44	5.58e-39	(2022) Telomeric replication stress: the beginning and the end for alternative lengthening of telomeres cancers.
-PMID	25	1.25e-43	6.93e-39	(2021) Impact of DNA damage repair defects and aggressive variant features on response to carboplatin-based chemotherapy in metastatic castration-resistant prostate cancer.
+PMID	26	8.18e-44	4.66e-39	(2018) Methodologies for Improving HDR Efficiency.
+PMID	27	9.94e-44	5.59e-39	(2022) Telomeric replication stress: the beginning and the end for alternative lengthening of telomeres cancers.
+PMID	25	1.25e-43	6.94e-39	(2021) Impact of DNA damage repair defects and aggressive variant features on response to carboplatin-based chemotherapy in metastatic castration-resistant prostate cancer.
 Process	29	1.03e-41	7.37e-39	DNA integrity checkpoint signaling
-PMID	24	1.72e-43	9.43e-39	(2009) Fanconi anemia proteins and endogenous stresses.
+PMID	24	1.72e-43	9.45e-39	(2009) Fanconi anemia proteins and endogenous stresses.
 Keyword	81	4.31e-41	9.65e-39	Nucleus
 Process	28	1.75e-41	1.19e-38	Telomere maintenance
 PMID	26	2.68e-43	1.45e-38	(2020) Fanconi anemia and the underlying causes of genomic instability.
 PMID	24	2.97e-43	1.59e-38	(2022) Regulation of Replication Stress in Alternative Lengthening of Telomeres by Fanconi Anaemia Protein.
 RCTM	37	2.18e-40	1.72e-38	Transcriptional Regulation by TP53
-PMID	29	4.73e-43	2.49e-38	(2019) Functional Analysis of the Replication Fork Proteome Identifies BET Proteins as PCNA Regulators.
-PMID	24	5.05e-43	2.6299999999999997e-38	(2017) FANCD2 and DNA Damage.
-PMID	24	5.05e-43	2.6299999999999997e-38	(2016) The Simple Chordate Ciona intestinalis Has a Reduced Complement of Genes Associated with Fanconi Anemia.
+PMID	29	4.73e-43	2.5e-38	(2019) Functional Analysis of the Replication Fork Proteome Identifies BET Proteins as PCNA Regulators.
+PMID	24	5.05e-43	2.64e-38	(2017) FANCD2 and DNA Damage.
+PMID	24	5.05e-43	2.64e-38	(2016) The Simple Chordate Ciona intestinalis Has a Reduced Complement of Genes Associated with Fanconi Anemia.
 Process	47	4.09e-41	2.68e-38	Cell cycle process
 PMID	26	8.36e-43	4.26e-38	(2019) Total copy number variation as a prognostic factor in adult astrocytoma subtypes.
 HPO	25	4.08e-42	4.98e-38	Abnormality of chromosome stability
 Process	39	8.65e-41	5.22e-38	Regulation of cell cycle phase transition
-PMID	25	1.79e-42	9e-38	(2013) Advances in understanding the complex mechanisms of DNA interstrand cross-link repair.
-PMID	25	1.79e-42	9e-38	(2017) S-phase checkpoint regulations that preserve replication and chromosome integrity upon dNTP depletion.
-PMID	25	2.71e-42	1.33e-37	(2019) The BRCA2 mutation status shapes the immune phenotype of prostate cancer.
-PMID	25	2.71e-42	1.33e-37	(2012) Central Role of Ubiquitination in Genome Maintenance: DNA Replication and Damage Repair.
-PMID	24	3.7699999999999996e-42	1.81e-37	(2010) A histone-fold complex and FANCM form a conserved DNA-remodeling complex to maintain genome stability.
-PMID	24	3.7699999999999996e-42	1.81e-37	(2020) Fanconi Anemia Pathway: Mechanisms of Breast Cancer Predisposition Development and Potential Therapeutic Targets.
-PMID	23	4.49e-42	2.1100000000000003e-37	(2019) Mapping global and local coevolution across 600 species to identify novel homologous recombination repair genes.
-PMID	23	4.49e-42	2.1100000000000003e-37	(2020) Common fragile sites: protection and repair.
+PMID	25	1.79e-42	9.009999999999999e-38	(2013) Advances in understanding the complex mechanisms of DNA interstrand cross-link repair.
+PMID	25	1.79e-42	9.009999999999999e-38	(2017) S-phase checkpoint regulations that preserve replication and chromosome integrity upon dNTP depletion.
+PMID	25	2.71e-42	1.34e-37	(2019) The BRCA2 mutation status shapes the immune phenotype of prostate cancer.
+PMID	25	2.71e-42	1.34e-37	(2012) Central Role of Ubiquitination in Genome Maintenance: DNA Replication and Damage Repair.
+PMID	24	3.7699999999999996e-42	1.82e-37	(2010) A histone-fold complex and FANCM form a conserved DNA-remodeling complex to maintain genome stability.
+PMID	24	3.7699999999999996e-42	1.82e-37	(2020) Fanconi Anemia Pathway: Mechanisms of Breast Cancer Predisposition Development and Potential Therapeutic Targets.
+PMID	23	4.49e-42	2.12e-37	(2019) Mapping global and local coevolution across 600 species to identify novel homologous recombination repair genes.
+PMID	23	4.49e-42	2.12e-37	(2020) Common fragile sites: protection and repair.
 PMID	26	4.99e-42	2.3e-37	(2017) The essential kinase ATR: ensuring faithful duplication of a challenging genome.
 PMID	28	6.33e-42	2.8900000000000003e-37	(2018) Mechanisms of Oncogene-Induced Replication Stress: Jigsaw Falling into Place.
 PMID	23	7.9e-42	3.5700000000000003e-37	(2018) The Zebrafish as an Emerging Model to Study DNA Damage in Aging, Cancer and Other Diseases.
-PMID	31	8.769999999999999e-42	3.92e-37	(2014) A fine-scale dissection of the DNA double-strand break repair machinery and its implications for breast cancer therapy.
-PMID	25	9.07e-42	4.0100000000000005e-37	(2019) Phosphorylation of FANCD2 Inhibits the FANCD2FANCI Complex and Suppresses the Fanconi Anemia Pathway in the Absence of DNA Damage.
+PMID	31	8.769999999999999e-42	3.9300000000000005e-37	(2014) A fine-scale dissection of the DNA double-strand break repair machinery and its implications for breast cancer therapy.
+PMID	25	9.07e-42	4.02e-37	(2019) Phosphorylation of FANCD2 Inhibits the FANCD2FANCI Complex and Suppresses the Fanconi Anemia Pathway in the Absence of DNA Damage.
 Function	33	1.01e-40	5.01e-37	Catalytic activity, acting on DNA
-PMID	25	1.34e-41	5.8600000000000005e-37	(2009) Cellular and molecular consequences of defective Fanconi anemia proteins in replication-coupled DNA repair: mechanistic insights.
+PMID	25	1.34e-41	5.870000000000001e-37	(2009) Cellular and molecular consequences of defective Fanconi anemia proteins in replication-coupled DNA repair: mechanistic insights.
 NetworkNeighborAL	21	1.32e-39	6.71e-37	Resolution of D-loop Structures through Holliday Junction Intermediates, and DNA translocase activity
 Process	40	1.16e-38	6.29e-36	Regulation of DNA metabolic process
 Process	47	2.74e-38	1.38e-35	Chromosome organization

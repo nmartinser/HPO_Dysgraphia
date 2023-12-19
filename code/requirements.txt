@@ -1,0 +1,7 @@
+matplotlib==3.8.1
+networkx==3.2.1
+numpy==1.26.2
+pandas==2.1.4
+Requests==2.31.0
+scipy==1.11.4
+stringdb==0.1.5

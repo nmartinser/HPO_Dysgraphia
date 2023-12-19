@@ -26,16 +26,16 @@ Component	31	1.24e-39	2.53e-36	Nuclear chromosome
 Process	57	3.15e-39	5.4800000000000004e-36	Cellular macromolecule metabolic process
 COMPARTMENTS	43	1.21e-38	9.27e-36	Chromosome
 RCTM	23	2.91e-35	6.65e-33	Switching of origins to a post-replicative state
-PMID	24	4.47e-39	9.78e-33	(2018) Microarray gene expression profiling in colorectal (HCT116) and hepatocellular (HepG2) carcinoma cell lines treated with Melicope ptelefolia leaf extract reveals transcriptome profiles exhibiting anticancer activity.
+PMID	24	4.47e-39	9.79e-33	(2018) Microarray gene expression profiling in colorectal (HCT116) and hepatocellular (HepG2) carcinoma cell lines treated with Melicope ptelefolia leaf extract reveals transcriptome profiles exhibiting anticancer activity.
 PMID	22	1.59e-38	2.32e-32	(2021) Congenital Diseases of DNA Replication: Clinical Phenotypes and Molecular Mechanisms.
 COMPARTMENTS	27	4.910000000000001e-35	2.82e-32	protein-DNA complex
 Process	25	2.6e-35	3.4000000000000003e-32	Regulation of DNA replication
 RCTM	19	5.25e-34	1.09e-31	Activation of ATR in response to replication stress
-PMID	20	1.5e-37	1.6400000000000001e-31	(2021) Systemic Analysis of the DNA Replication Regulator MCM Complex in Ovarian Cancer and Its Prognostic Value.
+PMID	20	1.5e-37	1.6500000000000002e-31	(2021) Systemic Analysis of the DNA Replication Regulator MCM Complex in Ovarian Cancer and Its Prognostic Value.
 Component	17	1.63e-33	1.67e-30	DNA polymerase complex
-PMID	20	3.79e-36	3.32e-30	(2017) Integrated genome and transcriptome sequencing identifies a noncoding mutation in the genome replication factor DONSON as the cause of microcephaly-micromelia syndrome.
+PMID	20	3.79e-36	3.33e-30	(2017) Integrated genome and transcriptome sequencing identifies a noncoding mutation in the genome replication factor DONSON as the cause of microcephaly-micromelia syndrome.
 COMPARTMENTS	17	9.6e-33	4.4199999999999995e-30	DNA polymerase complex
-PMID	20	8.720000000000001e-36	6.36e-30	(2020) MCMs in Cancer: Prognostic Potential and Mechanisms.
+PMID	20	8.720000000000001e-36	6.37e-30	(2020) MCMs in Cancer: Prognostic Potential and Mechanisms.
 COMPARTMENTS	63	6.170000000000001e-32	2.3600000000000002e-29	Nucleus
 COMPARTMENTS	16	8.28e-32	2.72e-29	DNA replication preinitiation complex
 RCTM	20	1.48e-31	2.81e-29	Orc1 removal from chromatin
@@ -47,7 +47,7 @@ Process	66	1.76e-31	2.13e-28	Macromolecule metabolic process
 KEGG	17	5.8699999999999996e-30	9.859999999999999e-28	DNA replication
 Component	61	1.58e-30	1.0800000000000001e-27	Nuclear lumen
 Component	59	7.249999999999999e-30	3.7100000000000005e-27	Nucleoplasm
-PMID	18	1.3500000000000002e-32	6.55e-27	(2009) Replication licensing and the DNA damage checkpoint.
+PMID	18	1.3500000000000002e-32	6.56e-27	(2009) Replication licensing and the DNA damage checkpoint.
 COMPARTMENTS	63	3.91e-29	8.18e-27	Protein-containing complex
 Process	31	1.0400000000000001e-29	1.16e-26	Mitotic cell cycle process
 Component	26	5.58e-29	2.29e-26	Transferase complex, transferring phosphorus-containing groups
@@ -61,25 +61,25 @@ Process	33	2.95e-28	2.57e-25	Cellular response to DNA damage stimulus
 PMID	17	7.810000000000001e-31	3.11e-25	(2008) Butyrate induced cell cycle arrest in bovine cells through targeting gene expression relevant to DNA replication apparatus.
 COMPARTMENTS	37	2.4100000000000003e-27	4.27e-25	Nucleoplasm
 Process	66	6.4699999999999995e-28	5.34e-25	Cellular metabolic process
-PMID	18	1.68e-30	6.14e-25	(2020) Molecular mechanisms of eukaryotic origin initiation, replication fork progression, and chromatin maintenance.
-PMID	21	2.38e-30	8.03e-25	(2020) Regulation of cell cycle drivers by Cullin-RING ubiquitin ligases.
+PMID	18	1.68e-30	6.15e-25	(2020) Molecular mechanisms of eukaryotic origin initiation, replication fork progression, and chromatin maintenance.
+PMID	21	2.38e-30	8.04e-25	(2020) Regulation of cell cycle drivers by Cullin-RING ubiquitin ligases.
 Process	66	1.34e-27	1.05e-24	Nitrogen compound metabolic process
 Component	43	5.8e-27	1.98e-24	Chromosome
 PMID	17	1.2300000000000001e-29	3.86e-24	(2018) The Human Replicative Helicase, the CMG Complex, as a Target for Anti-cancer Therapy.
 RCTM	14	3.49e-26	5.31e-24	E2F mediated regulation of DNA replication
-PMID	16	1.8300000000000002e-29	5.35e-24	(2020) Expression Profile and Prognostic Values of Mini-Chromosome Maintenance Families (MCMs) in Breast Cancer.
+PMID	16	1.8300000000000002e-29	5.3599999999999995e-24	(2020) Expression Profile and Prognostic Values of Mini-Chromosome Maintenance Families (MCMs) in Breast Cancer.
 Process	29	8.710000000000001e-27	6.5099999999999996e-24	Regulation of DNA metabolic process
 Process	33	1.04e-26	7.41e-24	Cell cycle process
 Component	62	3.46e-26	1.0099999999999999e-23	Intracellular organelle lumen
 PMID	16	4.45e-29	1.2199999999999999e-23	(2020) MCM10 Acts as a Potential Prognostic Biomarker and Promotes Cell Proliferation in Hepatocellular Carcinoma: Integrated Bioinformatics Analysis and Experimental Validation.
 Process	28	2.2600000000000002e-26	1.54e-23	DNA repair
 RCTM	20	1.11e-25	1.5799999999999998e-23	G2/M Checkpoints
-PMID	19	6.3e-29	1.62e-23	(2012) Transcriptome characterization by RNA-seq unravels the mechanisms of butyrate-induced epigenomic regulation in bovine cells.
+PMID	19	6.3e-29	1.6299999999999997e-23	(2012) Transcriptome characterization by RNA-seq unravels the mechanisms of butyrate-induced epigenomic regulation in bovine cells.
 Component	37	1.41e-25	2.9e-23	Nuclear protein-containing complex
 PMID	15	1.43e-28	3.48e-23	(2020) Elevated expression of minichromosome maintenance 3 indicates poor outcomes and promotes G1S cell cycle progression, proliferation, migration and invasion in colorectal cancer.
 PMID	16	2.28e-28	5.2599999999999997e-23	(2019) Preparation for DNA replication: the key to a successful S phase.
 Component	32	3.1e-25	5.759999999999999e-23	Transferase complex
-PMID	16	3.35e-28	7.319999999999999e-23	(2016) Regulation and Function of Cdt1; A Key Factor in Cell Proliferation and Genome Stability.
+PMID	16	3.35e-28	7.339999999999999e-23	(2016) Regulation and Function of Cdt1; A Key Factor in Cell Proliferation and Genome Stability.
 NetworkNeighborAL	13	6.640000000000001e-26	1.01e-22	CDC6 association with the ORC:origin complex, and Double-strand break repair via break-induced replication
 Process	66	1.58e-25	1.0300000000000001e-22	Primary metabolic process
 PMID	16	1e-27	2.0900000000000002e-22	(2012) Polo-like kinase 1 (Plk1): an Unexpected Player in DNA Replication.
@@ -91,7 +91,7 @@ PMID	16	2e-27	3.5000000000000005e-22	(2012) Emerging players in the initiation o
 PMID	14	2.47e-27	4.16e-22	(2017) Structural basis of Mcm2-7 replicative helicase loading by ORC-Cdc6 and Cdt1.
 NetworkNeighborAL	14	4.78e-25	5.47e-22	Polymerase switching, and Epsilon DNA polymerase complex
 COMPARTMENTS	50	3.6499999999999996e-24	5.600000000000001e-22	Intracellular non-membrane-bounded organelle
-PMID	15	5.78e-27	9.38e-22	(2017) Mechanisms and regulation of DNA replication initiation in eukaryotes.
+PMID	15	5.78e-27	9.39e-22	(2017) Mechanisms and regulation of DNA replication initiation in eukaryotes.
 PMID	14	7.580000000000001e-27	1.19e-21	(2020) Comprehensive Analysis of the Expression and Prognosis for MCMs in Human Gastric Cancer.
 PMID	16	9.910000000000001e-27	1.5e-21	(2014) Molecular mechanisms of DNA replication checkpoint activation.
 PMID	14	1.2900000000000001e-26	1.88e-21	(2013) Mechanisms for initiating cellular DNA replication.
@@ -99,7 +99,7 @@ NetworkNeighborAL	14	3.0499999999999998e-24	2.79e-21	Defective binding of RB1 mu
 Process	67	5.41e-24	3.2600000000000002e-21	Metabolic process
 PMID	14	3.49e-26	4.9300000000000006e-21	(2012) Structural biology of replication initiation factor Mcm10.
 PMID	14	3.49e-26	4.9300000000000006e-21	(2012) Identification of ORC1CDC6-interacting factors in Trypanosoma brucei reveals critical features of origin recognition complex architecture.
-PMID	15	5.57e-26	7.4e-21	(2017) ATR kinase inhibition induces unscheduled origin firing through a Cdc7-dependent association between GINS and And-1.
+PMID	15	5.57e-26	7.410000000000001e-21	(2017) ATR kinase inhibition induces unscheduled origin firing through a Cdc7-dependent association between GINS and And-1.
 NetworkNeighborAL	12	1.1099999999999999e-23	8.44e-21	DNA polymerase complex
 Keyword	28	2.6099999999999997e-23	8.78e-21	Cell cycle
 PMID	17	8.260000000000001e-26	1.06e-20	(2019) Comparative RNA-seq analysis reveals dys-regulation of major canonical pathways in ERG-inducible LNCaP cell progression model of prostate cancer.
@@ -112,20 +112,20 @@ PMID	13	1.24e-25	1.39e-20	(2022) Novel Compound Heterozygous Variants in the CDC
 PMID	16	1.24e-25	1.39e-20	(2018) Nintedanib inhibits growth of human prostate carcinoma cells by modulating both cell cycle and angiogenesis regulators.
 PMID	14	1.38e-25	1.47e-20	(2020) The DNA replication fork suppresses CMG unloading from chromatin before termination.
 PMID	16	2.06e-25	2.15e-20	(2019) CDK1, CCNB1, CDC20, BUB1, MAD2L1, MCM3, BUB1B, MCM2, and RFC4 May Be Potential Therapeutic Targets for Hepatocellular Carcinoma Using Integrated Bioinformatic Analysis.
-PMID	13	2.23e-25	2.27e-20	(2017) High throughput estimation of functional cell activities reveals disease mechanisms and predicts relevant clinical outcomes.
+PMID	13	2.23e-25	2.28e-20	(2017) High throughput estimation of functional cell activities reveals disease mechanisms and predicts relevant clinical outcomes.
 NetworkNeighborAL	13	3.85e-23	2.51e-20	Defective binding of RB1 mutants to E2F1,(E2F2, E2F3), and Phosphorylation of proteins involved in the G2/M transition by Cyclin A:Cdc2 complexes
-PMID	16	2.65e-25	2.63e-20	(2011) The dynamics of E1A in regulating networks and canonical pathways in quiescent cells.
+PMID	16	2.65e-25	2.64e-20	(2011) The dynamics of E1A in regulating networks and canonical pathways in quiescent cells.
 PMID	14	3.1999999999999997e-25	3.11e-20	(2012) Genome wide comparative comprehensive analysis of Plasmodium falciparum MCM family with human host.
 PMID	14	3.1999999999999997e-25	3.11e-20	(2017) Human RIF1 and protein phosphatase 1 stimulate DNA replication origin licensing but suppress origin activation.
-PMID	13	3.93e-25	3.66e-20	(2017) Eukaryotic Replicative Helicase Subunit Interaction with DNA and Its Role in DNA Replication.
-PMID	14	4.78e-25	4.36e-20	(2021) Regulation of DNA Replication Licensing and Re-Replication by Cdt1.
+PMID	13	3.93e-25	3.67e-20	(2017) Eukaryotic Replicative Helicase Subunit Interaction with DNA and Its Role in DNA Replication.
+PMID	14	4.78e-25	4.37e-20	(2021) Regulation of DNA Replication Licensing and Re-Replication by Cdt1.
 Component	65	3.51e-22	5.98e-20	Nucleus
-PMID	13	6.75e-25	6.03e-20	(2021) Role of Amygdalin in Blocking DNA Replication in Breast Cancer In Vitro.
+PMID	13	6.75e-25	6.04e-20	(2021) Role of Amygdalin in Blocking DNA Replication in Breast Cancer In Vitro.
 RCTM	11	5.31e-22	7.12e-20	Unwinding of DNA
 Component	11	5.31e-22	7.92e-20	DNA replication preinitiation complex
 Component	58	5.0300000000000005e-22	7.92e-20	Protein-containing complex
-PMID	16	1.09e-24	9.53e-20	(2019) Synergy of NUP98-HOXA10 Fusion Gene and NrasG12D Mutation Preserves the Stemness of Hematopoietic Stem Cells on Culture Condition.
-PMID	13	1.13e-24	9.74e-20	(2018) MCM family in HCC: MCM6 indicates adverse tumor features and poor outcomes and promotes SG2 cell cycle progression.
+PMID	16	1.09e-24	9.55e-20	(2019) Synergy of NUP98-HOXA10 Fusion Gene and NrasG12D Mutation Preserves the Stemness of Hematopoietic Stem Cells on Culture Condition.
+PMID	13	1.13e-24	9.75e-20	(2018) MCM family in HCC: MCM6 indicates adverse tumor features and poor outcomes and promotes SG2 cell cycle progression.
 PMID	16	1.36e-24	1.15e-19	(2016) Chromosome Duplication in Saccharomyces cerevisiae.
 COMPARTMENTS	11	9.77e-22	1.32e-19	MCM complex
 PMID	13	1.87e-24	1.54e-19	(2017) Mcm10 regulates DNA replication elongation by stimulating the CMG replicative helicase.
@@ -135,20 +135,20 @@ PMID	15	2.23e-24	1.75e-19	(2019) Cell type specific transcriptional reprogrammin
 PMID	15	2.9299999999999998e-24	2.25e-19	(2021) The human origin recognition complex is essential for pre-RC assembly, mitosis, and maintenance of nuclear structure.
 PMID	13	3.01e-24	2.28e-19	(2020) PRIM1 deficiency causes a distinctive primordial dwarfism syndrome.
 PMID	13	3.01e-24	2.28e-19	(2004) Deregulation of cyclin E in human cells interferes with prereplication complex assembly.
-PMID	15	3.81e-24	2.78e-19	(2021) Knockdown of MCM8 functions as a strategy to inhibit the development and progression of osteosarcoma through regulating CTGF.
-PMID	14	4.2999999999999996e-24	3.08e-19	(2021) Bioinformatics analysis of the transcriptional expression of minichromosome maintenance proteins as potential indicators of survival in patients with cervical cancer.
-PMID	15	8.199999999999999e-24	5.79e-19	(2021) Ubiquitin signaling in cell cycle control and tumorigenesis.
+PMID	15	3.81e-24	2.79e-19	(2021) Knockdown of MCM8 functions as a strategy to inhibit the development and progression of osteosarcoma through regulating CTGF.
+PMID	14	4.2999999999999996e-24	3.09e-19	(2021) Bioinformatics analysis of the transcriptional expression of minichromosome maintenance proteins as potential indicators of survival in patients with cervical cancer.
 RCTM	16	4.57e-21	5.79e-19	Assembly of the pre-replicative complex
+PMID	15	8.199999999999999e-24	5.8e-19	(2021) Ubiquitin signaling in cell cycle control and tumorigenesis.
 Component	19	7.78e-21	1.06e-18	protein-DNA complex
 PMID	13	1.74e-23	1.21e-18	(2015) Regulated eukaryotic DNA replication origin firing with purified proteins.
 PMID	14	2.1099999999999998e-23	1.45e-18	(2020) RPL21 siRNA Blocks Proliferation in Pancreatic Cancer Cells by Inhibiting DNA Replication and Inducing G1 Arrest and Apoptosis.
-PMID	13	2.6e-23	1.75e-18	(2019) Control of Eukaryotic DNA Replication Initiation-Mechanisms to Ensure Smooth Transitions.
+PMID	13	2.6e-23	1.76e-18	(2019) Control of Eukaryotic DNA Replication Initiation-Mechanisms to Ensure Smooth Transitions.
 PMID	17	3.3899999999999994e-23	2.25e-18	(2011) The retroviral cyclin of walleye dermal sarcoma virus binds cyclin-dependent kinases 3 and 8.
 PMID	12	3.47e-23	2.27e-18	(2009) Concerted loading of Mcm2-7 double hexamers around DNA during DNA replication origin licensing.
 PMID	12	3.47e-23	2.27e-18	(2018) A structural view of the initiators for chromosome replication.
-PMID	15	4.25e-23	2.69e-18	(2012) DNA replication stress response involving PLK1, CDC6, POLQ, RAD51 and CLASPIN upregulation prognoses the outcome of earlymid-stage non-small cell lung cancer patients.
-PMID	13	5.62e-23	3.51e-18	(2017) Regulation of DNA Replication in Early Embryonic Cleavages.
-PMID	13	5.62e-23	3.51e-18	(2019) TGFbeta1 Cell Cycle Arrest Is Mediated by Inhibition of MCM Assembly in Rb-Deficient Conditions.
+PMID	15	4.25e-23	2.7e-18	(2012) DNA replication stress response involving PLK1, CDC6, POLQ, RAD51 and CLASPIN upregulation prognoses the outcome of earlymid-stage non-small cell lung cancer patients.
+PMID	13	5.62e-23	3.52e-18	(2017) Regulation of DNA Replication in Early Embryonic Cleavages.
+PMID	13	5.62e-23	3.52e-18	(2019) TGFbeta1 Cell Cycle Arrest Is Mediated by Inhibition of MCM Assembly in Rb-Deficient Conditions.
 PMID	12	5.9e-23	3.59e-18	(2021) DDK regulates replication initiation by controlling the multiplicity of Cdc45-GINS binding to Mcm2-7.
 PMID	12	5.9e-23	3.59e-18	(2020) CryoEM structures of human CMG-ATPgammaS-DNA and CMG-AND-1 complexes.
 PMID	12	5.9e-23	3.59e-18	(2014) Geminin inhibits a late step in the formation of human pre-replicative complexes.
@@ -156,11 +156,11 @@ PMID	13	8.11e-23	4.74e-18	(2020) The DNA polymerases of Drosophila melanogaster.
 Component	55	3.91e-20	5.01e-18	Intracellular non-membrane-bounded organelle
 Process	15	8.82e-21	5.12e-18	Cell cycle G1/S phase transition
 Component	10	4.65e-20	5.28e-18	CMG complex
-PMID	12	9.809999999999999e-23	5.65e-18	(2016) An Mcm10 Mutant Defective in ssDNA Binding Shows Defects in DNA Replication Initiation.
+PMID	12	9.809999999999999e-23	5.66e-18	(2016) An Mcm10 Mutant Defective in ssDNA Binding Shows Defects in DNA Replication Initiation.
 COMPARTMENTS	10	4.65e-20	5.94e-18	CMG complex
-PMID	12	1.6000000000000002e-22	9.07e-18	(2014) A unique DNA entry gate serves for regulated loading of the eukaryotic replicative helicase MCM2-7 onto DNA.
-PMID	13	1.64e-22	9.22e-18	(2016) A Role of hIPI3 in DNA Replication Licensing in Human Cells.
-PMID	13	1.64e-22	9.22e-18	(2020) Novel candidate biomarkers of origin recognition complex 1, 5 and 6 for survival surveillance in patients with hepatocellular carcinoma.
+PMID	12	1.6000000000000002e-22	9.09e-18	(2014) A unique DNA entry gate serves for regulated loading of the eukaryotic replicative helicase MCM2-7 onto DNA.
+PMID	13	1.64e-22	9.23e-18	(2016) A Role of hIPI3 in DNA Replication Licensing in Human Cells.
+PMID	13	1.64e-22	9.23e-18	(2020) Novel candidate biomarkers of origin recognition complex 1, 5 and 6 for survival surveillance in patients with hepatocellular carcinoma.
 Process	35	1.83e-20	1.02e-17	Cellular response to stress
 PMID	15	1.86e-22	1.02e-17	(2017) Regulation of Mammalian DNA Replication via the Ubiquitin-Proteasome System.
 PMID	14	1.94e-22	1.05e-17	(2019) Time varying causal network reconstruction of a mouse cell cycle.
@@ -172,22 +172,22 @@ PMID	12	3.99e-22	2.06e-17	(2013) Activation of a human chromosomal replication o
 PMID	14	4.0900000000000002e-22	2.08e-17	(2009) Evidence that human blastomere cleavage is under unique cell cycle control.
 PMID	14	4.0900000000000002e-22	2.08e-17	(2013) The replication fork: understanding the eukaryotic replication machinery and the challenges to genome duplication.
 PMID	11	5.31e-22	2.64e-17	(2014) Minichromosome Maintenance (MCM) Family as potential diagnostic and prognostic tumor markers for human gliomas.
-PMID	13	6.0400000000000005e-22	2.97e-17	(2017) CRL4B(DCAF11) E3 ligase targets p21 for degradation to control cell cycle progression in human osteosarcoma cells.
-PMID	12	6.15e-22	2.99e-17	(2017) Potent DNA strand annealing activity associated with mouse Mcm2~7 heterohexameric complex.
-PMID	12	6.15e-22	2.99e-17	(2009) Prohibitin physically interacts with MCM proteins and inhibits mammalian DNA replication.
+PMID	13	6.0400000000000005e-22	2.98e-17	(2017) CRL4B(DCAF11) E3 ligase targets p21 for degradation to control cell cycle progression in human osteosarcoma cells.
+PMID	12	6.15e-22	3e-17	(2017) Potent DNA strand annealing activity associated with mouse Mcm2~7 heterohexameric complex.
+PMID	12	6.15e-22	3e-17	(2009) Prohibitin physically interacts with MCM proteins and inhibits mammalian DNA replication.
 COMPARTMENTS	35	2.62e-19	3.17e-17	Catalytic complex
 COMPARTMENTS	64	3.03e-19	3.48e-17	Intracellular membrane-bounded organelle
-PMID	13	8.200000000000001e-22	3.9e-17	(2021) Transcriptome Analysis of Caco-2 Cells upon the Exposure of Mycotoxin Deoxynivalenol and Its Acetylated Derivatives.
+PMID	13	8.200000000000001e-22	3.91e-17	(2021) Transcriptome Analysis of Caco-2 Cells upon the Exposure of Mycotoxin Deoxynivalenol and Its Acetylated Derivatives.
 Process	10	8.49e-20	4.59e-17	Double-strand break repair via break-induced replication
-PMID	11	9.77e-22	4.6e-17	(2020) Tissue-Specific DNA Replication Defects in Drosophila melanogaster Caused by a Meier-Gorlin Syndrome Mutation in Orc4.
-PMID	11	9.77e-22	4.6e-17	(2009) Ancient diversification of eukaryotic MCM DNA replication proteins.
-PMID	14	1.04e-21	4.8e-17	(2021) Role of Hypoxia in the Control of the Cell Cycle.
+PMID	11	9.77e-22	4.61e-17	(2020) Tissue-Specific DNA Replication Defects in Drosophila melanogaster Caused by a Meier-Gorlin Syndrome Mutation in Orc4.
+PMID	11	9.77e-22	4.61e-17	(2009) Ancient diversification of eukaryotic MCM DNA replication proteins.
+PMID	14	1.04e-21	4.81e-17	(2021) Role of Hypoxia in the Control of the Cell Cycle.
 Process	17	9.51e-20	4.97e-17	Mitotic cell cycle phase transition
-PMID	13	1.1e-21	5.04e-17	(2021) Structure of a human replisome shows the organisation and interactions of a DNA replication machine.
-PMID	13	1.1e-21	5.04e-17	(2018) Regulation of the initiation of DNA replication in human cells.
-PMID	12	1.4e-21	6.24e-17	(2016) The Expression and Prognostic Roles of MCMs in Pancreatic Cancer.
-PMID	12	1.4e-21	6.24e-17	(2011) CDK promotes interactions of Sld3 and Drc1 with Cut5 for initiation of DNA replication in fission yeast.
-PMID	12	1.4e-21	6.24e-17	(2016) The presence of extra chromosomes leads to genomic instability.
+PMID	13	1.1e-21	5.05e-17	(2021) Structure of a human replisome shows the organisation and interactions of a DNA replication machine.
+PMID	13	1.1e-21	5.05e-17	(2018) Regulation of the initiation of DNA replication in human cells.
+PMID	12	1.4e-21	6.25e-17	(2016) The Expression and Prognostic Roles of MCMs in Pancreatic Cancer.
+PMID	12	1.4e-21	6.25e-17	(2011) CDK promotes interactions of Sld3 and Drc1 with Cut5 for initiation of DNA replication in fission yeast.
+PMID	12	1.4e-21	6.25e-17	(2016) The presence of extra chromosomes leads to genomic instability.
 COMPARTMENTS	13	9.06e-19	9.49e-17	Replication fork
 COMPARTMENTS	11	8.66e-19	9.49e-17	Replisome
 Process	14	3.44e-19	1.68e-16	G1/S transition of mitotic cell cycle

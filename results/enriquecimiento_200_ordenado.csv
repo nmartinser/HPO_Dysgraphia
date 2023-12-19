@@ -35,7 +35,7 @@ NetworkNeighborAL	62	2.5699999999999997e-89	1.9600000000000002e-86	Diseases of D
 RCTM	66	3.6e-88	1.6400000000000002e-85	HDR through Homologous Recombination (HRR) or Single Strand Annealing (SSA)
 Process	162	6.45e-86	5.9499999999999996e-83	Response to stress
 Process	196	2.41e-85	2.1e-82	Nitrogen compound metabolic process
-PMID	63	5.64e-88	8.239999999999999e-82	(2014) DNA repair in cancer: emerging targets for personalized therapy.
+PMID	63	5.64e-88	8.25e-82	(2014) DNA repair in cancer: emerging targets for personalized therapy.
 Process	195	2.1e-84	1.73e-81	Cellular metabolic process
 Component	187	4.54e-83	2.32e-80	Intracellular organelle lumen
 Keyword	183	1.7199999999999998e-82	3.86e-80	Nucleus
@@ -47,24 +47,24 @@ PMID	60	1.86e-82	1.5e-76	(2021) DNA folds threaten genetic stability and can be 
 Process	196	3.6e-79	2.82e-76	Primary metabolic process
 RCTM	54	1.7400000000000002e-77	6.6e-75	HDR through Homologous Recombination (HRR)
 Process	60	5.2800000000000005e-77	3.94e-74	Recombinational repair
-PMID	60	8.11e-79	5.0700000000000003e-73	(2014) Emergence and evolutionary analysis of the human DDR network: implications in comparative genomics and downstream analyses.
+PMID	60	8.11e-79	5.08e-73	(2014) Emergence and evolutionary analysis of the human DDR network: implications in comparative genomics and downstream analyses.
 PMID	59	1.88e-78	1.03e-72	(2015) DNA repair mechanisms in cancer development and therapy.
-PMID	56	3.22e-77	1.56e-71	(2013) DNA damage tolerance: a double-edged sword guarding the genome.
+PMID	56	3.22e-77	1.57e-71	(2013) DNA damage tolerance: a double-edged sword guarding the genome.
 Process	85	2.52e-74	1.72e-71	Regulation of DNA metabolic process
 Component	196	2.1500000000000003e-73	6.29e-71	Nucleus
 COMPARTMENTS	151	2.4e-73	1.38e-70	Intracellular non-membrane-bounded organelle
-PMID	57	5.17e-76	2.2600000000000002e-70	(2019) Tissue specificity of DNA damage response and tumorigenesis.
+PMID	57	5.17e-76	2.27e-70	(2019) Tissue specificity of DNA damage response and tumorigenesis.
 Process	57	1.1e-72	7.17e-70	Double-strand break repair via homologous recombination
-PMID	57	2.0000000000000002e-75	7.970000000000001e-70	(2017) Mechanisms of DNA damage, repair, and mutagenesis.
+PMID	57	2.0000000000000002e-75	7.99e-70	(2017) Mechanisms of DNA damage, repair, and mutagenesis.
 Function	137	3.75e-73	9.24e-70	DNA binding
-PMID	56	6.73e-75	2.45e-69	(2021) Mass spectrometry-based protein-protein interaction techniques and their applications in studies of DNA damage repair.
+PMID	56	6.73e-75	2.4599999999999997e-69	(2021) Mass spectrometry-based protein-protein interaction techniques and their applications in studies of DNA damage repair.
 Process	197	6.77e-72	4.2499999999999997e-69	Metabolic process
 RCTM	58	6.67e-69	2.1700000000000002e-66	G2/M Checkpoints
 Component	106	1.25e-68	3.2e-66	Nuclear protein-containing complex
 WikiPathways	51	8.669999999999999e-69	3.3800000000000004e-66	DNA IR-damage and cellular response via ATR
 COMPARTMENTS	173	1.3199999999999998e-68	5.07e-66	Protein-containing complex
 COMPARTMENTS	140	2.2e-68	7.24e-66	Intracellular organelle lumen
-PMID	53	1.7199999999999998e-68	5.79e-63	(2015) Modulation of DNA damage and repair pathways by human tumour viruses.
+PMID	53	1.7199999999999998e-68	5.8e-63	(2015) Modulation of DNA damage and repair pathways by human tumour viruses.
 PMID	58	3.2399999999999997e-68	1.01e-62	(2021) Proteins from the DNA Damage Response: Regulation, Dysfunction, and Anticancer Strategies.
 Process	102	2.25e-65	1.36e-62	Cell cycle
 Function	80	9.410000000000001e-66	1.55e-62	Catalytic activity, acting on a nucleic acid
@@ -78,28 +78,28 @@ Process	87	2.12e-62	1.23e-59	Cell cycle process
 COMPARTMENTS	96	1.07e-61	2.46e-59	Nucleoplasm
 RCTM	50	2.45e-60	5.08e-58	Synthesis of DNA
 COMPARTMENTS	191	2.73e-60	5.71e-58	Intracellular membrane-bounded organelle
-PMID	48	2.67e-63	6.87e-58	(2021) miR-27b-3p a Negative Regulator of DSB-DNA Repair.
+PMID	48	2.67e-63	6.88e-58	(2021) miR-27b-3p a Negative Regulator of DSB-DNA Repair.
 PMID	45	4.23e-63	1.0300000000000001e-57	(2011) Comprehensive screen of genetic variation in DNA repair pathway genes and postmenopausal breast cancer risk.
 COMPARTMENTS	44	8.52e-60	1.63e-57	Replication fork
-PMID	44	7.96e-63	1.83e-57	(2020) Identification of the DNA Replication Regulator MCM Complex Expression and Prognostic Significance in Hepatic Carcinoma.
-PMID	47	8.370000000000001e-63	1.83e-57	(2021) DNA Damage Response in Multiple Myeloma: The Role of the Tumor Microenvironment.
+PMID	44	7.96e-63	1.8400000000000002e-57	(2020) Identification of the DNA Replication Regulator MCM Complex Expression and Prognostic Significance in Hepatic Carcinoma.
+PMID	47	8.370000000000001e-63	1.8400000000000002e-57	(2021) DNA Damage Response in Multiple Myeloma: The Role of the Tumor Microenvironment.
 PMID	45	1.25e-62	2.61e-57	(2021) Targeting protein-protein interactions in the DNA damage response pathways for cancer chemotherapy.
 Process	89	1.0400000000000001e-59	5.810000000000001e-57	Chromosome organization
 PMID	45	6.04e-62	1.2e-56	(2013) DNA double-strand break repair as determinant of cellular radiosensitivity to killing and target in radiation therapy.
 PMID	44	1.34e-61	2.55e-56	(2020) Inhibition of DNA Repair in Cancer Therapy: Toward a Multi-Target Approach.
 PMID	46	6.429999999999999e-61	1.1699999999999999e-55	(2021) Targeting the Interplay between HDACs and DNA Damage Repair for Myeloma Therapy.
 PMID	46	1.01e-60	1.77e-55	(2020) Chromosome Instability in Fanconi Anemia: From Breaks to Phenotypic Consequences.
-PMID	44	1.1199999999999999e-60	1.89e-55	(2019) Treatment May Be Harmful: MechanismsPredictionPrevention of Drug-Induced DNA Damage and Repair in Multiple Myeloma.
+PMID	44	1.1199999999999999e-60	1.9e-55	(2019) Treatment May Be Harmful: MechanismsPredictionPrevention of Drug-Induced DNA Damage and Repair in Multiple Myeloma.
 PMID	45	1.19e-60	1.94e-55	(2019) beta-HPV 8E6 Attenuates ATM and ATR Signaling in Response to UV Damage.
 PMID	46	2.45e-60	3.84e-55	(2018) Ubiquitylation at the Fork: Making and Breaking Chains to Complete DNA Replication.
 PMID	46	2.45e-60	3.84e-55	(2017) Around and beyond 53BP1 Nuclear Bodies.
 RCTM	39	3.46e-57	6.589999999999999e-55	Homologous DNA Pairing and Strand Exchange
-PMID	45	4.93e-60	7.199999999999999e-55	(2009) Family cancer syndromes: inherited deficiencies in systems for the maintenance of genomic integrity.
+PMID	45	4.93e-60	7.21e-55	(2009) Family cancer syndromes: inherited deficiencies in systems for the maintenance of genomic integrity.
 PMID	43	7.219999999999999e-60	1.0199999999999998e-54	(2012) DNA replication stress response involving PLK1, CDC6, POLQ, RAD51 and CLASPIN upregulation prognoses the outcome of earlymid-stage non-small cell lung cancer patients.
 RCTM	40	7.81e-57	1.37e-54	Diseases of DNA repair
 COMPARTMENTS	40	4.23e-56	7.48e-54	DNA repair complex
 Component	41	3.3e-56	7.499999999999999e-54	Replication fork
-PMID	52	6.88e-59	9.419999999999999e-54	(2014) A fine-scale dissection of the DNA double-strand break repair machinery and its implications for breast cancer therapy.
+PMID	52	6.88e-59	9.429999999999999e-54	(2014) A fine-scale dissection of the DNA double-strand break repair machinery and its implications for breast cancer therapy.
 PMID	42	7.62e-59	1.01e-53	(2019) The Fanconi Anemia Pathway in Cancer.
 Component	56	1.4999999999999999e-55	3.06e-53	Nuclear chromosome
 PMID	43	2.61e-58	3.37e-53	(2020) DNA repair fidelity in stem cell maintenance, health, and disease.
@@ -116,69 +116,69 @@ Process	171	3.6299999999999996e-54	1.96e-51	Cellular response to stimulus
 RCTM	48	1.51e-53	2.03e-51	Mitotic G1 phase and G1/S transition
 PMID	44	1.8e-56	2.13e-51	(2016) Balancing self-renewal against genome preservation in stem cells: How do they manage to have the cake and eat it too?
 PMID	41	1.9800000000000001e-56	2.28e-51	(2020) DNA Repair Syndromes and Cancer: Insights Into Genetics and Phenotype Patterns.
-PMID	42	3.3500000000000003e-56	3.76e-51	(2021) DNA Damage Repair Deficiency in Pancreatic Ductal Adenocarcinoma: Preclinical Models and Clinical Perspectives.
-PMID	41	5.4700000000000005e-56	5.99e-51	(2021) Genomic Instability and Cancer Risk Associated with Erroneous DNA Repair.
-PMID	41	5.4700000000000005e-56	5.99e-51	(2020) DNA Damage: From Threat to Treatment.
-PMID	40	7.2999999999999995e-56	7.61e-51	(2020) The FANCBRCA Pathway Releases Replication Blockades by Eliminating DNA Interstrand Cross-Links.
+PMID	42	3.3500000000000003e-56	3.77e-51	(2021) DNA Damage Repair Deficiency in Pancreatic Ductal Adenocarcinoma: Preclinical Models and Clinical Perspectives.
+PMID	41	5.4700000000000005e-56	6e-51	(2021) Genomic Instability and Cancer Risk Associated with Erroneous DNA Repair.
+PMID	41	5.4700000000000005e-56	6e-51	(2020) DNA Damage: From Threat to Treatment.
+PMID	40	7.2999999999999995e-56	7.62e-51	(2020) The FANCBRCA Pathway Releases Replication Blockades by Eliminating DNA Interstrand Cross-Links.
 Function	143	7.399999999999999e-54	9.13e-51	Nucleic acid binding
 RCTM	46	9.93e-53	1.26e-50	G1/S Transition
-PMID	41	1.4799999999999999e-55	1.5e-50	(2015) Hsp90: A New Player in DNA Repair?
+PMID	41	1.4799999999999999e-55	1.51e-50	(2015) Hsp90: A New Player in DNA Repair?
 Process	64	2.97e-53	1.55e-50	Regulation of cell cycle phase transition
 PMID	44	1.9799999999999998e-55	1.97e-50	(2018) Integrating the DNA damage and protein stress responses during cancer development and treatment.
 PMID	45	2.07e-55	2.01e-50	(2019) Functional Analysis of the Replication Fork Proteome Identifies BET Proteins as PCNA Regulators.
-PMID	40	6.0199999999999994e-55	5.73e-50	(2019) Holding All the Cards-How Fanconi Anemia Proteins Deal with Replication Stress and Preserve Genomic Stability.
-PMID	38	7.05e-55	6.57e-50	(2014) Molecular mechanisms of DNA replication checkpoint activation.
+PMID	40	6.0199999999999994e-55	5.74e-50	(2019) Holding All the Cards-How Fanconi Anemia Proteins Deal with Replication Stress and Preserve Genomic Stability.
+PMID	38	7.05e-55	6.58e-50	(2014) Molecular mechanisms of DNA replication checkpoint activation.
 RCTM	67	5.8399999999999994e-52	7.02e-50	Cell Cycle, Mitotic
-PMID	42	7.919999999999999e-55	7.22e-50	(2019) Proteolytic control of genome integrity at the replication fork.
-PMID	40	9.999999999999999e-55	8.96e-50	(2020) Evolving insights: how DNA repair pathways impact cancer evolution.
+PMID	42	7.919999999999999e-55	7.24e-50	(2019) Proteolytic control of genome integrity at the replication fork.
+PMID	40	9.999999999999999e-55	8.97e-50	(2020) Evolving insights: how DNA repair pathways impact cancer evolution.
 PMID	38	1.2899999999999998e-54	1.13e-49	(2012) Rescue of replication failure by Fanconi anaemia proteins.
-PMID	37	1.75e-54	1.4999999999999998e-49	(2018) Rare Genetic Diseases with Defects in DNA Repair: Opportunities and Challenges in Orphan Drug Development for Targeted Cancer Therapy.
+PMID	37	1.75e-54	1.51e-49	(2018) Rare Genetic Diseases with Defects in DNA Repair: Opportunities and Challenges in Orphan Drug Development for Targeted Cancer Therapy.
 PMID	42	1.87e-54	1.58e-49	(2021) A Link between Replicative Stress, Lamin Proteins, and Inflammation.
 RCTM	35	1.66e-51	1.89e-49	Activation of ATR in response to replication stress
 PMID	40	7.209999999999999e-54	5.96e-49	(2017) Maintenance of genome stability by Fanconi anemia proteins.
-PMID	38	7.449999999999999e-54	6.04e-49	(2016) Interplay between Fanconi anemia and homologous recombination pathways in genome integrity.
+PMID	38	7.449999999999999e-54	6.05e-49	(2016) Interplay between Fanconi anemia and homologous recombination pathways in genome integrity.
 RCTM	40	1.18e-50	1.2799999999999999e-48	Processing of DNA double-strand break ends
-PMID	46	1.64e-53	1.3000000000000001e-48	(2018) DNA Checkpoint and Repair Factors Are Nuclear Sensors for Intracellular Organelle Stresses-Inflammations and Cancers Can Have High Genomic Risks.
+PMID	46	1.64e-53	1.3099999999999999e-48	(2018) DNA Checkpoint and Repair Factors Are Nuclear Sensors for Intracellular Organelle Stresses-Inflammations and Cancers Can Have High Genomic Risks.
 PMID	39	1.82e-53	1.43e-48	(2016) Cellular response to DNA interstrand crosslinks: the Fanconi anemia pathway.
 PMID	43	2.53e-53	1.94e-48	(2018) Mechanisms of Oncogene-Induced Replication Stress: Jigsaw Falling into Place.
 Process	47	4.96e-51	2.51e-48	Cell cycle checkpoint signaling
-PMID	38	6.81e-53	5.1399999999999994e-48	(2021) Mind the replication gap.
+PMID	38	6.81e-53	5.1499999999999993e-48	(2021) Mind the replication gap.
 Function	39	5.24e-51	5.17e-48	Damaged DNA binding
 COMPARTMENTS	193	3.71e-50	5.33e-48	Intracellular organelle
-PMID	36	1.0299999999999999e-52	7.66e-48	(2014) DNA double-strand break repair pathway choice and cancer.
+PMID	36	1.0299999999999999e-52	7.67e-48	(2014) DNA double-strand break repair pathway choice and cancer.
 Process	45	1.8e-50	8.839999999999999e-48	Regulation of DNA replication
 RCTM	34	9.64e-50	1e-47	HDR through Single Strand Annealing (SSA)
 Process	43	2.29e-50	1.09e-47	DNA integrity checkpoint signaling
-PMID	39	2.1399999999999997e-52	1.56e-47	(2017) The essential kinase ATR: ensuring faithful duplication of a challenging genome.
+PMID	39	2.1399999999999997e-52	1.57e-47	(2017) The essential kinase ATR: ensuring faithful duplication of a challenging genome.
 RCTM	33	4.08e-49	4.05e-47	Activation of the pre-replicative complex
-PMID	37	6.97e-52	5e-47	(2020) Under-Replicated DNA: The Byproduct of Large Genomes?
-PMID	38	9.059999999999999e-52	6.39e-47	(2017) The Role of PALB2 in the DNA Damage Response and Cancer Predisposition.
+PMID	37	6.97e-52	5.010000000000001e-47	(2020) Under-Replicated DNA: The Byproduct of Large Genomes?
+PMID	38	9.059999999999999e-52	6.4e-47	(2017) The Role of PALB2 in the DNA Damage Response and Cancer Predisposition.
 PMID	37	2.06e-51	1.4299999999999999e-46	(2018) Methodologies for Improving HDR Efficiency.
 Process	40	3.54e-49	1.63e-46	DNA duplex unwinding
 PMID	38	3.93e-51	2.69e-46	(2017) Drugging the Cancers Addicted to DNA Repair.
-PMID	39	5.24e-51	3.5299999999999996e-46	(2013) Human single-stranded DNA binding proteins are essential for maintaining genomic stability.
-PMID	36	6.93e-51	4.59e-46	(2021) Shaping the BRCAness mutational landscape by alternative double-strand break repair, replication stress and mitotic aberrancies.
-PMID	37	9.85e-51	6.43e-46	(2013) DNA methyltransferases, DNA damage repair, and cancer.
-PMID	35	1.11e-50	7.13e-46	(2015) Ionizing radiation-induced DNA injury and damage detection in patients with breast cancer.
+PMID	39	5.24e-51	3.54e-46	(2013) Human single-stranded DNA binding proteins are essential for maintaining genomic stability.
+PMID	36	6.93e-51	4.6e-46	(2021) Shaping the BRCAness mutational landscape by alternative double-strand break repair, replication stress and mitotic aberrancies.
+PMID	37	9.85e-51	6.44e-46	(2013) DNA methyltransferases, DNA damage repair, and cancer.
+PMID	35	1.11e-50	7.14e-46	(2015) Ionizing radiation-induced DNA injury and damage detection in patients with breast cancer.
 Process	41	1.61e-48	7.21e-46	DNA conformation change
-PMID	36	1.21e-50	7.7e-46	(2010) DNA interstrand crosslink repair in mammalian cells: step by step.
+PMID	36	1.21e-50	7.71e-46	(2010) DNA interstrand crosslink repair in mammalian cells: step by step.
 PMID	39	1.9e-50	1.1899999999999999e-45	(2020) Protective Mechanisms Against DNA Replication Stress in the Nervous System.
 PMID	37	2.69e-50	1.6599999999999998e-45	(2019) PARP inhibitors in ovarian cancer: Sensitivity prediction and resistance mechanisms.
-PMID	36	3.62e-50	2.2e-45	(2011) Genetic variation in DNA repair pathway genes and melanoma risk.
+PMID	36	3.62e-50	2.21e-45	(2011) Genetic variation in DNA repair pathway genes and melanoma risk.
 Process	40	5.75e-48	2.4399999999999998e-45	Telomere maintenance
 PMID	36	6.18e-50	3.71e-45	(2014) Human RecQ helicases in DNA repair, recombination, and replication.
-PMID	35	6.66e-50	3.9399999999999996e-45	(2015) Exploiting the Fanconi Anemia Pathway for Targeted Anti-Cancer Therapy.
+PMID	35	6.66e-50	3.9499999999999996e-45	(2015) Exploiting the Fanconi Anemia Pathway for Targeted Anti-Cancer Therapy.
 RCTM	32	4.64e-47	4.41e-45	Impaired BRCA2 binding to RAD51
-PMID	34	9.64e-50	5.629999999999999e-45	(2017) Recent discoveries in the molecular pathogenesis of the inherited bone marrow failure syndrome Fanconi anemia.
-PMID	36	1.05e-49	6.029999999999999e-45	(2013) Genomic instability in cancer.
-PMID	38	1.4999999999999998e-49	8.55e-45	(2020) Impact of Helicobacter pylori Infection and Its Major Virulence Factor CagA on DNA Damage Repair.
-PMID	36	1.76e-49	9.86e-45	(2020) A Survey of Essential Genome Stability Genes Reveals That Replication Stress Mitigation Is Critical for Peri-Implantation Embryogenesis.
+PMID	34	9.64e-50	5.639999999999999e-45	(2017) Recent discoveries in the molecular pathogenesis of the inherited bone marrow failure syndrome Fanconi anemia.
+PMID	36	1.05e-49	6.039999999999999e-45	(2013) Genomic instability in cancer.
+PMID	38	1.4999999999999998e-49	8.56e-45	(2020) Impact of Helicobacter pylori Infection and Its Major Virulence Factor CagA on DNA Damage Repair.
+PMID	36	1.76e-49	9.88e-45	(2020) A Survey of Essential Genome Stability Genes Reveals That Replication Stress Mitigation Is Critical for Peri-Implantation Embryogenesis.
 WikiPathways	36	5.1e-47	9.949999999999999e-45	G1 to S cell cycle control
 PMID	37	1.85e-49	1.03e-44	(2018) Germline Pathogenic Variants in Homologous Recombination and DNA Repair Genes in an Asian Cohort of Young-Onset Colorectal Cancer.
 PMID	37	1.85e-49	1.03e-44	(2013) DNA repair mechanisms in dividing and non-dividing cells.
 Process	67	2.89e-47	1.19e-44	Mitotic cell cycle
 Component	43	1.08e-46	1.57e-44	Chromosome, telomeric region
-PMID	38	3.54e-49	1.91e-44	(2020) DNA Repair and Ovarian Carcinogenesis: Impact on Risk, Prognosis and Therapy Outcome.
+PMID	38	3.54e-49	1.92e-44	(2020) DNA Repair and Ovarian Carcinogenesis: Impact on Risk, Prognosis and Therapy Outcome.
 RCTM	37	2.45e-46	2.24e-44	G2/M DNA damage checkpoint
 Component	33	1.87e-46	2.55e-44	DNA repair complex
 PMID	34	6.17e-49	3.3e-44	(2017) Non-homologous DNA end joining and alternative pathways to double-strand break repair.
@@ -187,26 +187,26 @@ PMID	35	6.32e-49	3.34e-44	(2013) Advances in understanding the complex mechanism
 WikiPathways	38	2.5e-46	3.9e-44	Retinoblastoma gene in cancer
 Process	63	1.15e-46	4.64e-44	Mitotic cell cycle process
 PMID	35	1.08e-48	5.59e-44	(2009) The Fanconi anemia protein interaction network: casting a wide net.
-PMID	35	1.84e-48	9.39e-44	(2013) DNA helicases involved in DNA repair and their roles in cancer.
+PMID	35	1.84e-48	9.4e-44	(2013) DNA helicases involved in DNA repair and their roles in cancer.
 PMID	34	2.01e-48	1.01e-43	(2011) DNA interstrand crosslink repair and cancer.
-PMID	36	3.37e-48	1.67e-43	(2021) RAD52: Paradigm of Synthetic Lethality and New Developments.
+PMID	36	3.37e-48	1.6800000000000002e-43	(2021) RAD52: Paradigm of Synthetic Lethality and New Developments.
 Process	48	4.5e-46	1.7700000000000002e-43	Negative regulation of cell cycle phase transition
 PMID	33	5.479999999999999e-48	2.7e-43	(2018) DNA repair pathways and cisplatin resistance: an intimate relationship.
 PMID	37	6.549999999999999e-48	3.19e-43	(2015) Repeat instability during DNA repair: Insights from model systems.
-PMID	37	1.51e-47	7.28e-43	(2021) Mechanisms of damage tolerance and repair during DNA replication.
-PMID	34	3.2200000000000003e-47	1.5299999999999998e-42	(2017) S-phase checkpoint regulations that preserve replication and chromosome integrity upon dNTP depletion.
+PMID	37	1.51e-47	7.290000000000001e-43	(2021) Mechanisms of damage tolerance and repair during DNA replication.
+PMID	34	3.2200000000000003e-47	1.54e-42	(2017) S-phase checkpoint regulations that preserve replication and chromosome integrity upon dNTP depletion.
 Process	68	4.11e-45	1.57e-42	Regulation of cell cycle process
 PMID	35	3.7700000000000003e-47	1.7799999999999997e-42	(2020) Fanconi anemia pathway as a prospective target for cancer intervention.
 NetworkNeighborAL	31	4.94e-45	2.51e-42	Resolution of D-loop Structures through Holliday Junction Intermediates, and RIDDLE syndrome
-PMID	35	6.08e-47	2.8299999999999996e-42	(2017) Targeting DNA Repair in Cancer: Beyond PARP Inhibitors.
+PMID	35	6.08e-47	2.8399999999999998e-42	(2017) Targeting DNA Repair in Cancer: Beyond PARP Inhibitors.
 RCTM	30	4.16e-44	3.65e-42	DNA strand elongation
 COMPARTMENTS	45	3.27e-44	4.18e-42	protein-DNA complex
-PMID	37	1.13e-46	5.2099999999999996e-42	(2021) RIF1 Links Replication Timing with Fork Reactivation and DNA Double-Strand Break Repair.
+PMID	37	1.13e-46	5.22e-42	(2021) RIF1 Links Replication Timing with Fork Reactivation and DNA Double-Strand Break Repair.
 Function	40	6.48e-45	5.32e-42	Single-stranded DNA binding
-PMID	34	1.53e-46	6.969999999999999e-42	(2021) The Safe Path at the Fork: Ensuring Replication-Associated DNA Double-Strand Breaks are Repaired by Homologous Recombination.
-PMID	37	1.67e-46	7.519999999999999e-42	(2017) Directing the use of DDR kinase inhibitors in cancer treatment.
-PMID	37	1.67e-46	7.519999999999999e-42	(2022) Targeting DNA Damage Response and Immune Checkpoint for Anticancer Therapy.
-PMID	38	1.7499999999999999e-46	7.739999999999999e-42	(2014) DNA damage response genes and the development of cancer metastasis.
+PMID	34	1.53e-46	6.979999999999999e-42	(2021) The Safe Path at the Fork: Ensuring Replication-Associated DNA Double-Strand Breaks are Repaired by Homologous Recombination.
+PMID	37	1.67e-46	7.53e-42	(2017) Directing the use of DDR kinase inhibitors in cancer treatment.
+PMID	37	1.67e-46	7.53e-42	(2022) Targeting DNA Damage Response and Immune Checkpoint for Anticancer Therapy.
+PMID	38	1.7499999999999999e-46	7.76e-42	(2014) DNA damage response genes and the development of cancer metastasis.
 PMID	34	2.5299999999999998e-46	1.1099999999999999e-41	(2022) Fanconi Anemia Pathway in Colorectal Cancer: A Novel Opportunity for Diagnosis, Prognosis and Therapy.
 Process	49	6.47e-44	2.42e-41	Negative regulation of cell cycle process
 WikiPathways	39	1.99e-43	2.59e-41	Cell cycle
