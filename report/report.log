@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  19 DEC 2023 11:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  19 DEC 2023 12:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -333,26 +333,7 @@ tex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count288
 \l__pdf_internal_box=\box57
-) (report.aux
-
-LaTeX Warning: Label `fig:workflow' multiply defined.
-
-
-LaTeX Warning: Label `tabla:geneshpo' multiply defined.
-
-
-LaTeX Warning: Label `section:genesAsociados' multiply defined.
-
-
-LaTeX Warning: Label `tabla:genesAsociados' multiply defined.
-
-
-LaTeX Warning: Label `section:redProteinas' multiply defined.
-
-
-LaTeX Warning: Label `tabla:redProteinas' multiply defined.
-
-)
+) (report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -443,12 +424,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
  []
 
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 9.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 10.
 [1{C:/Users/nerea/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ])
 (tex_files/material_methods.tex
-<figures/workflow.png, id=128, 670.00313pt x 907.13907pt>
+<figures/workflow.png, id=100, 670.00313pt x 907.13907pt>
 File: figures/workflow.png Graphic file (type png)
 <use figures/workflow.png>
 Package pdftex.def Info: figures/workflow.png  used on input line 9.
@@ -471,44 +452,38 @@ LaTeX Font Info:    Trying to load font information for TS1+cmss on input line
 (C:\Users\nerea\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-<figures/stringdb_51_genes.png, id=198, 876.27374pt x 737.00343pt>
+<figures/stringdb_51_genes.png, id=165, 876.27374pt x 737.00343pt>
 File: figures/stringdb_51_genes.png Graphic file (type png)
 <use figures/stringdb_51_genes.png>
-Package pdftex.def Info: figures/stringdb_51_genes.png  used on input line 41.
+Package pdftex.def Info: figures/stringdb_51_genes.png  used on input line 39.
 (pdftex.def)             Requested size: 252.6989pt x 212.53346pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6]
-Overfull \hbox (14.1245pt too wide) in paragraph at lines 52--62
+
+Overfull \hbox (14.1245pt too wide) in paragraph at lines 50--60
  [][] 
  []
 
-<../results/graph_communities.png, id=210, 462.528pt x 346.896pt>
+[6]
+<../results/graph_communities.png, id=178, 462.528pt x 346.896pt>
 File: ../results/graph_communities.png Graphic file (type png)
 <use ../results/graph_communities.png>
 Package pdftex.def Info: ../results/graph_communities.png  used on input line 7
-3.
+1.
 (pdftex.def)             Requested size: 252.6989pt x 189.5283pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [7 <./figures/stringdb_51_genes.png>]
-Overfull \hbox (43.7489pt too wide) in paragraph at lines 91--105
+Overfull \hbox (43.7489pt too wide) in paragraph at lines 89--103
  [][] 
  []
 
 
-Overfull \hbox (75.63268pt too wide) in paragraph at lines 112--125
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (59.8438pt too wide) in paragraph at lines 131--143
+Overfull \hbox (75.63268pt too wide) in paragraph at lines 110--123
  [][] 
  []
 
@@ -516,7 +491,15 @@ Overfull \hbox (59.8438pt too wide) in paragraph at lines 131--143
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (60.07156pt too wide) in paragraph at lines 149--163
+Overfull \hbox (59.8438pt too wide) in paragraph at lines 129--141
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (60.07156pt too wide) in paragraph at lines 147--161
  [][] 
  []
 
@@ -539,101 +522,40 @@ L3 programming layer <2023-08-29>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package rerunfilecheck Warning: File `report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `report.out':
-(rerunfilecheck)             Before: AD1CDD00436B8991BE9C3E4B0C40A858;3316
-(rerunfilecheck)             After:  B7BC31ECE0CE6A5A09EA44A24DDCFB25;2211.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: B7BC31ECE0CE6A5A09EA44A24DDCFB25;2211.
  ) 
 Here is how much of TeX's memory you used:
- 10539 strings out of 475247
- 163576 string characters out of 5757792
+ 10516 strings out of 475247
+ 163294 string characters out of 5757792
  1941785 words of memory out of 5000000
- 31833 multiletter control sequences out of 15000+600000
+ 31823 multiletter control sequences out of 15000+600000
  568055 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,10n,79p,1340b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{table.12} has been referenced but does not exist, r
-eplaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.11} has been referenced but does not exist, r
-eplaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.10} has been referenced but does not exist, r
-eplaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.4} has been referenced but does not exist, r
-eplaced by a fixed one
-
-
-pdfTeX warning (dest): name{Item.10} has been referenced but does not exist, re
-placed by a fixed one
-
-
-pdfTeX warning (dest): name{page.14} has been referenced but does not exist, re
-placed by a fixed one
-
-
-pdfTeX warning (dest): name{section.6} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.4.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.4.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.4.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.4.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
- <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss07
-00.pk> <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcsx0800.pk> <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\tcrm1000.pk><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmbx10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nerea/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nerea/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nerea/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/ner
-ea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/
-Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.
-pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmssbx10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmssi8.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy6.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nerea/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nerea/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/nerea/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on report.pdf (10 pages, 1098559 bytes).
+ <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss
+0700.pk> <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcsx0800.pk> <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcrm1000.pk><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nerea/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nerea/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nerea/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nerea/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/n
+erea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C
+:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss
+8.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmssbx10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmssi8.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy6.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nerea/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nerea/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/nerea/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on report.pdf (10 pages, 1091131 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 82 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 326 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 144 words of extra memory for PDF output out of 10000 (max. 10000000)
 

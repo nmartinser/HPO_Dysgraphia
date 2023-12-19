@@ -4,7 +4,7 @@ En esta sección se van a presentar los resultados obtenidos tras realizar el es
 
 \subsection{Grafo bipartito}
 
-Se ha observado, gracias al grafo proyectado de genes, que la digrafía se relaciona con todos los 51 del archivo del que se obtuvo el grafo y (por medio de dichos genes) a 1357 términos HPO distintos. Como resultados del grafo bipartito se ha obtenido una tabla con las relaciones de cada uno de los HPOs acompañados por su nombre e identificador, ordenados según el número de genes que relacionen ese HPO con el de la disgrafía. En la tabla \ref{tab:dysgraphia-relaciones} se visualiza los HPO más realcionados con Disgrafía.
+Se ha observado, gracias al grafo proyectado de genes, que la disgrafía se relaciona con todos los 51 del archivo del que se obtuvo el grafo y (por medio de dichos genes) a 1357 términos HPO distintos. Como resultados del grafo bipartito se ha obtenido una tabla con las relaciones de cada uno de los HPOs acompañados por su nombre e identificador, ordenados según el número de genes que relacionen ese HPO con el de la disgrafía. En la tabla \ref{tab:dysgraphia-relaciones} se visualiza los HPO más realcionados con Disgrafía.
 
 \begin{table}[h]
 	\caption{HPO más relacionados con dysgraphia.}
@@ -29,12 +29,10 @@ Se ha observado, gracias al grafo proyectado de genes, que la digrafía se relac
 
 \end{table}
 
- 
-De la distribución de la columna “relaciones\_con\_dysgraphia” se ha creado un histograma para estudiar la distribución. También se ha creado un grafo en el que solo se muestran las relaciones de los genes con los HPOs que excedan cierto umbral, establecido en 45 relaciones.
 
 \subsection{Red de genes asociados}
 
-Después de descargar la red de genes asociados a la Disgrafía de la HPO, observamos que contenía 51 genes. Posteriormente, obtuvimos una red de genes relacionados con la Disgrafía utilizando la base de datos STRING-DB, la cual se puede observar en la imagen \ref{fig:genesAsociados}.
+Después de descargar la red de genes asociados a la Disgrafía de la HPO, observamos que contenía 51 genes. Posteriormente, obtuvimos la red de esos genes utilizando la base de datos STRING-DB, la cual se puede observar en la imagen \ref{fig:genesAsociados}.
 
 \begin{figure}[h!]
 	\centering
@@ -43,7 +41,7 @@ Después de descargar la red de genes asociados a la Disgrafía de la HPO, obser
 	\label{fig:genesAsociados}
 \end{figure}
 
-Se aplicó el algoritmo Diamond para propagar la red de genes y descubrir potenciales genes adicionales relacionados con la Disgrafía. El resultado de este proceso se encuentra en el archivo "propagated\_genes.txt", que contiene un listado con 200 genes. Utilizando estos genes, se creó una red mediante la librería de String. La cabecera del archivo que contiene la red se puede visualizar en la tabla \ref{tabla:resultDiamond} (se han omitido algunas columnas del archivo para mejor visualización).
+Se aplicó el algoritmo Diamond para propagar la red de genes y descubrir potenciales genes adicionales relacionados con la Disgrafía. El resultado de este proceso se encuentra en el archivo "propaged\_genes.txt", que contiene un listado con 200 genes. Utilizando estos genes, se creó una red mediante la librería de String. La cabecera del archivo que contiene la red se puede visualizar en la tabla \ref{tabla:resultDiamond} (se han omitido algunas columnas del archivo para mejor visualización).
 
 \begin{table}[h]
 	\centering
