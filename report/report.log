@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  19 DEC 2023 11:02
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  1 DEC 2023 00:46
->>>>>>> 5c9c9305b92516949272d15e29247bb3747b4173
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  19 DEC 2023 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -337,7 +333,26 @@ tex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count288
 \l__pdf_internal_box=\box57
-) (report.aux)
+) (report.aux
+
+LaTeX Warning: Label `fig:workflow' multiply defined.
+
+
+LaTeX Warning: Label `tabla:geneshpo' multiply defined.
+
+
+LaTeX Warning: Label `section:genesAsociados' multiply defined.
+
+
+LaTeX Warning: Label `tabla:genesAsociados' multiply defined.
+
+
+LaTeX Warning: Label `section:redProteinas' multiply defined.
+
+
+LaTeX Warning: Label `tabla:redProteinas' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -433,7 +448,7 @@ LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <8> not available
 
 ])
 (tex_files/material_methods.tex
-<figures/workflow.png, id=100, 670.00313pt x 907.13907pt>
+<figures/workflow.png, id=128, 670.00313pt x 907.13907pt>
 File: figures/workflow.png Graphic file (type png)
 <use figures/workflow.png>
 Package pdftex.def Info: figures/workflow.png  used on input line 9.
@@ -450,99 +465,42 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3] [4] [5]) (tex_files/resultados.tex
-<<<<<<< HEAD
-=======
-<figures/stringdb_51_genes.png, id=164, 876.27374pt x 737.00343pt>
-File: figures/stringdb_51_genes.png Graphic file (type png)
-<use figures/stringdb_51_genes.png>
-Package pdftex.def Info: figures/stringdb_51_genes.png  used on input line 17.
-(pdftex.def)             Requested size: 252.6989pt x 212.53346pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (14.1245pt too wide) in paragraph at lines 28--38
- [][] 
- []
-
-[6]
-<../results/graph_communities.png, id=176, 462.528pt x 346.896pt>
-File: ../results/graph_communities.png Graphic file (type png)
-<use ../results/graph_communities.png>
-Package pdftex.def Info: ../results/graph_communities.png  used on input line 4
-9.
-(pdftex.def)             Requested size: 252.6989pt x 189.5283pt.
- [7 <./figures/stringdb_51_genes.png> <../results/graph_communities.png>]
-Overfull \hbox (43.7489pt too wide) in paragraph at lines 67--81
- [][] 
- []
-
-
-Overfull \hbox (75.63268pt too wide) in paragraph at lines 88--101
- [][] 
- []
-
-
-Overfull \hbox (59.8438pt too wide) in paragraph at lines 107--119
- [][] 
- []
-
-
-Overfull \hbox (60.07156pt too wide) in paragraph at lines 125--139
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8] [9]) (tex_files/discusion.tex) (tex_files/conclusiones.tex) (report.bbl
->>>>>>> 5c9c9305b92516949272d15e29247bb3747b4173
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-16.
+15.
 
 (C:\Users\nerea\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-<<<<<<< HEAD
 )
-<figures/stringdb_51_genes.png, id=165, 876.27374pt x 737.00343pt>
+<figures/stringdb_51_genes.png, id=198, 876.27374pt x 737.00343pt>
 File: figures/stringdb_51_genes.png Graphic file (type png)
 <use figures/stringdb_51_genes.png>
-Package pdftex.def Info: figures/stringdb_51_genes.png  used on input line 42.
+Package pdftex.def Info: figures/stringdb_51_genes.png  used on input line 41.
 (pdftex.def)             Requested size: 252.6989pt x 212.53346pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6]
-Overfull \hbox (14.1245pt too wide) in paragraph at lines 53--63
+Overfull \hbox (14.1245pt too wide) in paragraph at lines 52--62
  [][] 
  []
 
-<../results/graph_communities.png, id=177, 462.528pt x 346.896pt>
+<../results/graph_communities.png, id=210, 462.528pt x 346.896pt>
 File: ../results/graph_communities.png Graphic file (type png)
 <use ../results/graph_communities.png>
 Package pdftex.def Info: ../results/graph_communities.png  used on input line 7
-4.
+3.
 (pdftex.def)             Requested size: 252.6989pt x 189.5283pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [7 <./figures/stringdb_51_genes.png>]
-Overfull \hbox (43.7489pt too wide) in paragraph at lines 92--106
+Overfull \hbox (43.7489pt too wide) in paragraph at lines 91--105
  [][] 
  []
 
 
-Overfull \hbox (75.63268pt too wide) in paragraph at lines 113--126
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (59.8438pt too wide) in paragraph at lines 132--144
+Overfull \hbox (75.63268pt too wide) in paragraph at lines 112--125
  [][] 
  []
 
@@ -550,7 +508,15 @@ Overfull \hbox (59.8438pt too wide) in paragraph at lines 132--144
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (60.07156pt too wide) in paragraph at lines 150--164
+Overfull \hbox (59.8438pt too wide) in paragraph at lines 131--143
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (60.07156pt too wide) in paragraph at lines 149--163
  [][] 
  []
 
@@ -561,10 +527,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 (tex_files/conclusiones.tex) (report.bbl) [10
 
 ]
-=======
-))
-[10
->>>>>>> 5c9c9305b92516949272d15e29247bb3747b4173
 
 enddocument/afterlastpage: lastpage setting LastPage.
 (report.aux)
@@ -577,72 +539,101 @@ L3 programming layer <2023-08-29>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: B7BC31ECE0CE6A5A09EA44A24DDCFB25;2211.
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: AD1CDD00436B8991BE9C3E4B0C40A858;3316
+(rerunfilecheck)             After:  B7BC31ECE0CE6A5A09EA44A24DDCFB25;2211.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 10519 strings out of 475247
- 163330 string characters out of 5757792
+ 10539 strings out of 475247
+ 163576 string characters out of 5757792
  1941785 words of memory out of 5000000
- 31826 multiletter control sequences out of 15000+600000
+ 31833 multiletter control sequences out of 15000+600000
  568055 words of font info for 71 fonts, out of 8000000 for 9000
-=======
- 10514 strings out of 475247
- 163253 string characters out of 5757792
- 1947785 words of memory out of 5000000
- 31823 multiletter control sequences out of 15000+600000
- 567710 words of font info for 70 fonts, out of 8000000 for 9000
->>>>>>> 5c9c9305b92516949272d15e29247bb3747b4173
  1141 hyphenation exceptions out of 8191
  85i,10n,79p,1340b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss
-0700.pk> <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-<<<<<<< HEAD
-0\tcsx0800.pk> <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\tcrm1000.pk><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nerea/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nerea/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nerea/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nerea/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/n
-erea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C
-:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss
-8.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmssbx10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmssi8.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmsy6.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nerea/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nerea/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/nerea/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on report.pdf (10 pages, 1112635 bytes).
+
+pdfTeX warning (dest): name{table.12} has been referenced but does not exist, r
+eplaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.11} has been referenced but does not exist, r
+eplaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.10} has been referenced but does not exist, r
+eplaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.4} has been referenced but does not exist, r
+eplaced by a fixed one
+
+
+pdfTeX warning (dest): name{Item.10} has been referenced but does not exist, re
+placed by a fixed one
+
+
+pdfTeX warning (dest): name{page.14} has been referenced but does not exist, re
+placed by a fixed one
+
+
+pdfTeX warning (dest): name{section.6} has been referenced but does not exist, 
+replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.4} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.6} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.5} has been referenced but does not ex
+ist, replaced by a fixed one
+
+ <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss07
+00.pk> <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+tcsx0800.pk> <C:\Users\nerea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
+pi600\tcrm1000.pk><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nerea/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nerea/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nerea/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/ner
+ea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/
+Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.
+pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmssbx10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmssi8.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy6.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nerea/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nerea/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/nerea/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on report.pdf (10 pages, 1098559 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
-=======
-0\tcrm1000.pk><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nerea/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nerea/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nerea/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/nerea/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/User
-s/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-<C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-ssbx10.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmssi8.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmsy6.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nerea/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nerea/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/nerea/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on report.pdf (10 pages, 1110382 bytes).
-PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
->>>>>>> 5c9c9305b92516949272d15e29247bb3747b4173
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 200 words of extra memory for PDF output out of 10000 (max. 10000000)
 
