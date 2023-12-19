@@ -3,6 +3,36 @@
 
 En esta sección se van a presentar los resultados obtenidos tras realizar el estudio del fenotipo Disgrafía.
 
+\subsection{Grafo bipartito}
+
+Se ha observado, gracias al grafo proyectado de genes, que la digrafía se relaciona con todos los 51 del archivo del que se obtuvo el grafo y (por medio de dichos genes) a 1357 términos HPO distintos. Como resultados del grafo bipartito se ha obtenido una tabla con las relaciones de cada uno de los HPOs acompañados por su nombre e identificador, ordenados según el número de genes que relacionen ese HPO con el de la disgrafía. En la tabla \ref{tab:dysgraphia-relaciones} se visualiza los HPO más realcionados con Disgrafía.
+
+\begin{table}[h]
+	\caption{HPO más relacionados con dysgraphia.}
+	\label{tab:dysgraphia-relaciones}
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\textbf{id HPO} & \textbf{Nombre} & \textbf{nº de genes} \\
+		\hline
+		HP:0010526 & Dysgraphia & 51 \\
+		HP:0001288 & Gait disturbance & 45 \\
+		HP:0000716 & Depression & 44 \\
+		HP:0001260 & Dysarthria & 42 \\
+		HP:0000739 & Anxiety & 42 \\
+		HP:0002167 & Abnormality of speech or vocalization & 40 \\
+		HP:0002017 & Nausea and vomiting & 38 \\
+		HP:0001249 & Intellectual disability & 36 \\
+		HP:0000505 & Visual impairment & 35 \\
+		HP:0007018 & Attention deficit hyperactivity disorder & 35 \\
+		\hline
+	\end{tabular}
+
+\end{table}
+
+ 
+De la distribución de la columna “relaciones\_con\_dysgraphia” se ha creado un histograma para estudiar la distribución. También se ha creado un grafo en el que solo se muestran las relaciones de los genes con los HPOs que excedan cierto umbral, establecido en 45 relaciones.
+
 \subsection{Red de genes asociados}
 
 Después de descargar la red de genes asociados a la Disgrafía de la HPO, observamos que contenía 51 genes. Posteriormente, obtuvimos una red de genes relacionados con la Disgrafía utilizando la base de datos STRING-DB, la cual se puede observar en la imagen \ref{fig:genesAsociados}.

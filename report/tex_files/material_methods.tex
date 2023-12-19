@@ -126,13 +126,17 @@ De esta forma, nos quedamos con aquellas interacciones que tengan una puntuació
 
 \subsection{Grafo bipartito}
 
-Al no encontrarse ningún gen que afecte solo a Disgrafía, se buscó aquellos términos HPO relacionados [...]
-
 En un grafo bipartito, los vértices se organizan en dos conjuntos distintos, de modo que cada arista conecta un vértice de un conjunto con otro del segundo conjunto. En términos más simples, no existen aristas que conecten vértices dentro del mismo conjunto \cite{BiRank2017}. En nuestro contexto, los conjuntos de vértices representan genes y términos HPO. De esta manera, obtenemos un grafo bipartito que conecta distintos términos HPO al nuestro, a través de genes. 
 
-Para llevar a cabo esta representación y conexión entre genes y términos HPO, hemos utilizado la librería de Python NetworkX \cite{BookNetworkX}. Usando las segunda y tercera columna de la tabla \ref{tabla:geneshpo}, es decir los símbolos de los genes y los identificadores de los términos HPO, se creó este grafo bipartito. [...]
+Para llevar a cabo esta representación y conexión entre genes y términos HPO, hemos utilizado la librería de Python NetworkX \cite{BookNetworkX}. Usando las segunda y tercera columna de la tabla \ref{tabla:geneshpo}, es decir los símbolos de los genes y los identificadores de los términos HPO, se creó este grafo bipartito.
 
-De este grafo nos interesaba ver aquellos término HPO que se encuentran estrechamente relacionados con la Disgrafía, por lo que lo siguiente que hicimos fue hacer un subgrafo que con los nodos que se encuentre a dos pasos del término HPO Disgrafía y hacer una proyección de los términos HPO de ese subgrafo. De esta forma obtuvimos aquellos HPO que están relacionados con al Disgrafía a través de un gen. [...].
+De este grafo nos interesaba ver aquellos término HPO que se encuentran estrechamente relacionados con la Disgrafía, por lo que lo siguiente que hicimos fue crear un subgrafo centrado en el HPO de la disgrafia y reducirlo a un numero de pasos de dos para poder esudiarlo mejor. Elegimos incluir en el subgrafo solo los nodos que estén como mucho a 2 nodos del centro para tener los genes inmediatamente relacionados y los fenotipos a un solo paso.
+
+Posteriormente se calcularon las proyecciones de los grafos, tanto en genes como de términos HPO.
+
+Teniendo una lista de los HPOs que rodean a la digrafía (a un paso de el) y los genes con los que se relaciona, se computó, cuántos genes relacionan a cada HPO con nuestro fenotipo de estudio, para después, representarlo gráficamente con la librería “matplotlib.pyplot”, en ella se mostraran como los genes con mas X interacciones se relacionan con los genes de la lista, incluyendo entre ellos el HP:0010526 que corresponde a disgrafia.
+Todo el proceso se lleva a cabo en un archivo llamado “mas\_relacionados.py” que formará parte del archivo pipeline “load.sh”
+
 
 \subsection{Red de genes}
 
