@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  20 DEC 2023 12:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.6)  20 DEC 2023 12:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -560,8 +560,14 @@ L3 programming layer <2023-08-29>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 9D69350DBE4FC8D879A22C05A6F30742;2107.
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: E4419FFC8ADA942FFF900244A8AE2ADB;2122
+(rerunfilecheck)             After:  9D69350DBE4FC8D879A22C05A6F30742;2107.
  ) 
 Here is how much of TeX's memory you used:
  10520 strings out of 475247
@@ -591,7 +597,7 @@ ype1/public/amsfonts/cm/cmsy6.pfb><C:/Users/nerea/AppData/Local/Programs/MiKTeX
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nerea/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/nerea/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on report.pdf (12 pages, 1104584 bytes).
+Output written on report.pdf (12 pages, 1104636 bytes).
 PDF statistics:
  349 PDF objects out of 1000 (max. 8388607)
  75 named destinations out of 1000 (max. 500000)
