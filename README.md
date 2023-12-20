@@ -1,5 +1,4 @@
 <h1 align="center"> Estudio del fenotipo disgrafía </h1>
-***
 
 ![Red de genes relacionados con la disgrafía](https://github.com/nmartinser/HPO_Dysgraphia/blob/master/report/figures/stringdb_51_genes.png)
 
