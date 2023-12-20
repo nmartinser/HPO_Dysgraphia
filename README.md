@@ -9,10 +9,10 @@ para definir fenotipos derivados, estudiar zonas anatómicas críticas y explora
 enfermedades específicas asociadas a la patología.
 
 ## 📁 Descripción del repositorio
-El repositorio se compone del informe del proyecto en formtao pdf y de tres directorios:
+El repositorio se compone del informe del proyecto en formato pdf y de tres directorios:
 
 ### 💻 Code
-Contiene el código del proyecto y permite reproducir de forma automatizada todo el proceso analíticogracias a los siguientes arhivos: 
+Contiene el código del proyecto y permite reproducir de forma automatizada todo el proceso analítico gracias a los siguientes archivos: 
 
 * **setup.sh**: Este script de bash descarga e instala todas las dependencias de python necesarias.
 * **launch.sh**: Este script de bash debe ejecutar todo el flujo de trabajo llevado a
@@ -24,3 +24,4 @@ Aquí es donde el código guarda los archivos intermediarios y los resultados fi
 
 ### 📄 Report
 Contiene el informe del proyecto en latex, realizado con TexStudio.
+
