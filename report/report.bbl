@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{21}
+\begin{thebibliography}{22}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -364,21 +364,36 @@ Phys. Rev. E
 
 %%% 19
 \bibitem{Mota2019}
-\begin{barticle}
-\bauthor{\bsnm{Mota}, \binits{M.B.S.}},
-\bauthor{\bsnm{Carvalho}, \binits{M.A.}},
-\bauthor{\bsnm{Monteiro}, \binits{A.N.A.}},
-\bauthor{\bsnm{Mesquita}, \binits{R.D.}}:
-\batitle{Dna damage response and repair in perspective: Aedes aegypti,
-  drosophila melanogaster and homo sapiens}.
-\bvolume{12},
-\bfpage{533}
-(\byear{2019}).
+\begin{botherref}
+\oauthor{\bsnm{Mota}, \binits{M.B.S.}},
+\oauthor{\bsnm{Carvalho}, \binits{M.A.}},
+\oauthor{\bsnm{Monteiro}, \binits{A.N.A.}},
+\oauthor{\bsnm{Mesquita}, \binits{R.D.}}:
+Dna damage response and repair in perspective: Aedes aegypti, drosophila
+  melanogaster and homo sapiens
+\textbf{12},
+533
+(2019).
 doi:\doiurl{10.1186/s13071-019-3792-1}
-\end{barticle}
+\end{botherref}
 \endbibitem
 
 %%% 20
+\bibitem{Jeppesen2011}
+\begin{barticle}
+\bauthor{\bsnm{Jeppesen}, \binits{D.K.}},
+\bauthor{\bsnm{Bohr}, \binits{V.A.}},
+\bauthor{\bsnm{Stevnsner}, \binits{T.}}:
+\batitle{Dna repair deficiency in neurodegeneration}.
+\bjtitle{Progress in Neurobiology}
+\bvolume{94},
+\bfpage{166}--\blpage{200}
+(\byear{2011}).
+doi:\doiurl{10.1016/j.pneurobio.2011.04.013}
+\end{barticle}
+\endbibitem
+
+%%% 21
 \bibitem{Song2012}
 \begin{barticle}
 \bauthor{\bsnm{Song}, \binits{F.}},
@@ -397,7 +412,7 @@ doi:\doiurl{10.1016/j.dnarep.2011.12.005}
 \end{barticle}
 \endbibitem
 
-%%% 21
+%%% 22
 \bibitem{Mad2014}
 \begin{botherref}
 \oauthor{\bsnm{Madhusudan}, \binits{S.}},
@@ -740,13 +755,26 @@ doi:\doiurl{10.2147/CMAR.S50497}
     <au><snm>Monteiro</snm><fnm>ANA</fnm></au>
     <au><snm>Mesquita</snm><fnm>RD</fnm></au>
   </aug>
-  <source>Parasites & Vectors</source>
   <pubdate>2019</pubdate>
   <volume>12</volume>
   <fpage>533</fpage>
 </bibl>
 
 <bibl id="B20">
+  <title><p>DNA repair deficiency in neurodegeneration</p></title>
+  <aug>
+    <au><snm>Jeppesen</snm><fnm>DK</fnm></au>
+    <au><snm>Bohr</snm><fnm>VA</fnm></au>
+    <au><snm>Stevnsner</snm><fnm>T</fnm></au>
+  </aug>
+  <source>Progress in Neurobiology</source>
+  <pubdate>2011</pubdate>
+  <volume>94</volume>
+  <fpage>166</fpage>
+  <lpage>200</lpage>
+</bibl>
+
+<bibl id="B21">
   <title><p>Exonuclease 1 (EXO1) gene variation and melanoma risk</p></title>
   <aug>
     <au><snm>Song</snm><fnm>F</fnm></au>
@@ -764,7 +792,7 @@ doi:\doiurl{10.2147/CMAR.S50497}
   <lpage>309</lpage>
 </bibl>
 
-<bibl id="B21">
+<bibl id="B22">
   <title><p>DNA repair in cancer: emerging targets for personalized
   therapy</p></title>
   <aug>
